@@ -1,0 +1,316 @@
+CRUISE_ID,STATION,ORGANISM_ID,Shell_Length,Sex,Meat_Weight,Organisms,Shell_Width,Disease,Gonad_Weight,Whole_Weight,LENGTH_CM,Size_Cat,EST_YEAR
+202203,0055,3860,142.3,F,0.034,Organisms Not Present,152,Disease Not Present,0.022,0.392,14.23,≥ 10cm,2022
+202203,0055,3936,147.2,F,0.054,Organisms Not Present,157.2,Disease Not Present,0.022,0.464,14.719999999999999,≥ 10cm,2022
+202203,0055,3745,150.6,M,0.049,Organisms Not Present,155.8,Disease Not Present,0.025,0.44,15.059999999999999,≥ 10cm,2022
+202203,0055,3833,144.7,M,0.045,Organisms Not Present,150.6,Disease Not Present,0.024,0.417,14.469999999999999,≥ 10cm,2022
+202203,0055,3892,154.7,M,0.054,Organisms Not Present,161.3,Disease Not Present,0.027,0.493,15.469999999999999,≥ 10cm,2022
+202203,0055,3956,145.7,M,0.033,Organisms Not Present,150.4,Disease Not Present,0.025,0.457,14.569999999999999,≥ 10cm,2022
+202203,0059,4467,146.2,F,0.04,Organisms Not Present,152.4,Shell Blisters,0.034,0.471,14.62,≥ 10cm,2022
+202203,0059,4540,148,M,0.046,Organisms Not Present,147.6,Shell Blisters,0.028,0.482,14.8,≥ 10cm,2022
+202203,0065,6379,135.7,M,0.031,Organisms Not Present,133.1,Disease Not Present,0.027,0.363,13.569999999999999,≥ 10cm,2022
+202203,0065,6334,139.5,F,0.037,Organisms Not Present,141.7,Disease Not Present,0.028,0.406,13.95,≥ 10cm,2022
+202203,0065,6302,143.3,F,0.045,Organisms Not Present,145.6,Disease Not Present,0.027,0.427,14.330000000000002,≥ 10cm,2022
+202203,0068,7390,113,F,0.03,Organisms Not Present,118.3,Disease Not Present,0.017,0.204,11.3,≥ 10cm,2022
+202203,0068,7169,141.8,F,0.055,Organisms Not Present,146,Disease Not Present,0.037,0.424,14.180000000000001,≥ 10cm,2022
+202203,0068,7261,138.7,M,0.051,Organisms Not Present,141.2,Disease Not Present,0.031,0.403,13.87,≥ 10cm,2022
+202203,0068,7287,110.8,F,0.03,Organisms Not Present,113.4,Disease Not Present,0.022,0.27,11.08,≥ 10cm,2022
+202203,0068,7342,109,M,0.022,Organisms Not Present,109.3,Disease Not Present,0.02,0.176,10.9,≥ 10cm,2022
+202203,0071,7718,112.8,M,0.032,Organisms Not Present,121.7,Disease Not Present,0.029,0.229,11.28,≥ 10cm,2022
+202203,0071,7765,121.2,F,0.043,Organisms Not Present,124.7,Disease Not Present,0.023,0.272,12.120000000000001,≥ 10cm,2022
+202203,0103,10883,136.2,M,0.048,Organisms Not Present,136.7,Disease Not Present,0.028,0.452,13.62,≥ 10cm,2022
+202203,0103,10815,137,F,0.049,Organisms Not Present,143.3,Disease Not Present,0.018,0.473,13.7,≥ 10cm,2022
+202203,0110,12200,109.4,M,0.021,Organisms Not Present,111.7,Disease Not Present,0.006,0.151,10.940000000000001,≥ 10cm,2022
+202203,0110,11955,134.7,F,0.033,Organisms Not Present,140.7,Disease Not Present,0.009,0.371,13.469999999999999,≥ 10cm,2022
+202203,0110,12169,114.3,F,0.02,Organisms Not Present,111.9,Disease Not Present,0.011,0.193,11.43,≥ 10cm,2022
+202203,0110,12109,133.4,M,0.036,Urophycis chuss (Red Hake),138.2,Disease Not Present,0.013,0.369,13.34,≥ 10cm,2022
+202203,0110,12065,135.6,F,0.042,Organisms Not Present,138.3,Disease Not Present,0.018,0.378,13.559999999999999,≥ 10cm,2022
+202203,0110,12031,145.5,M,0.043,Organisms Not Present,148.5,Disease Not Present,0.02,0.421,14.55,≥ 10cm,2022
+202203,0115,12489,144.7,F,0.05,Organisms Not Present,148.5,Disease Not Present,0.034,0.491,14.469999999999999,≥ 10cm,2022
+202203,0115,12457,144.4,M,0.047,Organisms Not Present,150.9,Disease Not Present,0.03,0.507,14.440000000000001,≥ 10cm,2022
+202203,0115,12539,152.5,M,0.062,Organisms Not Present,159.7,Disease Not Present,0.038,0.641,15.25,≥ 10cm,2022
+202203,0116,12589,153.4,F,0.051,Organisms Not Present,153.9,Disease Not Present,0.042,0.555,15.34,≥ 10cm,2022
+202203,0116,12655,155.5,F,0.06,Organisms Not Present,151.5,Disease Not Present,0.023,0.561,15.55,≥ 10cm,2022
+202203,0116,12724,146.3,F,0.044,Organisms Not Present,146.9,Disease Not Present,0.016,0.484,14.63,≥ 10cm,2022
+202203,0116,12769,149.4,F,0.055,Organisms Not Present,149.7,Disease Not Present,0.042,0.475,14.940000000000001,≥ 10cm,2022
+202203,0117,12786,150,F,0.063,Organisms Not Present,147.2,Disease Not Present,0.035,0.425,15,≥ 10cm,2022
+202203,0117,12865,144.6,M,0.061,Organisms Not Present,153.6,Disease Not Present,0.028,0.427,14.459999999999999,≥ 10cm,2022
+202203,0118,13123,128.7,F,0.049,Organisms Not Present,132.9,Disease Not Present,0.02,0.34,12.87,≥ 10cm,2022
+202203,0118,13141,128.7,F,0.045,Organisms Not Present,137.8,Disease Not Present,0.019,0.351,12.87,≥ 10cm,2022
+202203,0118,13135,129.9,F,0.028,Organisms Not Present,130.7,Disease Not Present,0.027,0.324,12.99,≥ 10cm,2022
+202203,0118,13048,136,M,0.042,Organisms Not Present,143.3,Disease Not Present,0.025,0.374,13.6,≥ 10cm,2022
+202203,0118,13128,137.3,M,0.042,Organisms Not Present,145.5,Disease Not Present,0.028,0.408,13.73,≥ 10cm,2022
+202203,0118,13093,146.8,U,0.041,Organisms Not Present,154.8,Disease Not Present,0.016,0.402,14.680000000000001,≥ 10cm,2022
+202203,0119,13381,135.8,F,0.038,Organisms Not Present,138.5,Disease Not Present,0.025,0.338,13.580000000000002,≥ 10cm,2022
+202203,0119,13382,142.9,F,0.035,Organisms Not Present,145.5,Disease Not Present,0.015,0.365,14.290000000000001,≥ 10cm,2022
+202203,0119,13429,135.5,F,0.036,Organisms Not Present,141.5,Disease Not Present,0.012,0.344,13.55,≥ 10cm,2022
+202203,0119,13401,137.2,M,0.037,Organisms Not Present,145,Disease Not Present,0.019,0.329,13.719999999999999,≥ 10cm,2022
+202203,0119,13449,135.7,M,0.035,Organisms Not Present,137.3,Disease Not Present,0.014,0.324,13.569999999999999,≥ 10cm,2022
+202203,0119,13471,143.4,M,0.034,Organisms Not Present,156.2,Disease Not Present,0.01,0.411,14.34,≥ 10cm,2022
+202203,0122,13959,143.6,F,0.045,Organisms Not Present,147.2,Disease Not Present,0.01,0.515,14.36,≥ 10cm,2022
+202203,0122,14078,130.8,F,0.039,Organisms Not Present,131.2,Disease Not Present,0.015,0.328,13.080000000000002,≥ 10cm,2022
+202203,0122,14084,129.2,F,0.036,Organisms Not Present,127.6,Disease Not Present,0.017,0.322,12.919999999999998,≥ 10cm,2022
+202203,0122,14010,131.6,M,0.04,Organisms Not Present,132.6,Disease Not Present,0.018,0.371,13.16,≥ 10cm,2022
+202203,0122,14043,131.6,M,0.033,Organisms Not Present,129.3,Disease Not Present,0.012,0.301,13.16,≥ 10cm,2022
+202203,0122,14109,144.9,M,0.049,Organisms Not Present,0.44,Disease Not Present,0.02,0.423,14.49,≥ 10cm,2022
+202203,0124,14607,146.9,F,0.058,Organisms Not Present,152.8,Disease Not Present,0.016,0.59,14.690000000000001,≥ 10cm,2022
+202203,0124,14506,154.9,M,0.058,Organisms Not Present,160.6,Disease Not Present,0.029,0.669,15.49,≥ 10cm,2022
+202203,0130,15155,145.4,F,0.057,Organisms Not Present,142.8,Disease Not Present,0.025,0.491,14.540000000000001,≥ 10cm,2022
+202203,0132,15787,132.6,F,0.041,Organisms Not Present,133.3,Disease Not Present,0.019,0.362,13.26,≥ 10cm,2022
+202203,0132,15807,139.2,M,0.043,Organisms Not Present,140.1,Disease Not Present,0.017,0.373,13.919999999999998,≥ 10cm,2022
+202203,0132,15833,137,F,0.048,Organisms Not Present,134.8,Disease Not Present,0.016,0.408,13.7,≥ 10cm,2022
+202203,0038,1056,132.2,M,0.038,Organisms Not Present,133.6,Disease Not Present,0.02,0.338,13.219999999999999,≥ 10cm,2022
+202203,0038,1074,133.2,M,0.051,Urophycis chuss (Red Hake),137.7,Disease Not Present,0.015,0.366,13.319999999999999,≥ 10cm,2022
+202203,0038,1068,130.8,F,0.039,Urophycis chuss (Red Hake),134.2,Disease Not Present,0.012,0.35,13.080000000000002,≥ 10cm,2022
+202203,0043,1630,128.6,M,0.045,Organisms Not Present,133.8,Disease Not Present,0.033,0.358,12.86,≥ 10cm,2022
+202203,0043,1535,132.2,M,0.044,Organisms Not Present,133.7,Disease Not Present,0.025,0.357,13.219999999999999,≥ 10cm,2022
+202203,0044,1891,159.1,M,0.061,Urophycis chuss (Red Hake),160.9,Disease Not Present,0.037,0.467,15.91,≥ 10cm,2022
+202203,0044,1970,142.1,M,0.054,Organisms Not Present,145,Disease Not Present,0.027,0.385,14.209999999999999,≥ 10cm,2022
+202203,0044,1747,133.2,F,0.025,Organisms Not Present,137.1,Disease Not Present,0.025,0.318,13.319999999999999,≥ 10cm,2022
+202203,0044,1835,125.4,F,0.041,Organisms Not Present,132.9,Disease Not Present,0.031,0.294,12.540000000000001,≥ 10cm,2022
+202203,0044,2025,133,F,0.057,Organisms Not Present,139.1,Shell Blisters,0.021,0.352,13.3,≥ 10cm,2022
+202203,0044,2046,141,F,0.057,Organisms Not Present,147.6,Disease Not Present,0.03,0.344,14.1,≥ 10cm,2022
+202203,0052,2832,127.5,F,0.044,Organisms Not Present,136.1,Disease Not Present,0.011,0.39,12.75,≥ 10cm,2022
+202203,0056,4031,163.1,M,0.049,Organisms Not Present,154.7,Disease Not Present,0.023,0.611,16.31,≥ 10cm,2022
+202203,0056,4055,153.7,M,0.043,Organisms Not Present,163.1,Disease Not Present,0.024,0.533,15.37,≥ 10cm,2022
+202203,0056,4056,161,F,0.056,Organisms Not Present,170,Disease Not Present,0.023,0.64,16.1,≥ 10cm,2022
+202203,0059,4449,149.1,F,0.041,Organisms Not Present,156.6,Shell Blisters,0.037,0.492,14.91,≥ 10cm,2022
+202203,0059,4531,149.8,F,0.064,Organisms Not Present,157.5,Shell Blisters,0.033,0.526,14.98,≥ 10cm,2022
+202203,0059,4489,152.4,F,0.041,Organisms Not Present,155.4,Shell Blisters,0.024,0.513,15.24,≥ 10cm,2022
+202203,0063,5694,95.8,F,0.031,Organisms Not Present,103.9,Disease Not Present,0.019,0.175,9.58,8.9cm - 10cm,2022
+202203,0063,5586,102.7,F,0.027,Organisms Not Present,109.4,Disease Not Present,0.022,0.177,10.27,≥ 10cm,2022
+202203,0063,5649,111.1,F,0.031,Organisms Not Present,118.7,Disease Not Present,0.032,0.225,11.11,≥ 10cm,2022
+202203,0063,5691,113.5,F,0.035,Organisms Not Present,123.1,Disease Not Present,0.029,0.203,11.35,≥ 10cm,2022
+202203,0071,7679,124.1,F,0.044,Organisms Not Present,127.4,Disease Not Present,0.03,0.288,12.41,≥ 10cm,2022
+202203,0071,7597,124.2,F,0.043,Organisms Not Present,134.3,Disease Not Present,0.009,0.317,12.42,≥ 10cm,2022
+202203,0077,8278,150.7,F,0.051,Organisms Not Present,153.1,Shell Blisters,0.026,0.469,15.069999999999999,≥ 10cm,2022
+202203,0077,8334,140.3,F,0.048,Organisms Not Present,152.5,Disease Not Present,0.02,0.389,14.030000000000001,≥ 10cm,2022
+202203,0084,8625,109.4,F,0.021,Organisms Not Present,110.3,Disease Not Present,0.008,0.17,10.940000000000001,≥ 10cm,2022
+202203,0084,8848,115.8,F,0.025,Organisms Not Present,114.9,Disease Not Present,0.005,0.187,11.58,≥ 10cm,2022
+202203,0084,8897,115.9,F,0.026,Organisms Not Present,109.8,Disease Not Present,0.006,0.191,11.59,≥ 10cm,2022
+202203,0098,9749,154.4,F,0.061,Organisms Not Present,155.9,Disease Not Present,0.014,0.506,15.440000000000001,≥ 10cm,2022
+202203,0098,9760,119.9,F,0.031,Organisms Not Present,117.8,Disease Not Present,0.006,0.257,11.99,≥ 10cm,2022
+202203,0098,9770,127.3,M,0.045,Organisms Not Present,131.5,Disease Not Present,0.01,0.293,12.73,≥ 10cm,2022
+202203,0098,9885,126.1,F,0.026,Organisms Not Present,128.5,Disease Not Present,0.021,0.251,12.61,≥ 10cm,2022
+202203,0098,9913,109.7,M,0.029,Organisms Not Present,112,Disease Not Present,0.009,0.2,10.97,≥ 10cm,2022
+202203,0100,10187,130.7,F,0.046,Organisms Not Present,133,Disease Not Present,0.021,0.341,13.069999999999999,≥ 10cm,2022
+202203,0100,10245,144.9,F,0.049,Organisms Not Present,146.6,Disease Not Present,0.027,0.398,14.49,≥ 10cm,2022
+202203,0100,10296,152.2,F,0.051,Organisms Not Present,150.2,Disease Not Present,0.022,0.434,15.219999999999999,≥ 10cm,2022
+202203,0100,10301,145.7,F,0.043,Organisms Not Present,150.9,Disease Not Present,0.036,0.397,14.569999999999999,≥ 10cm,2022
+202203,0100,10302,122.1,F,0.03,Organisms Not Present,117.6,Disease Not Present,0.007,0.232,12.209999999999999,≥ 10cm,2022
+202203,0100,10210,159,M,0.06,Organisms Not Present,170.9,Disease Not Present,0.026,0.521,15.9,≥ 10cm,2022
+202203,0117,12887,153.4,M,0.057,Organisms Not Present,157.7,Disease Not Present,0.036,0.657,15.34,≥ 10cm,2022
+202203,0117,12951,154.7,F,0.054,Organisms Not Present,150.6,Disease Not Present,0.025,0.528,15.469999999999999,≥ 10cm,2022
+202203,0117,12980,159.8,M,0.066,Organisms Not Present,159.9,Disease Not Present,0.02,0.676,15.98,≥ 10cm,2022
+202203,0120,13628,137.5,F,0.036,Organisms Not Present,157.7,Disease Not Present,0.011,0.484,13.75,≥ 10cm,2022
+202203,0120,13629,120.2,F,0.025,Organisms Not Present,124.3,Disease Not Present,0.011,0.232,12.02,≥ 10cm,2022
+202203,0120,13630,130.9,F,0.034,Organisms Not Present,130.3,Disease Not Present,0.008,0.281,13.09,≥ 10cm,2022
+202203,0120,13631,137.2,M,0.027,Organisms Not Present,150,Disease Not Present,0.012,0.36,13.719999999999999,≥ 10cm,2022
+202203,0120,13654,129,M,0.044,Organisms Not Present,134.9,Disease Not Present,0.007,0.313,12.9,≥ 10cm,2022
+202203,0120,13690,129.9,M,0.026,Organisms Not Present,130.8,Disease Not Present,0.016,0.301,12.99,≥ 10cm,2022
+202203,0123,14288,137.9,F,0.048,Organisms Not Present,140.5,Disease Not Present,0.023,0.482,13.790000000000001,≥ 10cm,2022
+202203,0124,14610,156.3,F,0.064,Organisms Not Present,161.6,Disease Not Present,0.02,0.651,15.63,≥ 10cm,2022
+202203,0124,14585,162.6,F,0.064,Organisms Not Present,170.7,Disease Not Present,0.034,0.796,16.259999999999998,≥ 10cm,2022
+202203,0124,14671,167.9,F,0.077,Organisms Not Present,176.1,Disease Not Present,0.026,0.791,16.79,≥ 10cm,2022
+202203,0125,14982,159.7,F,0.065,Liparid,162,Disease Not Present,0.024,0.6,15.969999999999999,≥ 10cm,2022
+202203,0125,14983,143.2,F,0.056,Organisms Not Present,146.8,Disease Not Present,0.023,0.452,14.319999999999999,≥ 10cm,2022
+202203,0125,14984,145.9,F,0.06,Organisms Not Present,156.5,Disease Not Present,0.02,0.572,14.59,≥ 10cm,2022
+202203,0125,14717,137.1,M,0.042,Organisms Not Present,142.3,Disease Not Present,0.03,0.469,13.709999999999999,≥ 10cm,2022
+202203,0125,14791,138.6,M,0.049,Organisms Not Present,141.1,Disease Not Present,0.021,0.515,13.86,≥ 10cm,2022
+202203,0125,14927,130.8,M,0.048,Organisms Not Present,137.2,Disease Not Present,0.027,0.426,13.080000000000002,≥ 10cm,2022
+202203,0028,487,136.8,M,0.041,Organisms Not Present,135.3,Disease Not Present,0.019,0.345,13.680000000000001,≥ 10cm,2022
+202203,0028,506,134,F,0.045,Organisms Not Present,135.6,Disease Not Present,0.017,0.313,13.4,≥ 10cm,2022
+202203,0039,1107,159.7,M,0.055,Organisms Not Present,173.7,Disease Not Present,0.026,0.554,15.969999999999999,≥ 10cm,2022
+202203,0039,1127,130,F,0.036,Organisms Not Present,135,Disease Not Present,0.01,0.374,13,≥ 10cm,2022
+202203,0046,2305,156.4,M,0.064,Organisms Not Present,157.1,Disease Not Present,0.058,0.709,15.64,≥ 10cm,2022
+202203,0046,2312,166.1,M,0.076,Organisms Not Present,173.6,Disease Not Present,0.051,0.763,16.61,≥ 10cm,2022
+202203,0046,2316,167.4,F,0.06,Organisms Not Present,169,Disease Not Present,0.047,0.81,16.740000000000002,≥ 10cm,2022
+202203,0054,3561,149.1,M,0.044,Organisms Not Present,152.7,Disease Not Present,0.016,0.471,14.91,≥ 10cm,2022
+202203,0054,3559,150.9,F,0.048,Organisms Not Present,162.5,Disease Not Present,0.018,0.541,15.09,≥ 10cm,2022
+202203,0054,3403,153,F,0.071,Organisms Not Present,164.5,Disease Not Present,0.014,0.595,15.3,≥ 10cm,2022
+202203,0080,8439,165,M,0.07,Organisms Not Present,167.1,Disease Present,0.035,0.639,16.5,≥ 10cm,2022
+202203,0080,8458,154.9,M,0.051,Organisms Not Present,159.9,Disease Not Present,0.015,0.389,15.49,≥ 10cm,2022
+202203,0084,8711,114.7,M,0.026,Organisms Not Present,111.1,Disease Not Present,0.006,0.187,11.47,≥ 10cm,2022
+202203,0084,8759,111,M,0.022,Organisms Not Present,107.1,Disease Not Present,0.008,0.143,11.1,≥ 10cm,2022
+202203,0084,8792,113.2,M,0.025,Organisms Not Present,113.8,Disease Not Present,0.008,0.196,11.32,≥ 10cm,2022
+202203,0098,9914,160.2,F,0.058,Organisms Not Present,166.9,Disease Not Present,0.024,0.593,16.02,≥ 10cm,2022
+202203,0101,10304,144.6,F,0.047,Organisms Not Present,153.8,Disease Present,0.041,0.433,14.459999999999999,≥ 10cm,2022
+202203,0101,10339,135.6,M,0.047,Organisms Not Present,144.9,Disease Not Present,0.043,0.391,13.559999999999999,≥ 10cm,2022
+202203,0101,10354,139.9,M,0.05,Organisms Not Present,149.6,Disease Not Present,0.031,0.39,13.99,≥ 10cm,2022
+202203,0104,10915,159.1,F,0.068,Organisms Not Present,170.3,Disease Not Present,0.035,0.708,15.91,≥ 10cm,2022
+202203,0104,10922,152.3,F,0.047,Organisms Present,160.1,Disease Not Present,0.028,0.577,15.23,≥ 10cm,2022
+202203,0107,11252,126.4,F,0.022,Organisms Not Present,126.8,Disease Not Present,0.01,0.274,12.64,≥ 10cm,2022
+202203,0107,11325,116.4,F,0.024,Organisms Not Present,117,Disease Not Present,0.015,0.235,11.64,≥ 10cm,2022
+202203,0107,11382,112.3,F,0.023,Organisms Not Present,119,Disease Not Present,0.019,0.295,11.23,≥ 10cm,2022
+202203,0107,11180,119.7,M,0.023,Organisms Not Present,120.4,Disease Not Present,0.015,0.302,11.97,≥ 10cm,2022
+202203,0107,11350,115.5,M,0.022,Organisms Not Present,118.7,Disease Not Present,0.014,0.285,11.55,≥ 10cm,2022
+202203,0107,11415,142.9,M,0.036,Organisms Not Present,147.3,Disease Not Present,0.036,0.421,14.290000000000001,≥ 10cm,2022
+202203,0121,13804,131.3,F,0.033,Organisms Not Present,137.5,Disease Not Present,0.011,0.421,13.13,≥ 10cm,2022
+202203,0121,13805,154.1,F,0.045,Organisms Not Present,172.5,Disease Not Present,0.013,0.526,15.41,≥ 10cm,2022
+202203,0121,13831,132.7,F,0.028,Organisms Not Present,132.1,Disease Not Present,0.012,0.373,13.27,≥ 10cm,2022
+202203,0121,13835,124.9,F,0.028,Organisms Not Present,127.2,Disease Not Present,0.015,0.278,12.49,≥ 10cm,2022
+202203,0121,13870,117.3,M,0.029,Organisms Not Present,115.8,Disease Not Present,0.008,0.233,11.73,≥ 10cm,2022
+202203,0121,13904,110.7,M,0.017,Organisms Not Present,109.1,Disease Not Present,0.01,0.235,11.07,≥ 10cm,2022
+202203,0123,14378,132.9,F,0.04,Organisms Not Present,136.1,Disease Not Present,0.025,0.417,13.290000000000001,≥ 10cm,2022
+202203,0123,14428,137.7,F,0.058,Organisms Not Present,140.3,Disease Not Present,0.021,0.467,13.77,≥ 10cm,2022
+202203,0123,14429,129.4,M,0.041,Organisms Not Present,127,Disease Not Present,0.024,0.348,12.940000000000001,≥ 10cm,2022
+202203,0123,14358,120.5,M,0.029,Organisms Present,124.5,Disease Not Present,0.018,0.305,12.05,≥ 10cm,2022
+202203,0123,14430,144,M,0.046,Organisms Present,145.5,Disease Not Present,0.021,0.495,14.4,≥ 10cm,2022
+202203,0126,14986,143.9,M,0.05,Organisms Not Present,144.1,Disease Not Present,0.019,0.476,14.39,≥ 10cm,2022
+202203,0126,15017,137.3,M,0.06,Organisms Not Present,141.1,Disease Not Present,0.037,0.457,13.73,≥ 10cm,2022
+202203,0140,16911,153.7,F,0.066,Organisms Not Present,157.4,Disease Not Present,0.023,0.697,15.37,≥ 10cm,2022
+202203,0140,16794,146.2,M,0.059,Organisms Not Present,155.6,Disease Not Present,0.023,0.602,14.62,≥ 10cm,2022
+202203,0140,16826,136.7,M,0.037,Organisms Not Present,147.6,Disease Not Present,0.02,0.441,13.669999999999998,≥ 10cm,2022
+202203,0140,16940,157.5,M,0.061,Organisms Not Present,156.3,Disease Not Present,0.032,0.653,15.75,≥ 10cm,2022
+202203,0043,1590,112.7,M,0.032,Organisms Not Present,118.8,Disease Not Present,0.017,0.241,11.27,≥ 10cm,2022
+202203,0052,2625,120,F,0.027,Organisms Not Present,122.1,Disease Not Present,0.01,0.27,12,≥ 10cm,2022
+202203,0052,2531,124.2,M,0.033,Organisms Not Present,138,Disease Not Present,0.026,0.422,12.42,≥ 10cm,2022
+202203,0052,2721,108.6,M,0.027,Organisms Not Present,115.5,Disease Not Present,0.015,0.23,10.86,≥ 10cm,2022
+202203,0052,2797,103.1,M,0.023,Organisms Not Present,121.9,Disease Not Present,0.012,0.19,10.309999999999999,≥ 10cm,2022
+202203,0052,2921,119.4,M,0.033,Organisms Not Present,125.2,Disease Not Present,0.012,0.251,11.940000000000001,≥ 10cm,2022
+202203,0054,3500,159,F,0.059,Organisms Present,164.6,Disease Not Present,0.018,0.604,15.9,≥ 10cm,2022
+202203,0054,3560,162.8,M,0.055,Organisms Not Present,162.6,Disease Not Present,0.022,0.634,16.28,≥ 10cm,2022
+202203,0054,3544,174.2,M,0.082,Organisms Not Present,173.6,Disease Not Present,0.026,0.602,17.419999999999998,≥ 10cm,2022
+202203,0060,4985,136.3,F,0.059,Organisms Not Present,139.8,Disease Not Present,0.02,0.468,13.63,≥ 10cm,2022
+202203,0060,4865,127,M,0.037,Organisms Not Present,136,Disease Not Present,0.02,0.392,12.7,≥ 10cm,2022
+202203,0060,4906,121.4,M,0.049,Organisms Not Present,134.5,Disease Not Present,0.025,0.329,12.14,≥ 10cm,2022
+202203,0060,4952,124.1,M,0.041,Organisms Not Present,135,Shell Blisters,0.02,0.392,12.41,≥ 10cm,2022
+202203,0060,5046,124,M,0.043,Organisms Not Present,135.6,Disease Not Present,0.027,0.408,12.4,≥ 10cm,2022
+202203,0085,9143,162.8,F,0.067,Organisms Not Present,166.2,Disease Not Present,0.015,0.546,16.28,≥ 10cm,2022
+202203,0085,9144,152.9,F,0.066,Organisms Not Present,158.8,Disease Not Present,0.03,0.585,15.290000000000001,≥ 10cm,2022
+202203,0105,10945,145.8,F,0.045,Organisms Not Present,155.3,Disease Not Present,0.016,0.494,14.580000000000002,≥ 10cm,2022
+202203,0105,11018,131.3,F,0.032,Organisms Not Present,135,Disease Not Present,0.013,0.361,13.13,≥ 10cm,2022
+202203,0105,11045,146.7,F,0.029,Organisms Not Present,146,Disease Not Present,0.009,0.357,14.669999999999998,≥ 10cm,2022
+202203,0105,11071,144.5,M,0.029,Organisms Not Present,142.5,Disease Not Present,0.019,0.423,14.45,≥ 10cm,2022
+202203,0105,11074,135.4,F,0.031,Organisms Not Present,141.3,Disease Not Present,0.022,0.438,13.540000000000001,≥ 10cm,2022
+202203,0105,11085,117.3,F,0.03,Organisms Not Present,117.9,Disease Not Present,0.005,0.326,11.73,≥ 10cm,2022
+202203,0108,11501,134,F,0.036,Organisms Not Present,133.6,Disease Not Present,0.015,0.336,13.4,≥ 10cm,2022
+202203,0108,11507,141.1,F,0.056,Organisms Not Present,147,Disease Not Present,0.031,0.437,14.11,≥ 10cm,2022
+202203,0108,11519,145.1,M,0.04,Organisms Not Present,146.4,Disease Not Present,0.025,0.398,14.51,≥ 10cm,2022
+202203,0130,15277,140.4,F,0.056,Organisms Not Present,143.5,Disease Not Present,0.024,0.427,14.040000000000001,≥ 10cm,2022
+202203,0130,15346,143.9,F,0.058,Organisms Not Present,141.9,Disease Not Present,0.034,0.536,14.39,≥ 10cm,2022
+202203,0130,15205,141.6,M,0.049,Organisms Not Present,136.7,Disease Not Present,0.029,0.403,14.16,≥ 10cm,2022
+202203,0130,15258,138.5,M,0.046,Organisms Not Present,139.5,Disease Not Present,0.02,0.395,13.85,≥ 10cm,2022
+202203,0130,15305,143.7,M,0.044,Organisms Not Present,147.7,Disease Not Present,0.032,0.419,14.37,≥ 10cm,2022
+202203,0136,16498,138.2,F,0.041,Organisms Not Present,152.8,Disease Not Present,0.01,0.492,13.819999999999999,≥ 10cm,2022
+202203,0136,16577,134.2,F,0.036,Organisms Not Present,139.3,Disease Not Present,0.013,0.437,13.419999999999998,≥ 10cm,2022
+202203,0136,16581,134,M,0.032,Organisms Not Present,142,Disease Not Present,0.012,0.421,13.4,≥ 10cm,2022
+202203,0141,17004,132.5,M,0.042,Organisms Not Present,135.2,Disease Not Present,0.015,0.43,13.25,≥ 10cm,2022
+202203,0141,17005,109.3,F,0.024,Organisms Not Present,109.2,Disease Not Present,0.005,0.224,10.93,≥ 10cm,2022
+202203,0141,17029,149.6,F,0.06,Organisms Not Present,157.7,Disease Not Present,0.009,0.572,14.959999999999999,≥ 10cm,2022
+202203,0141,17080,132.3,F,0.039,Organisms Not Present,135.9,Disease Not Present,0.015,0.366,13.23,≥ 10cm,2022
+202203,0031,570,139.8,M,0.027,Organisms Not Present,141.7,Disease Present,0.013,0.352,13.98,≥ 10cm,2022
+202203,0031,608,138.5,M,0.03,Organisms Not Present,147.9,Disease Not Present,0.014,0.314,13.85,≥ 10cm,2022
+202203,0040,1203,123.9,M,0.043,Organisms Not Present,127.2,Disease Not Present,0.012,0.358,12.39,≥ 10cm,2022
+202203,0040,1207,125.6,M,0.052,Organisms Not Present,138.1,Disease Not Present,0.017,0.366,12.559999999999999,≥ 10cm,2022
+202203,0040,1225,131.5,F,0.043,Organisms Not Present,139.6,Disease Not Present,0.018,0.38,13.15,≥ 10cm,2022
+202203,0040,1226,133.1,M,0.044,Organisms Not Present,139.3,Disease Not Present,0.03,0.361,13.309999999999999,≥ 10cm,2022
+202203,0048,2319,133.8,U,0.041,Organisms Not Present,141.9,Disease Present,0.016,0.397,13.38,≥ 10cm,2022
+202203,0048,2324,143.2,F,0.038,Organisms Not Present,154.4,Disease Not Present,0.023,0.487,14.319999999999999,≥ 10cm,2022
+202203,0057,4155,134,M,0.037,Organisms Not Present,140,Disease Not Present,0.011,0.344,13.4,≥ 10cm,2022
+202203,0057,4200,138.7,F,0.03,Organisms Not Present,140.5,Disease Not Present,0.012,0.36,13.87,≥ 10cm,2022
+202203,0057,4218,142.5,M,0.047,Organisms Not Present,148.3,Disease Not Present,0.026,0.404,14.25,≥ 10cm,2022
+202203,0060,5088,124.8,M,0.038,Organisms Not Present,131.8,Disease Not Present,0.029,0.378,12.48,≥ 10cm,2022
+202203,0064,6154,154.8,F,0.064,Organisms Not Present,160.7,Disease Not Present,0.037,0.556,15.48,≥ 10cm,2022
+202203,0064,6246,121,F,0.037,Organisms Not Present,131.7,Disease Not Present,0.015,0.227,12.1,≥ 10cm,2022
+202203,0064,6288,127,F,0.018,Organisms Not Present,129.2,Disease Not Present,0.018,0.28,12.7,≥ 10cm,2022
+202203,0064,6292,134.4,M,0.054,Organisms Not Present,144.8,Disease Not Present,0.033,0.345,13.440000000000001,≥ 10cm,2022
+202203,0064,6293,132.2,M,0.045,Organisms Not Present,144.8,Disease Not Present,0.031,0.374,13.219999999999999,≥ 10cm,2022
+202203,0064,6294,115.8,F,0.032,Organisms Not Present,125.4,Disease Not Present,0.013,0.251,11.58,≥ 10cm,2022
+202203,0066,6660,144,M,0.049,Organisms Not Present,150,Disease Not Present,0.042,0.477,14.4,≥ 10cm,2022
+202203,0066,6745,140.8,F,0.058,Organisms Not Present,147.8,Disease Not Present,0.028,0.449,14.080000000000002,≥ 10cm,2022
+202203,0066,6834,131.4,M,0.048,Organisms Not Present,137.1,Disease Not Present,0.036,0.37,13.14,≥ 10cm,2022
+202203,0066,6901,139.4,M,0.056,Organisms Not Present,145,Disease Not Present,0.022,0.428,13.940000000000001,≥ 10cm,2022
+202203,0066,6915,136.2,F,0.043,Organisms Not Present,137.1,Disease Not Present,0.027,0.397,13.62,≥ 10cm,2022
+202203,0066,6790,135.3,F,0.041,Organisms Present,137.7,Disease Not Present,0.028,0.397,13.530000000000001,≥ 10cm,2022
+202203,0053,3115,147.2,M,0.049,Organisms Not Present,154.6,Disease Not Present,0.015,0.467,14.719999999999999,≥ 10cm,2022
+202203,0053,3120,138.9,F,0.05,Organisms Not Present,140.7,Disease Not Present,0.013,0.39,13.89,≥ 10cm,2022
+202203,0053,3137,133.4,M,0.039,Organisms Not Present,139.1,Disease Not Present,0.016,0.414,13.34,≥ 10cm,2022
+202203,0053,3162,152.8,F,0.06,Organisms Not Present,159.4,Disease Not Present,0.023,0.574,15.280000000000001,≥ 10cm,2022
+202203,0053,3189,127.2,M,0.032,Organisms Not Present,146.2,Disease Not Present,0.016,0.357,12.72,≥ 10cm,2022
+202203,0053,3210,133.8,F,0.029,Organisms Not Present,137.3,Disease Not Present,0.016,0.386,13.38,≥ 10cm,2022
+202203,0061,5348,120.5,U,0.046,Organisms Not Present,125.5,Disease Present,0.012,0.316,12.05,≥ 10cm,2022
+202203,0061,5391,129.1,M,0.042,Organisms Not Present,128.1,Disease Present,0.027,0.319,12.91,≥ 10cm,2022
+202203,0061,5423,119.7,M,0.037,Organisms Not Present,127,Disease Not Present,0.02,0.352,11.97,≥ 10cm,2022
+202203,0061,5471,121.5,F,0.041,Organisms Not Present,122.1,Disease Not Present,0.015,0.294,12.15,≥ 10cm,2022
+202203,0087,9218,138.3,M,0.049,Organisms Not Present,140.5,Disease Not Present,0.03,0.383,13.830000000000002,≥ 10cm,2022
+202203,0087,9285,117.1,M,0.034,Organisms Not Present,123.8,Disease Not Present,0.019,0.236,11.709999999999999,≥ 10cm,2022
+202203,0087,9344,121.2,F,0.033,Organisms Not Present,122.6,Disease Not Present,0.008,0.258,12.120000000000001,≥ 10cm,2022
+202203,0124,14563,123.1,F,0.028,Organisms Not Present,127,Disease Not Present,0.01,0.297,12.309999999999999,≥ 10cm,2022
+202203,0131,15502,142,F,0.05,Organisms Not Present,140.6,Disease Not Present,0.016,0.396,14.2,≥ 10cm,2022
+202203,0131,15565,134.8,M,0.046,Organisms Not Present,139.2,Disease Not Present,0.027,0.395,13.48,≥ 10cm,2022
+202203,0131,15610,159,F,0.067,Organisms Not Present,160.3,Disease Not Present,0.022,0.612,15.9,≥ 10cm,2022
+202203,0131,15680,143.8,F,0.042,Organisms Not Present,138,Disease Not Present,0.016,0.352,14.38,≥ 10cm,2022
+202203,0133,16082,142.6,F,0.042,Organisms Not Present,153,Disease Not Present,0.02,0.487,14.26,≥ 10cm,2022
+202203,0133,16136,139.9,F,0.055,Organisms Not Present,145.1,Disease Not Present,0.02,0.452,13.99,≥ 10cm,2022
+202203,0133,16183,134.2,F,0.043,Organisms Not Present,135.7,Disease Not Present,0.018,0.384,13.419999999999998,≥ 10cm,2022
+202203,0133,16242,136.6,M,0.043,Organisms Not Present,138.4,Disease Not Present,0.022,0.371,13.66,≥ 10cm,2022
+202203,0133,16265,139.2,F,0.045,Organisms Not Present,144.5,Disease Not Present,0.015,0.448,13.919999999999998,≥ 10cm,2022
+202203,0032,614,143.4,M,0.067,Organisms Not Present,147.5,Disease Not Present,0.028,0.434,14.34,≥ 10cm,2022
+202203,0032,651,124.9,F,0.055,Organisms Not Present,129.9,Disease Not Present,0.012,0.282,12.49,≥ 10cm,2022
+202203,0051,2465,135.7,F,0.037,Organisms Not Present,146.1,Disease Not Present,0.01,0.407,13.569999999999999,≥ 10cm,2022
+202203,0051,2477,131.7,M,0.033,Organisms Not Present,144.2,Disease Not Present,0.01,0.369,13.169999999999998,≥ 10cm,2022
+202203,0099,9916,145.2,F,0.047,Organisms Not Present,147.9,Disease Not Present,0.026,0.439,14.52,≥ 10cm,2022
+202203,0099,10160,120.1,F,0.023,Organisms Not Present,125.4,Disease Not Present,0.006,0.216,12.01,≥ 10cm,2022
+202203,0099,10178,133.9,M,0.034,Organisms Not Present,138.3,Disease Not Present,0.021,0.306,13.39,≥ 10cm,2022
+202203,0099,10179,100,F,0.015,Organisms Not Present,103.4,Disease Not Present,0.004,0.156,10,8.9cm - 10cm,2022
+202203,0099,10180,118.1,M,0.027,Organisms Not Present,125,Disease Not Present,0.022,0.308,11.809999999999999,≥ 10cm,2022
+202203,0099,10181,117.9,M,0.025,Organisms Not Present,123.7,Disease Not Present,0.004,0.242,11.790000000000001,≥ 10cm,2022
+202203,0109,11745,107.8,M,0.012,Organisms Not Present,110.1,Disease Not Present,0.009,0.187,10.78,≥ 10cm,2022
+202203,0109,11787,141.8,M,0.031,Organisms Not Present,143.4,Disease Not Present,0.017,0.355,14.180000000000001,≥ 10cm,2022
+202203,0109,11822,115.6,M,0.022,Organisms Not Present,117.2,Disease Not Present,0.005,0.199,11.559999999999999,≥ 10cm,2022
+202203,0109,11865,115.9,F,0.02,Organisms Not Present,125.9,Disease Not Present,0.005,0.202,11.59,≥ 10cm,2022
+202203,0109,11870,121.1,F,0.022,Organisms Not Present,123.1,Disease Not Present,0.008,0.284,12.11,≥ 10cm,2022
+202203,0109,11877,125.3,F,0.015,Organisms Not Present,121.8,Disease Not Present,0.009,0.221,12.53,≥ 10cm,2022
+202203,0111,12205,142.4,F,0.057,Organisms Not Present,148.7,Disease Not Present,0.028,0.521,14.24,≥ 10cm,2022
+202203,0111,12259,163.7,M,0.068,Organisms Not Present,166.4,Disease Not Present,0.044,0.731,16.369999999999997,≥ 10cm,2022
+202203,0111,12271,141,M,0.047,Organisms Not Present,148.2,Disease Not Present,0.039,0.438,14.1,≥ 10cm,2022
+202203,0137,16654,143.6,M,0.054,Organisms Not Present,144,Disease Not Present,0.017,0.578,14.36,≥ 10cm,2022
+202203,0137,16721,138.4,F,0.05,Organisms Not Present,140,Disease Not Present,0.015,0.491,13.84,≥ 10cm,2022
+202203,0137,16726,119.3,F,0.026,Organisms Not Present,115,Disease Not Present,0.014,0.207,11.93,≥ 10cm,2022
+202203,0137,16727,131.2,M,0.04,Organisms Not Present,127.4,Disease Not Present,0.017,0.399,13.12,≥ 10cm,2022
+202203,0041,1347,129.3,M,0.034,Organisms Not Present,132.7,Disease Not Present,0.022,0.356,12.930000000000001,≥ 10cm,2022
+202203,0041,1431,119.8,M,0.032,Organisms Not Present,123.5,Disease Not Present,0.019,0.303,11.98,≥ 10cm,2022
+202203,0041,1472,127.7,M,0.039,Organisms Not Present,130.6,Disease Not Present,0.02,0.336,12.77,≥ 10cm,2022
+202203,0041,1511,118.4,F,0.034,Organisms Not Present,119.2,Disease Not Present,0.016,0.282,11.84,≥ 10cm,2022
+202203,0041,1521,115.2,F,0.025,Organisms Not Present,118.4,Disease Not Present,0.015,0.242,11.52,≥ 10cm,2022
+202203,0051,2478,135.4,F,0.053,Organisms Not Present,159.6,Disease Not Present,0.01,0.407,13.540000000000001,≥ 10cm,2022
+202203,0076,7954,150.1,M,0.058,Organisms Not Present,153.2,Disease Not Present,0.029,0.411,15.01,≥ 10cm,2022
+202203,0076,8011,125.9,M,0.034,Organisms Not Present,123.3,Disease Not Present,0.02,0.191,12.59,≥ 10cm,2022
+202203,0076,8044,131.8,M,0.049,Organisms Not Present,133.4,Disease Not Present,0.021,0.303,13.180000000000001,≥ 10cm,2022
+202203,0102,10469,128.9,M,0.033,Organisms Not Present,141.9,Disease Present,0.025,0.313,12.89,≥ 10cm,2022
+202203,0102,10477,139,M,0.035,Organisms Not Present,145.6,Disease Present,0.029,0.367,13.9,≥ 10cm,2022
+202203,0102,10493,137.1,M,0.037,Organisms Not Present,146.2,Disease Present,0.032,0.354,13.709999999999999,≥ 10cm,2022
+202203,0137,16728,132.7,F,0.047,Organisms Not Present,134.2,Disease Not Present,0.018,0.427,13.27,≥ 10cm,2022
+202203,0137,16729,137.9,M,0.046,Organisms Not Present,143.4,Disease Not Present,0.02,0.411,13.790000000000001,≥ 10cm,2022
+202203,0142,17159,119.3,F,0.024,Organisms Not Present,121.5,Disease Not Present,0.005,0.263,11.93,≥ 10cm,2022
+202203,0034,719,148.1,M,0.041,Organisms Not Present,155.6,Disease Present,0.012,0.432,14.809999999999999,≥ 10cm,2022
+202203,0034,744,145.5,M,0.053,Organisms Not Present,142.6,Disease Not Present,0.029,0.464,14.55,≥ 10cm,2022
+202203,0019,71,141.9,M,0.029,Organisms Not Present,149.7,Disease Not Present,0.014,0.438,14.190000000000001,≥ 10cm,2022
+202203,0019,141,117.5,M,0.024,Organisms Not Present,114.6,Disease Not Present,0.01,0.199,11.75,≥ 10cm,2022
+202203,0058,4230,135.1,F,0.037,Organisms Not Present,127.3,Disease Not Present,0.022,0.288,13.51,≥ 10cm,2022
+202203,0058,4279,133,F,0.034,Organisms Not Present,131.5,Disease Not Present,0.019,0.344,13.3,≥ 10cm,2022
+202203,0106,11128,141.5,F,0.05,Organisms Not Present,151.7,Disease Not Present,0.035,0.495,14.15,≥ 10cm,2022
+202203,0106,11129,137.5,M,0.049,Organisms Not Present,141.8,Disease Not Present,0.019,0.464,13.75,≥ 10cm,2022
+202203,0036,785,135.7,F,0.066,Organisms Not Present,144,Disease Not Present,0.014,0.413,13.569999999999999,≥ 10cm,2022
+202203,0036,812,132.4,F,0.042,Organisms Not Present,139.5,Disease Not Present,0.015,0.352,13.24,≥ 10cm,2022
+202203,0070,7499,115,F,0.034,Organisms Not Present,125.8,Disease Not Present,0.028,0.266,11.5,≥ 10cm,2022
+202203,0070,7519,130.2,M,0.038,Organisms Not Present,132.8,Disease Not Present,0.023,0.354,13.02,≥ 10cm,2022
+202203,0070,7520,123.2,M,0.03,Organisms Not Present,125.3,Disease Not Present,0.025,0.272,12.32,≥ 10cm,2022
+202203,0143,17377,147.1,F,0.054,Organisms Not Present,149.5,Disease Not Present,0.023,0.554,14.709999999999999,≥ 10cm,2022
+202203,0143,17475,157.1,F,0.064,Organisms Not Present,160.1,Disease Not Present,0.031,0.691,15.709999999999999,≥ 10cm,2022
+202203,0143,17270,155.4,M,0.053,Organisms Present,159.4,Disease Not Present,0.027,0.685,15.540000000000001,≥ 10cm,2022
+202203,0143,17273,141.2,M,0.043,Organisms Present,149.9,Disease Not Present,0.022,0.415,14.12,≥ 10cm,2022
+202203,0114,12391,158.9,F,0.057,Organisms Not Present,166.2,Disease Present,0.027,0.687,15.89,≥ 10cm,2022
+202203,0114,12415,152.3,M,0.067,Organisms Not Present,159.5,Disease Not Present,0.042,0.556,15.23,≥ 10cm,2022
+202203,0114,12429,166.3,M,0.068,Organisms Present,170.8,Disease Not Present,0.048,0.648,16.630000000000003,≥ 10cm,2022
+202203,0037,1002,139.3,F,0.06,Organisms Present,148.3,NA,0.013,0.435,13.930000000000001,≥ 10cm,2022
+202203,0037,898,117.1,F,0.035,Urophycis chuss (Red Hake),119.4,NA,0.006,0.301,11.709999999999999,≥ 10cm,2022
+202203,0037,1001,148.2,M,0.069,NA,152.8,NA,0.017,0.484,14.819999999999999,≥ 10cm,2022
+202203,0037,1003,136.3,M,0.051,NA,141,NA,0.02,0.356,13.63,≥ 10cm,2022
+202203,0037,965,130.3,F,0.037,NA,131,NA,0.021,0.333,13.030000000000001,≥ 10cm,2022
+202203,0091,9462,149.8,F,0.066,Organisms Not Present,150.7,Disease Not Present,0.017,0.44,14.98,≥ 10cm,2022
+202203,0022,336,151.5,M,0.038,Organisms Not Present,157.1,Disease Not Present,0.014,0.419,15.15,≥ 10cm,2022
+202203,0022,373,152.5,M,0.018,Organisms Not Present,161,Disease Not Present,0.013,0.394,15.25,≥ 10cm,2022
+202203,0022,374,129.2,F,0.015,Organisms Not Present,132,Disease Not Present,0.012,0.25,12.919999999999998,≥ 10cm,2022
+202203,0067,6962,154,M,0.039,Organisms Not Present,159.8,Disease Not Present,0.014,0.543,15.4,≥ 10cm,2022
+202203,0067,6982,119,F,0.035,Organisms Not Present,121.2,Disease Not Present,0.025,0.229,11.9,≥ 10cm,2022

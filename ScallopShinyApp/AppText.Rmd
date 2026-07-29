@@ -1,0 +1,73 @@
+---
+title: "shiny app text"
+output: html_fragment
+---
+
+## Welcome_Intro
+This app is a tool that allows users to explore and quickly visualize data on Atlantic sea scallop catch abundance and distribution, collected on our annual dredge survey. 
+
+This survey is a fisheries-independent, standardized dredge survey that has been conducted annually since 1977. For additional information about survey methods and history, see *Survey Background and Methods*. 
+
+**Usage Notes:** 
++ The data presented here were collected on the NEFSC scallop dredge survey.
++ The graphs and maps shown here do NOT provide indices of scallop stock or population health.
++ Survey and intensity area has changed through time. Most graphs present catch data as averages or medians per tow, but areas surveyed may also vary. 
+
+**Data Availability:** 
++ Please acknowledge the Northeast Fisheries Science Center Ecosystems Surveys Branch when data or figures are used in publications, presentations, or other media.
++ All survey data is publicly available at: https://www.fisheries.noaa.gov/inport/item/22564
++ For additional data requests or further information contact dana.morton@noaa.gov
+
+**References/ Links:**
++ Add other relevant pages here
+
+      
+
+## Methods_Background
+The NEFSC annual Atlantic Sea Scallop Dredge Survey collects data on the Atlantic sea scallop, *Placopecten magellanicus*, as well as a variety of fish and invertebrate species, using a standardized dredging survey. The standardized dredge survey has been conducted in the Western Atlantic continental shelf region off the Eastern United States from North Carolina, U.S.A to Nova Scotia, Canada since 1975 (annually since 1977). In 2011, an optical survey began (using a towed HABitat mapping CAMera system) and was conducted in concert with the dredge survey until 2023. In 2024, the optical and dredge survey were split into two distinct surveys, on two different vessels.
+
+The dredge survey employs a stratified random sampling design. The area of operation is divided into strata, and sampling stations are randomly selected within each stratum prior to each annual cruise. From 1975 through 2024, survey strata boundaries were based primarily on depth and secondarily by latitude. While depth is generally related to scallop abundance, the strata were not specifically designed for sea scallops. The number of stations within each stratum was proportional to the area of the stratum and included consideration of overall variability in sea scallop distribution among strata. Starting in 2025, following review by a subpanel of the New England Fishery Management Council Scientific and Statistical Committee, a Generalized Random Tessellation Stratified (GRTS) design was implemented for station selection, along with a switch to using Scallop Area Management Simulator (SAMS) areas as survey strata. This survey design is more efficient due to the spatially balanced features of GRTS, is consistent with long-term management boundaries, and is a more flexible way to track changing distributions of scallops due to the use of unequal inclusion probabilities. Inclusion probabilities were based on a linear combination of predicted abundance, predicted biomass, and stratum area. The minimum distance between stations was 1.852 km (1 nautical mile). Some stations were selected outside the SAMS area boundaries to maintain full coverage of the historical survey footprint.
+
+For both simple stratified random and GRTS designs, random sampling within each stratum produces unbiased abundance indices with measurable statistical precision. Because sampling locations are randomly selected, they may not be near areas of high scallop abundance. Abundance estimates obtained from this survey are relative abundance indices rather than absolute abundances because catch efficiency of the sampling gear is less than 100%. Relative abundance indices allow comparisons through time because survey efficiency is held constant through standardization of gear and methodology.
+
+The dredge survey uses an industry standard 2.44 m (8 ft.) wide sea scallop dredge, equipped with a ring bag composed of 5.1 cm (2 in.) rings and a 3.8 cm (1.5 in.) polyethylene mesh liner to retain small scallops, and outfitted with a set of roller wheels on the neck. The dredge was towed for 15 minutes at 6.5 km/hr (3.8 Kt.) with a 3.5:1 warp scope ratio. A set of rock chains was added to the dredge in six rocky NEFSC shellfish strata on Georges Bank. The catch was sorted by scientists into component species, and weighed using motion-compensated digital scales. Representative length frequencies (to the nearest 0.5 mm) were collected for all scallop species (*Placopecten magellanicus*, *Chlamys islandica*, and *Argopecten gibbus*), as well as skates and groundfish of commercial importance. Weights and counts were collected for representative samples of seastars of the Class Asteroidea (including but not limited to *Asterias* spp., *Astropecten* spp., and *Leptasterias* spp.), waved whelks (*Buccinum undatum*), and crabs (*Cancridae*). Subsamples of *P. magellanicus* were sampled for age, growth, and disease presence. Sampled individuals were assigned individual identification numbers, measured to the nearest 0.5 mm, weighed to the nearest 0.001 kilogram (whole, meat, and gonad weights), assessed for disease presence, and further sampled for directed age and growth studies. Biological samples were collected concurrently with measuring operations. The volume and percent composition of remaining bycatch of fish, invertebrates, and debris (miscellaneous invertebrates, shells, substrate, etc.) was estimated.
+
+All catch and biological data were recorded using the shipboard automated data entry system, FSCS v2.0. This system uses motion-compensated digital scales, electronic measuring boards ("Ichthysticks"), and touch screen displays to record data, and archives the data on the computer network. Additional operational and gear details for cruises are outlined in the Sea Scallop Survey cruise instructions.
+
+The dredge survey had been conducted by the NOAA Fisheries Research Vessel (FRV) *Albatross IV* until 2007 when it was retired. From 2008 until 2023, the survey was conducted aboard the R/V *Hugh R. Sharp*, a University-National Oceanographic Laboratory System (UNOLS) vessel from the University of Delaware ported in Lewes, DE. Starting in 2024, the survey has been conducted aboard the commercial fishing vessel, F/V *Selje*.
+
+## plot_1_caption
+
+Average total weight and total count of Atlantic Sea Scallops per dredge tow from the Northeast Fisheries Science Center’s Atlantic Sea Scallop Survey through time. Select the Scallop Area region(s) and year(s) of interest from the menus on the left. Bar height corresponds to the average total weight of whole scallops caught per tow in the top figure, and the average number of scallops caught per tow in the bottom figure. Error bars are standard error. Starting in 2014, the Mid-Atlantic region was surveyed by Virginia Institute of Marine Science as part of the Research Set-Aside program, so those catch data are not included here. Scallop weights were not consistently measured until 2001, with the advent of the Fisheries Scientific Computing System (FSCS). See *Methods* tab for more information.
+
+## plot_2a_caption
+
+Average number of Atlantic Sea Scallops per tow from the Northeast Fisheries Science Center’s Atlantic Sea Scallop Survey through time. Select the Scallop Area Management Simulator (SAMS) area and year(s) of interest from the menus on the left. Bar height corresponds to the average number of scallops caught per tow. Error bars are standard error. Starting in 2014, the Mid-Atlantic region was surveyed by Virginia Institute of Marine Science as part of the Research Set-Aside program, so those catch data are not included here.See *Methods* tab for more information.
+
+## plot_2b_caption
+
+Average weight of Atlantic Sea Scallops per tow from the Northeast Fisheries Science Center’s Atlantic Sea Scallop Survey through time. Select the Scallop Area Management Simulator (SAMS) area and year(s) of interest from the menus on the left. Bar height corresponds to the average total weight of whole scallops caught per tow. Error bars are standard error. Starting in 2014, the Mid-Atlantic region was surveyed by Virginia Institute of Marine Science as part of the Research Set-Aside program, so those catch data are not included here. Scallop weights were not consistently measured until 2001, with the advent of the Fisheries Scientific Computing System (FSCS). See *Methods* tab for more information.
+
+## plot_4_caption
+
+Total number of Atlantic Sea Scallops per tow from the Northeast Fisheries Science Center’s Atlantic Sea Scallop Survey. Select region and year of interest from the drop down menu on the left. NEFSC shellfish strata or Scallop Area Management Simulator (SAMS) boundaries can be selected and are shown in black. Bubble size corresponds to the number of scallops caught. Starting in 2014, the Mid-Atlantic region was surveyed by Virginia Institute of Marine Science as part of the Research Set-Aside program, so those catch data are not shown here. 
+
+## plot_5_caption
+
+Plot shows the number of tows conducted by NEFSC survey team over time. The Mid-Atlantic has been surveyed by VIMS since 2015, and thus is not included after 2014.
+
+## plot_6_caption
+
+Total number of Atlantic Sea Scallops per tow within each size class from the Northeast Fisheries Science Center’s Atlantic Sea Scallop Survey. Select region, size range (shell heights in cm), and year of interest from the drop down menu on the left. NEFSC shellfish strata or Scallop Area Management Simulator (SAMS) boundaries can be selected and are shown in black. Bubble size corresponds to the number of scallops caught in the selected size range. Starting in 2014, the Mid-Atlantic region was surveyed by Virginia Institute of Marine Science as part of the Research Set-Aside program, so those catch data are not shown here. 
+
+## plot_7_caption
+
+This density plot shows the median total count of Atlantic Sea Scallops per dredge tow, divided by the size ranges shown in the legend on the right. Select the region(s) and year(s) of interest from the menus on the left. Area under the line corresponds to the median total number of scallops caught per tow in a given size range (shell heights, measured in cm). Starting in 2014, the Mid-Atlantic region was surveyed by Virginia Institute of Marine Science as part of the Research Set-Aside program, so those catch data are not shown here.
+
+## plot_8_caption
+
+Shell height distributions of Atlantic Sea Scallops collected in the Northeast Fisheries Science Center’s Atlantic Sea Scallop Survey for each survey year. In this density plot, the height of the line does not represent the exact count of scallops at that size. Instead, the area under the curve represents 100% the size data. Peaks represent the most common sizes encountered, trailing ends represent rarely encountered sizes. Select the region(s) and year(s) of interest from the menus on the left. The orange dashed line represents the commercial legal catch limit (8.9 cm). Starting in 2014, the Mid-Atlantic region was surveyed by Virginia Institute of Marine Science as part of the Research Set-Aside program, so those catch data are not shown here. 
+
+## plot_9_caption
+
+TBD

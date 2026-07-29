@@ -1,0 +1,444 @@
+CRUISE_ID,STATION,ORGANISM_ID,Shell_Length,Sex,Meat_Weight,Organisms,Shell_Width,Disease,Gonad_Weight,Whole_Weight,LENGTH_CM,Size_Cat,EST_YEAR
+202603,0002,63,132.9,F,0.05,No Organisms Present,149.5,No Diseases Present,0.01,0.309,13.290000000000001,≥ 10cm,2026
+202603,0004,2400,97.1,M,0.012,No Organisms Present,94.4,No Diseases Present,0.002,0.067,9.709999999999999,8.9cm - 10cm,2026
+202603,0004,2365,93,U,0.009,No Organisms Present,102.4,No Diseases Present,0.002,0.073,9.3,8.9cm - 10cm,2026
+202603,0004,2267,86.5,NE,0.011,No Organisms Present,87.9,No Diseases Present,0.002,0.058,8.65,7.5cm - 8.9cm,2026
+202603,0027,5015,150.9,M,0.054,No Organisms Present,151.3,Shell Boring Organisms,0.025,0.474,15.09,≥ 10cm,2026
+202603,0027,5041,130,M,0.039,No Organisms Present,132.8,Shell Boring Organisms,0.011,0.312,13,≥ 10cm,2026
+202603,0027,5077,119,F,0.026,No Organisms Present,109.4,No Diseases Present,0.008,0.18,11.9,≥ 10cm,2026
+202603,0003,367,93.1,M,0.014,No Organisms Present,94.2,No Diseases Present,0.001,0.082,9.309999999999999,8.9cm - 10cm,2026
+202603,0003,440,94.6,M,0.011,No Organisms Present,95.8,No Diseases Present,0.001,0.088,9.459999999999999,8.9cm - 10cm,2026
+202603,0003,486,95.9,M,0.015,No Organisms Present,98.4,No Diseases Present,0.001,0.09,9.59,8.9cm - 10cm,2026
+202603,0003,534,91.9,M,0.008,No Organisms Present,93,No Diseases Present,0.001,0.063,9.190000000000001,8.9cm - 10cm,2026
+202603,0003,118,98,M,0.013,No Organisms Present,100.2,No Diseases Present,0.001,0.086,9.8,8.9cm - 10cm,2026
+202603,0087,12839,130.3,F,0.027,No Organisms Present,137.6,Shell Boring Organisms,0.011,0.192,13.030000000000001,≥ 10cm,2026
+202603,0087,12831,109.5,M,0.015,No Organisms Present,117.5,No Diseases Present,0.004,0.112,10.95,≥ 10cm,2026
+202603,0107,15895,116.8,F,0.034,No Organisms Present,119.7,No Diseases Present,0.01,0.245,11.68,≥ 10cm,2026
+202603,0116,16491,119.4,M,0.033,No Organisms Present,127.1,No Diseases Present,0.014,0.293,11.940000000000001,≥ 10cm,2026
+202603,0116,16511,120.1,M,0.038,Liparid,128.7,No Diseases Present,0.017,0.292,12.01,≥ 10cm,2026
+202603,0116,16514,124,F,0.043,No Organisms Present,126.4,Shell Boring Organisms,0.01,0.338,12.4,≥ 10cm,2026
+202603,0122,16909,131.9,M,0.049,No Organisms Present,138.8,Shell Boring Organisms,0.02,0.404,13.190000000000001,≥ 10cm,2026
+202603,0122,16940,112.2,F,0.026,No Organisms Present,115.7,No Diseases Present,0.011,0.246,11.22,≥ 10cm,2026
+202603,0122,16972,117.2,F,0.036,No Organisms Present,124.6,No Diseases Present,0.012,0.264,11.72,≥ 10cm,2026
+202603,0122,17000,136.3,F,0.051,Liparid,144.5,No Diseases Present,0.021,0.435,13.63,≥ 10cm,2026
+202603,0091,13054,140.4,F,0.04,No Organisms Present,143.8,No Diseases Present,0.027,0.333,14.040000000000001,≥ 10cm,2026
+202603,0112,16222,119.8,M,0.034,No Organisms Present,127.9,Shell Boring Organisms,0.009,0.251,11.98,≥ 10cm,2026
+202603,0112,16245,119.8,M,0.034,No Organisms Present,125.3,Shell Boring Organisms,0.007,0.255,11.98,≥ 10cm,2026
+202603,0112,16259,118.1,F,0.035,Liparid,124.2,Shell Boring Organisms,0.007,0.261,11.809999999999999,≥ 10cm,2026
+202603,0112,16264,116,F,0.034,Liparid,124.4,No Diseases Present,0.012,0.244,11.6,≥ 10cm,2026
+202603,0104,15757,143.9,M,0.063,No Organisms Present,154.7,Shell Boring Organisms,0.026,0.48,14.39,≥ 10cm,2026
+202603,0104,15758,147.1,M,0.056,No Organisms Present,150.2,Shell Boring Organisms,0.037,0.554,14.709999999999999,≥ 10cm,2026
+202603,0072,12274,120.2,F,0.015,Pea Crab,123,Brown Meats,0.007,0.22,12.02,≥ 10cm,2026
+202603,0072,12284,132.1,M,0.02,Pea Crab,145.3,No Diseases Present,0.009,0.366,13.209999999999999,≥ 10cm,2026
+202603,0175,30018,119.8,F,0.028,No Organisms Present,116,Shell Boring Organisms,0.012,0.301,11.98,≥ 10cm,2026
+202603,0155,26262,108.7,F,0.022,No Organisms Present,110.3,Shell Boring Organisms,0.01,0.16,10.870000000000001,≥ 10cm,2026
+202603,0155,26311,107.1,M,0.017,No Organisms Present,108.7,Shell Boring Organisms,0.009,0.167,10.709999999999999,≥ 10cm,2026
+202603,0155,26350,114.6,F,0.022,No Organisms Present,116,Shell Boring Organisms,0.004,0.153,11.459999999999999,≥ 10cm,2026
+202603,0155,26393,118.3,F,0.026,No Organisms Present,124.4,Shell Boring Organisms,0.008,0.196,11.83,≥ 10cm,2026
+202603,0155,26126,147.7,F,0.047,No Organisms Present,147.7,Shell Boring Organisms,0.017,0.447,14.77,≥ 10cm,2026
+202603,0153,25911,83.1,F,0.008,No Organisms Present,83.9,No Diseases Present,0.004,0.07,8.309999999999999,7.5cm - 8.9cm,2026
+202603,0153,25920,103,M,0.015,No Organisms Present,104.6,Shell Boring Organisms,0.006,0.128,10.3,≥ 10cm,2026
+202603,0153,25922,92.2,F,0.015,No Organisms Present,92.8,Shell Boring Organisms,0.005,0.091,9.22,8.9cm - 10cm,2026
+202603,0153,25905,101.2,F,0.014,No Organisms Present,103.1,Shell Boring Organisms,0.007,0.135,10.120000000000001,≥ 10cm,2026
+202603,0130,17704,114.5,F,0.03,Liparid,119.2,No Diseases Present,0.014,0.214,11.45,≥ 10cm,2026
+202603,0130,17743,120,M,0.035,Liparid,125.8,No Diseases Present,0.014,0.254,12,≥ 10cm,2026
+202603,0135,19161,114.5,F,0.006,Liparid,117.8,Shell Boring Organisms,0.007,0.195,11.45,≥ 10cm,2026
+202603,0132,18221,103.1,M,0.021,Liparid,106.9,Shell Boring Organisms,0.007,0.149,10.309999999999999,≥ 10cm,2026
+202603,0132,18269,95.3,F,0.016,Liparid,93.3,No Diseases Present,0.003,0.107,9.53,8.9cm - 10cm,2026
+202603,0132,18308,111.2,F,0.022,Liparid,110.7,Shell Boring Organisms,0.004,0.166,11.120000000000001,≥ 10cm,2026
+202603,0132,18168,108.2,F,0.019,No Organisms Present,111.2,Shell Boring Organisms,0.008,0.152,10.82,≥ 10cm,2026
+202603,0150,21925,135.9,F,0.028,No Organisms Present,143.1,Shell Boring Organisms,0.019,0.373,13.59,≥ 10cm,2026
+202603,0150,21977,90.9,F,0.013,No Organisms Present,90.6,Shell Boring Organisms,0.003,0.082,9.09,8.9cm - 10cm,2026
+202603,0049,8114,125,M,0.031,No Organisms Present,155,No Diseases Present,0.012,0.387,12.5,≥ 10cm,2026
+202603,0049,8146,117,F,0.023,No Organisms Present,115,No Diseases Present,0.008,0.229,11.7,≥ 10cm,2026
+202603,0052,9077,153.5,F,0.029,Urophycis chuss (Red Hake),163.4,Shell Boring Organisms,0.014,0.484,15.35,≥ 10cm,2026
+202603,0052,8963,148.9,F,0.029,No Organisms Present,153.2,Shell Boring Organisms,0.005,0.422,14.89,≥ 10cm,2026
+202603,0052,9028,158.1,F,0.048,No Organisms Present,176.1,Shell Boring Organisms,0.011,0.489,15.809999999999999,≥ 10cm,2026
+202603,0052,8977,152.3,F,0.032,No Organisms Present,167.4,Shell Boring Organisms,0.006,0.493,15.23,≥ 10cm,2026
+202603,0052,9126,156.6,F,0.043,No Organisms Present,164.3,Shell Boring Organisms,0.012,0.5,15.66,≥ 10cm,2026
+202603,0053,9613,151.5,F,0.028,No Organisms Present,154.2,Shell Boring Organisms,0.011,0.438,15.15,≥ 10cm,2026
+202603,0053,9577,154.6,F,0.027,Urophycis chuss (Red Hake),160.8,Shell Boring Organisms,0.009,0.467,15.459999999999999,≥ 10cm,2026
+202603,0053,9519,150.3,F,0.023,No Organisms Present,155.2,Shell Boring Organisms,0.008,0.369,15.030000000000001,≥ 10cm,2026
+202603,0059,11255,127.1,M,0.033,No Organisms Present,143.4,No Diseases Present,0.026,0.333,12.709999999999999,≥ 10cm,2026
+202603,0059,11254,133,M,0.022,No Organisms Present,144.8,No Diseases Present,0.019,0.443,13.3,≥ 10cm,2026
+202603,0059,11256,134.3,M,0.028,No Organisms Present,136.8,No Diseases Present,0.017,0.349,13.430000000000001,≥ 10cm,2026
+202603,0059,11260,115.2,M,0.029,No Organisms Present,129.2,No Diseases Present,0.02,0.245,11.52,≥ 10cm,2026
+202603,0041,6356,108.5,M,0.024,No Organisms Present,112.3,No Diseases Present,0.018,0.225,10.85,≥ 10cm,2026
+202603,0041,6360,110.9,M,0.012,Pea Crab,109.7,No Diseases Present,0.004,0.202,11.09,≥ 10cm,2026
+202603,0041,6379,108.6,M,0.023,No Organisms Present,111.2,No Diseases Present,0.014,0.219,10.86,≥ 10cm,2026
+202603,0041,6358,108.2,F,0.02,No Organisms Present,115,No Diseases Present,0.012,0.233,10.82,≥ 10cm,2026
+202603,0041,6389,105.3,F,0.015,No Organisms Present,112.1,No Diseases Present,0.005,0.185,10.53,≥ 10cm,2026
+202603,0044,7112,135.2,M,0.033,No Organisms Present,139.4,No Diseases Present,0.011,0.308,13.52,≥ 10cm,2026
+202603,0044,7172,123.8,M,0.031,No Organisms Present,132.7,No Diseases Present,0.012,0.28,12.379999999999999,≥ 10cm,2026
+202603,0044,7233,116.2,M,0.022,No Organisms Present,125.2,No Diseases Present,0.007,0.244,11.620000000000001,≥ 10cm,2026
+202603,0078,12527,111.1,M,0.017,No Organisms Present,111.7,No Diseases Present,0.007,0.16,11.11,≥ 10cm,2026
+202603,0078,12538,121.8,M,0.023,No Organisms Present,117.9,No Diseases Present,0.011,0.206,12.18,≥ 10cm,2026
+202603,0094,13670,121.7,M,0.025,Liparid,128.1,No Diseases Present,0.015,0.216,12.17,≥ 10cm,2026
+202603,0096,14029,113.1,F,0.022,No Organisms Present,121.2,No Diseases Present,0.011,0.182,11.309999999999999,≥ 10cm,2026
+202603,0096,14011,125.8,F,0.028,No Organisms Present,128.9,Shell Boring Organisms,0.011,0.239,12.58,≥ 10cm,2026
+202603,0096,14025,115.1,F,0.016,Liparid,116.1,Shell Boring Organisms,0.009,0.17,11.51,≥ 10cm,2026
+202603,0060,11544,119.5,F,0.034,No Organisms Present,125.7,No Diseases Present,0.013,0.301,11.95,≥ 10cm,2026
+202603,0060,11573,139.3,F,0.033,No Organisms Present,141,No Diseases Present,0.016,0.311,13.930000000000001,≥ 10cm,2026
+202603,0060,11590,117.2,M,0.031,No Organisms Present,122.1,No Diseases Present,0.02,0.271,11.72,≥ 10cm,2026
+202603,0058,11185,131.5,F,0.036,No Organisms Present,131.8,No Diseases Present,0.019,0.381,13.15,≥ 10cm,2026
+202603,0058,11227,135.3,F,0.032,No Organisms Present,137.3,No Diseases Present,0.015,0.343,13.530000000000001,≥ 10cm,2026
+202603,0010,4370,79.9,M,0.008,No Organisms Present,78,No Diseases Present,0.003,0.056,7.99,7.5cm - 8.9cm,2026
+202603,0009,3871,95.7,M,0.01,No Organisms Present,84.6,No Diseases Present,0.003,0.073,9.57,8.9cm - 10cm,2026
+202603,0009,3967,125.2,M,0.016,No Organisms Present,129.7,Shell Boring Organisms,0.007,0.221,12.52,≥ 10cm,2026
+202603,0172,29073,147.9,M,0.045,No Organisms Present,151.8,Shell Boring Organisms,0.025,0.563,14.790000000000001,≥ 10cm,2026
+202603,0172,29151,149.7,M,0.038,No Organisms Present,142.2,Shell Boring Organisms,0.015,0.507,14.969999999999999,≥ 10cm,2026
+202603,0163,27658,103.2,F,0.017,No Organisms Present,102.9,No Diseases Present,0.008,0.135,10.32,≥ 10cm,2026
+202603,0163,27648,128.1,M,0.029,No Organisms Present,133.3,Shell Boring Organisms,0.017,0.33,12.809999999999999,≥ 10cm,2026
+202603,0124,17156,113.4,F,0.028,Liparid,112.8,Shell Boring Organisms,0.003,0.237,11.34,≥ 10cm,2026
+202603,0124,17241,121.4,F,0.041,No Organisms Present,127.9,No Diseases Present,0.009,0.273,12.14,≥ 10cm,2026
+202603,0129,17673,122.7,F,0.035,Liparid,128,No Diseases Present,0.022,0.283,12.27,≥ 10cm,2026
+202603,0129,17587,120.4,F,0.033,Liparid,127.6,No Diseases Present,0.013,0.253,12.040000000000001,≥ 10cm,2026
+202603,0129,17617,122.9,F,0.038,Urophycis chuss (Red Hake),126.7,No Diseases Present,0.017,0.285,12.290000000000001,≥ 10cm,2026
+202603,0159,27202,103.5,M,0.018,No Organisms Present,103,Shell Boring Organisms,0.006,0.119,10.35,≥ 10cm,2026
+202603,0149,20794,94.4,M,0.013,No Organisms Present,97.8,Shell Boring Organisms,0.005,0.077,9.440000000000001,8.9cm - 10cm,2026
+202603,0149,20705,98.2,F,0.014,No Organisms Present,98.1,Shell Boring Organisms,0.003,0.101,9.82,8.9cm - 10cm,2026
+202603,0149,20642,98.6,F,0.014,No Organisms Present,99.2,Shell Boring Organisms,0.004,0.095,9.86,8.9cm - 10cm,2026
+202603,0149,20731,114.2,F,0.02,No Organisms Present,116,Shell Boring Organisms,0.006,0.182,11.42,≥ 10cm,2026
+202603,0150,22014,83.9,M,0.01,No Organisms Present,85,Shell Boring Organisms,0.003,0.07,8.39,7.5cm - 8.9cm,2026
+202603,0150,22050,100.7,M,0.016,No Organisms Present,101.6,Shell Boring Organisms,0.011,0.141,10.07,≥ 10cm,2026
+202603,0150,22081,91.1,M,0.012,No Organisms Present,92.2,Shell Boring Organisms,0.004,0.08,9.11,8.9cm - 10cm,2026
+202603,0150,22117,100.6,M,0.015,No Organisms Present,99.6,Shell Boring Organisms,0.007,0.108,10.059999999999999,≥ 10cm,2026
+202603,0049,8172,133,M,0.031,No Organisms Present,135,Shell Boring Organisms,0.007,0.332,13.3,≥ 10cm,2026
+202603,0049,8095,160,F,0.037,No Organisms Present,162,Shell Boring Organisms,0.014,0.5,16,≥ 10cm,2026
+202603,0049,8220,160,F,0.033,No Organisms Present,166,Shell Boring Organisms,0.012,0.52,16,≥ 10cm,2026
+202603,0036,5637,131.6,F,0.035,No Organisms Present,145.2,Shell Boring Organisms,0.017,0.309,13.16,≥ 10cm,2026
+202603,0044,7266,134.1,F,0.02,No Organisms Present,126.3,No Diseases Present,0.005,0.224,13.41,≥ 10cm,2026
+202603,0044,7273,113.3,F,0.021,No Organisms Present,111.4,No Diseases Present,0.01,0.165,11.33,≥ 10cm,2026
+202603,0056,10655,124.5,F,0.027,No Organisms Present,129.1,No Diseases Present,0.013,0.307,12.45,≥ 10cm,2026
+202603,0056,10759,123,M,0.027,No Organisms Present,132.6,No Diseases Present,0.009,0.297,12.3,≥ 10cm,2026
+202603,0058,11087,138,F,0.016,No Organisms Present,138.8,Shell Boring Organisms,0.009,0.362,13.8,≥ 10cm,2026
+202603,0058,11224,127.5,F,0.026,No Organisms Present,129,No Diseases Present,0.01,0.291,12.75,≥ 10cm,2026
+202603,0058,11231,128.7,M,0.032,No Organisms Present,134.2,Shell Boring Organisms,0.018,0.312,12.87,≥ 10cm,2026
+202603,0060,11482,129.3,F,0.035,No Organisms Present,131.4,No Diseases Present,0.011,0.323,12.930000000000001,≥ 10cm,2026
+202603,0060,11619,125.4,F,0.026,No Organisms Present,127.1,No Diseases Present,0.013,0.239,12.540000000000001,≥ 10cm,2026
+202603,0009,4099,112.4,M,0.013,No Organisms Present,119.4,Shell Boring Organisms,0.008,0.182,11.24,≥ 10cm,2026
+202603,0136,19226,130.5,F,0.044,Liparid,135.2,No Diseases Present,0.012,0.35,13.05,≥ 10cm,2026
+202603,0136,19236,122.7,M,0.036,Liparid,129.1,No Diseases Present,0.026,0.338,12.27,≥ 10cm,2026
+202603,0136,19213,153.8,F,0.064,No Organisms Present,155.6,No Diseases Present,0.016,0.542,15.38,≥ 10cm,2026
+202603,0172,29102,153.1,M,0.057,No Organisms Present,152.8,Shell Boring Organisms,0.021,0.622,15.309999999999999,≥ 10cm,2026
+202603,0124,17088,101.6,M,0.02,No Organisms Present,97.9,No Diseases Present,0.01,0.186,10.16,≥ 10cm,2026
+202603,0124,17186,125.7,F,0.035,No Organisms Present,133,No Diseases Present,0.008,0.315,12.57,≥ 10cm,2026
+202603,0149,20837,107,F,0.014,No Organisms Present,113.4,Shell Boring Organisms,0.006,0.162,10.7,≥ 10cm,2026
+202603,0146,19978,99.5,F,0.026,Liparid,107,Shell Boring Organisms,0.008,0.163,9.95,8.9cm - 10cm,2026
+202603,0145,19703,122.9,F,0.04,No Organisms Present,128.5,No Diseases Present,0.014,0.262,12.290000000000001,≥ 10cm,2026
+202603,0145,19786,116.8,F,0.034,No Organisms Present,118.9,No Diseases Present,0.017,0.24,11.68,≥ 10cm,2026
+202603,0145,19736,117.1,M,0.032,No Organisms Present,121.8,No Diseases Present,0.019,0.255,11.709999999999999,≥ 10cm,2026
+202603,0142,19673,137.3,F,0.052,No Organisms Present,138.6,Shell Boring Organisms,0.02,0.485,13.73,≥ 10cm,2026
+202603,0049,8270,114,M,0.023,No Organisms Present,110,No Diseases Present,0.01,0.191,11.4,≥ 10cm,2026
+202603,0036,5675,141.3,M,0.041,No Organisms Present,145.2,No Diseases Present,0.021,0.427,14.13,≥ 10cm,2026
+202603,0036,5677,121.8,M,0.03,No Organisms Present,453.2,No Diseases Present,0.01,0.26,12.18,≥ 10cm,2026
+202603,0100,15010,111.2,M,0.019,No Organisms Present,126.2,No Diseases Present,0.01,0.157,11.120000000000001,≥ 10cm,2026
+202603,0095,13891,122.8,M,0.025,Liparid,124.4,No Diseases Present,0.01,0.221,12.28,≥ 10cm,2026
+202603,0095,13820,116.3,F,0.021,No Organisms Present,118.6,No Diseases Present,0.006,0.175,11.629999999999999,≥ 10cm,2026
+202603,0054,9905,136.1,F,0.032,Urophycis chuss (Red Hake),137,Shell Boring Organisms,0.013,0.357,13.61,≥ 10cm,2026
+202603,0054,9971,138.9,AB,0.042,No Organisms Present,141.8,No Diseases Present,0.018,0.373,13.89,≥ 10cm,2026
+202603,0056,10757,130.6,M,0.022,No Organisms Present,127,No Diseases Present,0.012,0.313,13.059999999999999,≥ 10cm,2026
+202603,0056,10762,119.5,F,0.016,No Organisms Present,125.1,No Diseases Present,0.002,0.218,11.95,≥ 10cm,2026
+202603,0058,11226,133.3,F,0.039,No Organisms Present,137.9,No Diseases Present,0.016,0.391,13.330000000000002,≥ 10cm,2026
+202603,0146,19936,97,F,0.016,No Organisms Present,101.4,Shell Boring Organisms,0.007,0.11,9.7,8.9cm - 10cm,2026
+202603,0146,19956,102.6,M,0.02,No Organisms Present,106,Shell Boring Organisms,0.009,0.126,10.26,≥ 10cm,2026
+202603,0142,19665,145.9,M,0.05,No Organisms Present,148.5,Shell Boring Organisms,0.021,0.521,14.59,≥ 10cm,2026
+202603,0045,7346,139.7,M,0.051,No Organisms Present,141.2,No Diseases Present,0.033,0.503,13.969999999999999,≥ 10cm,2026
+202603,0043,6734,138.5,M,0.034,No Organisms Present,129.6,No Diseases Present,0.017,0.329,13.85,≥ 10cm,2026
+202603,0095,13857,128.7,F,0.017,Liparid,128.4,Shell Boring Organisms,0.005,0.306,12.87,≥ 10cm,2026
+202603,0100,15085,121.7,F,0.025,No Organisms Present,128,No Diseases Present,0.012,0.191,12.17,≥ 10cm,2026
+202603,0100,15162,122.3,M,0.027,No Organisms Present,124.2,Shell Boring Organisms,0.01,0.202,12.23,≥ 10cm,2026
+202603,0100,15393,112.8,M,0.021,No Organisms Present,116.7,No Diseases Present,0.009,0.177,11.28,≥ 10cm,2026
+202603,0095,13765,130.1,F,0.025,No Organisms Present,133.7,Shell Boring Organisms,0.013,0.317,13.01,≥ 10cm,2026
+202603,0095,13906,114.6,F,0.025,No Organisms Present,113,No Diseases Present,0.004,0.18,11.459999999999999,≥ 10cm,2026
+202603,0093,13550,151.1,M,0.054,No Organisms Present,158.6,No Diseases Present,0.021,0.466,15.11,≥ 10cm,2026
+202603,0008,3486,104.5,U,0.015,Liparid,108.9,No Diseases Present,0.001,0.119,10.45,≥ 10cm,2026
+202603,0008,3656,121,M,0.016,Pea Crab,113.1,No Diseases Present,0.002,0.178,12.1,≥ 10cm,2026
+202603,0006,2799,105,M,0.018,No Organisms Present,118.1,No Diseases Present,0.005,0.143,10.5,≥ 10cm,2026
+202603,0006,2858,122.4,M,0.023,No Organisms Present,131,Shell Blisters,0.006,0.248,12.24,≥ 10cm,2026
+202603,0006,2913,104,U,0.016,No Organisms Present,104.2,Shell Blisters,0.005,0.141,10.4,≥ 10cm,2026
+202603,0006,2822,112.1,F,0.025,No Organisms Present,117.7,No Diseases Present,0.006,0.241,11.209999999999999,≥ 10cm,2026
+202603,0007,3214,129.9,F,0.037,No Organisms Present,132.6,No Diseases Present,0.008,0.257,12.99,≥ 10cm,2026
+202603,0007,3275,100.1,M,0.017,No Organisms Present,100.8,No Diseases Present,0.004,0.118,10.01,≥ 10cm,2026
+202603,0007,3332,107.7,F,0.021,No Organisms Present,109.5,No Diseases Present,0.006,0.149,10.77,≥ 10cm,2026
+202603,0129,17687,119.2,M,0.03,No Organisms Present,122.8,Shell Boring Organisms,0.02,0.201,11.92,≥ 10cm,2026
+202603,0129,17559,116.1,F,0.029,Liparid,121.2,No Diseases Present,0.022,0.246,11.61,≥ 10cm,2026
+202603,0129,17643,112,F,0.031,Liparid,117.1,No Diseases Present,0.015,0.199,11.2,≥ 10cm,2026
+202603,0137,19388,107.1,F,0.02,No Organisms Present,103.5,No Diseases Present,0.012,0.229,10.709999999999999,≥ 10cm,2026
+202603,0128,17480,116.1,M,0.029,Liparid,117.9,No Diseases Present,0.014,0.26,11.61,≥ 10cm,2026
+202603,0128,17514,101.2,F,0.019,Liparid,104.6,No Diseases Present,0.01,0.168,10.120000000000001,≥ 10cm,2026
+202603,0167,28109,127.7,F,0.04,No Organisms Present,127,Shell Boring Organisms,0.019,0.316,12.77,≥ 10cm,2026
+202603,0167,28108,127.1,F,0.039,No Organisms Present,127.1,Shell Boring Organisms,0.013,0.319,12.709999999999999,≥ 10cm,2026
+202603,0161,27290,134.7,M,0.053,No Organisms Present,136.6,Shell Boring Organisms,0.012,0.452,13.469999999999999,≥ 10cm,2026
+202603,0160,27219,112.5,M,0.03,No Organisms Present,117.4,No Diseases Present,0.015,0.225,11.25,≥ 10cm,2026
+202603,0146,20008,108.2,M,0.023,No Organisms Present,108.2,No Diseases Present,0.007,0.148,10.82,≥ 10cm,2026
+202603,0146,19905,97.9,M,0.018,No Organisms Present,101.5,Shell Boring Organisms,0.008,0.121,9.790000000000001,8.9cm - 10cm,2026
+202603,0148,20465,131.9,M,0.026,No Organisms Present,133.7,Shell Boring Organisms,0.013,0.268,13.190000000000001,≥ 10cm,2026
+202603,0148,20497,109.2,F,0.016,No Organisms Present,111.1,Shell Boring Organisms,0.008,0.15,10.92,≥ 10cm,2026
+202603,0148,20525,113.8,F,0.017,No Organisms Present,121.1,Shell Boring Organisms,0.007,0.148,11.379999999999999,≥ 10cm,2026
+202603,0148,20441,119.8,M,0.02,No Organisms Present,128.4,Shell Boring Organisms,0.015,0.234,11.98,≥ 10cm,2026
+202603,0047,7801,161.4,F,0.027,No Organisms Present,164.1,Shell Boring Organisms,0.013,0.472,16.14,≥ 10cm,2026
+202603,0047,7837,157.2,F,0.032,No Organisms Present,162.8,Shell Boring Organisms,0.015,0.482,15.719999999999999,≥ 10cm,2026
+202603,0041,6364,109.1,M,0.033,No Organisms Present,119.8,No Diseases Present,0.014,0.256,10.91,≥ 10cm,2026
+202603,0035,5581,115.7,F,0.021,Liparid,115.7,No Diseases Present,0.005,0.18,11.57,≥ 10cm,2026
+202603,0035,5525,145.3,M,0.04,No Organisms Present,139.6,Shell Boring Organisms,0.018,0.348,14.530000000000001,≥ 10cm,2026
+202603,0043,6666,136.8,F,0.026,No Organisms Present,133.5,No Diseases Present,0.016,0.322,13.680000000000001,≥ 10cm,2026
+202603,0095,13948,123,M,0.017,Liparid,109,Shell Boring Organisms,0.009,0.16,12.3,≥ 10cm,2026
+202603,0098,14153,153,M,0.027,No Organisms Present,154.2,Shell Boring Organisms,0.02,0.39,15.3,≥ 10cm,2026
+202603,0100,15285,111,F,0.022,No Organisms Present,120.4,No Diseases Present,0.008,0.19,11.1,≥ 10cm,2026
+202603,0100,15461,116.4,M,0.019,No Organisms Present,116.1,No Diseases Present,0.008,0.189,11.64,≥ 10cm,2026
+202603,0093,13565,146,M,0.049,No Organisms Present,144.6,No Diseases Present,0.033,0.41,14.6,≥ 10cm,2026
+202603,0006,2750,108.2,F,0.018,No Organisms Present,108.6,No Diseases Present,0.004,0.151,10.82,≥ 10cm,2026
+202603,0007,3357,115.6,F,0.024,No Organisms Present,120.4,No Diseases Present,0.005,0.195,11.559999999999999,≥ 10cm,2026
+202603,0007,3470,125,F,0.021,No Organisms Present,126.5,Shell Blisters,0.002,0.208,12.5,≥ 10cm,2026
+202603,0007,3405,119.5,F,0.031,No Organisms Present,125.3,Shell Blisters,0.005,0.248,11.95,≥ 10cm,2026
+202603,0137,19317,115.6,M,0.03,No Organisms Present,113,No Diseases Present,0.01,0.263,11.559999999999999,≥ 10cm,2026
+202603,0127,17385,131.5,F,0.049,Liparid,132.8,Shell Boring Organisms,0.017,0.441,13.15,≥ 10cm,2026
+202603,0127,17421,118,M,0.031,Liparid,118,No Diseases Present,0.011,0.311,11.8,≥ 10cm,2026
+202603,0127,17436,131.8,F,0.043,Liparid,135.3,No Diseases Present,0.011,0.414,13.180000000000001,≥ 10cm,2026
+202603,0165,27714,141,M,0.03,No Organisms Present,139,No Diseases Present,0.019,0.321,14.1,≥ 10cm,2026
+202603,0165,27664,140.7,F,0.046,No Organisms Present,151.3,Shell Boring Organisms,0.028,0.471,14.069999999999999,≥ 10cm,2026
+202603,0165,27678,118.6,F,0.03,No Organisms Present,117.4,Shell Boring Organisms,0.012,0.208,11.86,≥ 10cm,2026
+202603,0160,27218,121.4,M,0.034,No Organisms Present,121.9,No Diseases Present,0.018,0.266,12.14,≥ 10cm,2026
+202603,0169,28415,130.6,F,0.049,No Organisms Present,133.7,Shell Boring Organisms,0.02,0.439,13.059999999999999,≥ 10cm,2026
+202603,0169,28414,142.4,M,0.053,No Organisms Present,148.9,Shell Boring Organisms,0.031,0.471,14.24,≥ 10cm,2026
+202603,0169,28457,133.5,F,0.048,No Organisms Present,136.4,Shell Boring Organisms,0.02,0.354,13.35,≥ 10cm,2026
+202603,0146,20031,115.9,F,0.028,No Organisms Present,115.5,No Diseases Present,0.009,0.171,11.59,≥ 10cm,2026
+202603,0148,20406,135.5,F,0.021,No Organisms Present,133.3,Shell Boring Organisms,0.014,0.277,13.55,≥ 10cm,2026
+202603,0047,7993,174.1,F,0.036,No Organisms Present,174.5,Shell Boring Organisms,0.02,0.612,17.41,≥ 10cm,2026
+202603,0047,7858,154.2,F,0.032,No Organisms Present,157.3,Shell Boring Organisms,0.013,0.444,15.419999999999998,≥ 10cm,2026
+202603,0047,7882,148.9,F,0.017,No Organisms Present,158,Brown Meats,0.007,0.425,14.89,≥ 10cm,2026
+202603,0047,8030,184.3,F,0.04,No Organisms Present,175,Shell Boring Organisms,0.024,0.659,18.43,≥ 10cm,2026
+202603,0073,12293,129,F,0.021,Pea Crab,136.5,No Diseases Present,0.003,0.295,12.9,≥ 10cm,2026
+202603,0073,12334,128.7,F,0.032,Pea Crab,133,No Diseases Present,0.011,0.334,12.87,≥ 10cm,2026
+202603,0037,5694,115.9,M,0.025,No Organisms Present,116.5,No Diseases Present,0.016,0.244,11.59,≥ 10cm,2026
+202603,0037,5725,128.5,F,0.027,Liparid,122.6,No Diseases Present,0.011,0.223,12.85,≥ 10cm,2026
+202603,0035,5572,128.6,M,0.032,No Organisms Present,137.6,No Diseases Present,0.015,0.272,12.86,≥ 10cm,2026
+202603,0039,6096,145.9,F,0.049,No Organisms Present,154.3,No Diseases Present,0.019,0.486,14.59,≥ 10cm,2026
+202603,0098,14205,138.9,M,0.021,No Organisms Present,144,Shell Boring Organisms,0.018,0.334,13.89,≥ 10cm,2026
+202603,0098,14217,142.7,M,0.023,No Organisms Present,146.9,Shell Boring Organisms,0.009,0.316,14.27,≥ 10cm,2026
+202603,0098,14226,114.9,F,0.023,No Organisms Present,118.8,No Diseases Present,0.01,0.187,11.49,≥ 10cm,2026
+202603,0092,13174,119.8,F,0.016,No Organisms Present,111.5,Shell Boring Organisms,0.006,0.147,11.98,≥ 10cm,2026
+202603,0092,13382,107.5,F,0.019,No Organisms Present,110.5,No Diseases Present,0.006,0.141,10.75,≥ 10cm,2026
+202603,0092,13251,108.7,M,0.017,No Organisms Present,113.5,No Diseases Present,0.006,0.154,10.870000000000001,≥ 10cm,2026
+202603,0092,13276,109.7,M,0.022,No Organisms Present,113.9,Shell Boring Organisms,0.006,0.146,10.97,≥ 10cm,2026
+202603,0061,11984,134.8,M,0.024,No Organisms Present,148.8,Shell Boring Organisms,0.013,0.307,13.48,≥ 10cm,2026
+202603,0169,28540,127,M,0.036,No Organisms Present,126.5,No Diseases Present,0.018,0.306,12.7,≥ 10cm,2026
+202603,0053,9381,166.4,M,0.026,No Organisms Present,172.5,Shell Boring Organisms,0.003,0.528,16.64,≥ 10cm,2026
+202603,0053,9473,148.9,F,0.017,No Organisms Present,157.7,Shell Boring Organisms,0.007,0.384,14.89,≥ 10cm,2026
+202603,0053,9548,149.8,F,0.027,No Organisms Present,156.5,Shell Boring Organisms,0.017,0.413,14.98,≥ 10cm,2026
+202603,0099,14396,128,M,0.021,No Organisms Present,123.6,No Diseases Present,0.006,0.26,12.8,≥ 10cm,2026
+202603,0099,14484,110.5,F,0.015,No Organisms Present,111.3,No Diseases Present,0.003,0.17,11.05,≥ 10cm,2026
+202603,0055,10132,135.1,F,0.033,No Organisms Present,143.4,Shell Boring Organisms,0.025,0.434,13.51,≥ 10cm,2026
+202603,0055,10269,117.5,M,0.025,No Organisms Present,118.8,No Diseases Present,0.012,0.254,11.75,≥ 10cm,2026
+202603,0055,10192,128,M,0.03,No Organisms Present,135.6,No Diseases Present,0.013,0.344,12.8,≥ 10cm,2026
+202603,0061,11983,125.7,F,0.014,Pea Crab,141.1,Shell Boring Organisms,0.004,0.25,12.57,≥ 10cm,2026
+202603,0061,11982,124.7,F,0.016,No Organisms Present,129.5,Shell Boring Organisms,0.004,0.21,12.47,≥ 10cm,2026
+202603,0170,28626,120.3,F,0.038,No Organisms Present,123.4,No Diseases Present,0.024,0.302,12.03,≥ 10cm,2026
+202603,0145,19759,124.7,F,0.031,No Organisms Present,123.3,No Diseases Present,0.01,0.217,12.47,≥ 10cm,2026
+202603,0048,8087,110,F,0.02,No Organisms Present,115,No Diseases Present,0.007,0.195,11,≥ 10cm,2026
+202603,0045,7348,121.1,F,0.032,No Organisms Present,125.1,No Diseases Present,0.024,0.356,12.11,≥ 10cm,2026
+202603,0045,7347,135.5,M,0.042,No Organisms Present,151.2,No Diseases Present,0.023,0.469,13.55,≥ 10cm,2026
+202603,0045,7353,155.3,F,0.058,Urophycis chuss (Red Hake),160.8,Shell Boring Organisms,0.037,0.583,15.530000000000001,≥ 10cm,2026
+202603,0038,5778,133.2,M,0.043,No Organisms Present,139.1,No Diseases Present,0.02,0.435,13.319999999999999,≥ 10cm,2026
+202603,0040,6145,139.5,M,0.043,No Organisms Present,147.3,No Diseases Present,0.028,0.417,13.95,≥ 10cm,2026
+202603,0040,6162,121.3,F,0.037,No Organisms Present,124.6,No Diseases Present,0.017,0.289,12.129999999999999,≥ 10cm,2026
+202603,0059,11253,122.8,M,0.027,No Organisms Present,128.4,No Diseases Present,0.014,0.302,12.28,≥ 10cm,2026
+202603,0059,11257,127.8,F,0.03,No Organisms Present,129.4,No Diseases Present,0.024,0.353,12.78,≥ 10cm,2026
+202603,0099,14699,136.8,M,0.031,No Organisms Present,138.3,Shell Boring Organisms,0.014,0.293,13.680000000000001,≥ 10cm,2026
+202603,0099,14522,122.6,F,0.025,No Organisms Present,119.7,No Diseases Present,0.006,0.201,12.26,≥ 10cm,2026
+202603,0099,14566,114.2,F,0.015,No Organisms Present,107.6,No Diseases Present,0.007,0.118,11.42,≥ 10cm,2026
+202603,0099,14621,117.2,F,0.017,No Organisms Present,118,No Diseases Present,0.011,0.147,11.72,≥ 10cm,2026
+202603,0061,11967,148.5,M,0.024,Pea Crab,153,Shell Blisters,0.004,0.256,14.85,≥ 10cm,2026
+202603,0005,2594,107.4,M,0.024,No Organisms Present,109.6,No Diseases Present,0.006,0.17,10.74,≥ 10cm,2026
+202603,0005,2620,139.9,F,0.027,No Organisms Present,157.5,Shell Blisters,0.011,0.353,13.99,≥ 10cm,2026
+202603,0005,2665,119.2,M,0.031,No Organisms Present,126.5,No Diseases Present,0.013,0.244,11.92,≥ 10cm,2026
+202603,0005,2704,114.5,M,0.03,No Organisms Present,117.5,No Diseases Present,0.007,0.226,11.45,≥ 10cm,2026
+202603,0008,3708,132.3,M,0.022,No Organisms Present,133,No Diseases Present,0.005,0.2,13.23,≥ 10cm,2026
+202603,0008,3701,112.4,M,0.018,No Organisms Present,125.7,No Diseases Present,0.002,0.173,11.24,≥ 10cm,2026
+202603,0008,3705,114.9,F,0.019,No Organisms Present,125.4,No Diseases Present,0.005,0.209,11.49,≥ 10cm,2026
+202603,0008,3558,99.7,M,0.011,No Organisms Present,98.5,No Diseases Present,0.001,0.082,9.97,8.9cm - 10cm,2026
+202603,0166,27883,129.1,M,0.036,No Organisms Present,127.6,Shell Boring Organisms,0.015,0.328,12.91,≥ 10cm,2026
+202603,0166,27881,135.3,M,0.036,No Organisms Present,137,Shell Boring Organisms,0.019,0.389,13.530000000000001,≥ 10cm,2026
+202603,0170,28729,120.5,F,0.035,No Organisms Present,120.1,Shell Boring Organisms,0.011,0.309,12.05,≥ 10cm,2026
+202603,0170,28601,128.4,F,0.045,No Organisms Present,127.2,Shell Boring Organisms,0.016,0.389,12.84,≥ 10cm,2026
+202603,0170,28648,120.1,M,0.035,No Organisms Present,123.8,Shell Boring Organisms,0.023,0.311,12.01,≥ 10cm,2026
+202603,0170,28698,118,F,0.028,No Organisms Present,119.5,No Diseases Present,0.008,0.278,11.8,≥ 10cm,2026
+202603,0126,17295,132.6,F,0.044,Liparid,133.8,No Diseases Present,0.018,0.389,13.26,≥ 10cm,2026
+202603,0126,17334,119.6,F,0.032,No Organisms Present,124.4,No Diseases Present,0.014,0.291,11.959999999999999,≥ 10cm,2026
+202603,0145,19810,143.5,F,0.047,No Organisms Present,150.6,Shell Boring Organisms,0.025,0.507,14.35,≥ 10cm,2026
+202603,0147,20225,112.6,M,0.018,No Organisms Present,119,Shell Boring Organisms,0.009,0.155,11.26,≥ 10cm,2026
+202603,0147,20253,112,F,0.019,Liparid,120,Shell Boring Organisms,0.015,0.195,11.2,≥ 10cm,2026
+202603,0150,22144,90.6,M,0.012,No Organisms Present,90.6,Shell Boring Organisms,0.005,0.08,9.059999999999999,8.9cm - 10cm,2026
+202603,0150,22150,90.2,M,0.011,No Organisms Present,93.3,Shell Boring Organisms,0.004,0.081,9.02,8.9cm - 10cm,2026
+202603,0150,22187,117.8,M,0.025,No Organisms Present,125.6,Shell Boring Organisms,0.012,0.218,11.78,≥ 10cm,2026
+202603,0150,22224,89,F,0.011,Liparid,86.8,Shell Boring Organisms,0.006,0.076,8.9,7.5cm - 8.9cm,2026
+202603,0048,8054,155,M,0.021,No Organisms Present,162,Shell Boring Organisms,0.015,0.514,15.5,≥ 10cm,2026
+202603,0038,5844,118.1,F,0.026,Liparid,117.8,No Diseases Present,0.014,0.232,11.809999999999999,≥ 10cm,2026
+202603,0038,5891,136.7,M,0.037,No Organisms Present,137.6,No Diseases Present,0.023,0.337,13.669999999999998,≥ 10cm,2026
+202603,0050,8545,145.3,F,0.027,No Organisms Present,155.4,Shell Boring Organisms,0.013,0.438,14.530000000000001,≥ 10cm,2026
+202603,0050,8544,147.7,M,0.037,No Organisms Present,143.3,Shell Boring Organisms,0.017,0.38,14.77,≥ 10cm,2026
+202603,0050,8529,159.4,M,0.031,No Organisms Present,166.3,Shell Boring Organisms,0.019,0.502,15.940000000000001,≥ 10cm,2026
+202603,0040,6156,136.8,F,0.056,Urophycis chuss (Red Hake),143.3,No Diseases Present,0.019,0.414,13.680000000000001,≥ 10cm,2026
+202603,0040,6169,140.7,F,0.049,No Organisms Present,135.4,No Diseases Present,0.016,0.375,14.069999999999999,≥ 10cm,2026
+202603,0066,12015,146.2,F,0.041,No Organisms Present,152.5,No Diseases Present,0.012,0.339,14.62,≥ 10cm,2026
+202603,0170,28581,125.9,F,0.04,No Organisms Present,128.3,Shell Boring Organisms,0.009,0.325,12.59,≥ 10cm,2026
+202603,0126,17307,112.1,F,0.027,No Organisms Present,115.2,No Diseases Present,0.013,0.232,11.209999999999999,≥ 10cm,2026
+202603,0123,17064,108.5,M,0.025,No Organisms Present,108.1,No Diseases Present,0.014,0.199,10.85,≥ 10cm,2026
+202603,0123,17051,121,F,0.036,Urophycis chuss (Red Hake),127.7,No Diseases Present,0.006,0.246,12.1,≥ 10cm,2026
+202603,0123,17058,110.6,F,0.032,No Organisms Present,112.9,No Diseases Present,0.012,0.238,11.059999999999999,≥ 10cm,2026
+202603,0147,20276,97.8,F,0.022,No Organisms Present,99.2,No Diseases Present,0.007,0.136,9.78,8.9cm - 10cm,2026
+202603,0147,20295,91.9,F,0.011,No Organisms Present,91.1,No Diseases Present,0.008,0.093,9.190000000000001,8.9cm - 10cm,2026
+202603,0051,8784,120,F,0.023,No Organisms Present,118,No Diseases Present,0.011,0.24,12,≥ 10cm,2026
+202603,0051,8556,113,M,0.022,No Organisms Present,117,No Diseases Present,0.006,0.193,11.3,≥ 10cm,2026
+202603,0046,7539,162.3,F,0.038,No Organisms Present,161.9,Shell Boring Organisms,0.019,0.432,16.23,≥ 10cm,2026
+202603,0046,7573,165.1,F,0.037,No Organisms Present,169.3,Shell Boring Organisms,0.013,0.532,16.509999999999998,≥ 10cm,2026
+202603,0046,7604,151,F,0.032,No Organisms Present,150,No Diseases Present,0.008,0.452,15.1,≥ 10cm,2026
+202603,0077,12456,116.2,F,0.029,No Organisms Present,118.1,No Diseases Present,0.007,0.176,11.620000000000001,≥ 10cm,2026
+202603,0077,12478,119,F,0.024,No Organisms Present,114.5,No Diseases Present,0.008,0.172,11.9,≥ 10cm,2026
+202603,0092,13336,112.2,F,0.026,No Organisms Present,115.6,No Diseases Present,0.008,0.179,11.22,≥ 10cm,2026
+202603,0092,13231,122.1,F,0.017,No Organisms Present,113.1,Shell Boring Organisms,0.005,0.152,12.209999999999999,≥ 10cm,2026
+202603,0066,12045,139.6,M,0.03,No Organisms Present,140.5,Shell Boring Organisms,0.01,0.297,13.959999999999999,≥ 10cm,2026
+202603,0014,4546,108.3,F,0.027,No Organisms Present,107.4,No Diseases Present,0.006,0.159,10.83,≥ 10cm,2026
+202603,0014,4585,98.4,NE,0.024,No Organisms Present,99.9,No Diseases Present,0.005,0.133,9.84,8.9cm - 10cm,2026
+202603,0163,27582,144.1,F,0.033,No Organisms Present,147,Shell Boring Organisms,0.009,0.462,14.41,≥ 10cm,2026
+202603,0149,20768,121.6,M,0.024,No Organisms Present,125.9,Shell Boring Organisms,0.011,0.228,12.16,≥ 10cm,2026
+202603,0052,8880,160.6,F,0.038,No Organisms Present,169.1,Shell Boring Organisms,0.01,0.518,16.06,≥ 10cm,2026
+202603,0051,8685,120,F,0.02,No Organisms Present,120,Shell Boring Organisms,0.008,0.214,12,≥ 10cm,2026
+202603,0051,8715,145,F,0.033,No Organisms Present,142,Shell Boring Organisms,0.011,0.387,14.5,≥ 10cm,2026
+202603,0051,8616,127,M,0.023,No Organisms Present,125,No Diseases Present,0.009,0.237,12.7,≥ 10cm,2026
+202603,0046,7644,127.6,F,0.024,No Organisms Present,150.9,No Diseases Present,0.021,0.336,12.76,≥ 10cm,2026
+202603,0046,7682,159,F,0.044,No Organisms Present,172,Shell Boring Organisms,0.016,0.693,15.9,≥ 10cm,2026
+202603,0044,7063,124.8,F,0.022,Liparid,125.5,No Diseases Present,0.005,0.228,12.48,≥ 10cm,2026
+202603,0094,13651,139.9,M,0.038,No Organisms Present,154,Shell Boring Organisms,0.018,0.429,13.99,≥ 10cm,2026
+202603,0094,13676,127.6,M,0.03,No Organisms Present,136.6,Shell Boring Organisms,0.018,0.259,12.76,≥ 10cm,2026
+202603,0094,13640,145.4,M,0.034,No Organisms Present,151.9,Shell Boring Organisms,0.033,0.464,14.540000000000001,≥ 10cm,2026
+202603,0055,10231,128.3,F,0.029,No Organisms Present,127.6,Shell Boring Organisms,0.016,0.325,12.830000000000002,≥ 10cm,2026
+202603,0057,10781,146.5,F,0.037,No Organisms Present,147.9,Shell Boring Organisms,0.008,0.434,14.65,≥ 10cm,2026
+202603,0060,11512,125.7,F,0.029,No Organisms Present,127.4,No Diseases Present,0.01,0.288,12.57,≥ 10cm,2026
+202603,0009,3931,120.5,M,0.023,No Organisms Present,114.3,No Diseases Present,0.004,0.178,12.05,≥ 10cm,2026
+202603,0009,4041,90.6,M,0.011,No Organisms Present,98.2,No Diseases Present,0.003,0.083,9.059999999999999,8.9cm - 10cm,2026
+202603,0009,3805,109.6,M,0.024,No Organisms Present,112.9,No Diseases Present,0.005,0.196,10.959999999999999,≥ 10cm,2026
+202603,0031,5371,149.7,F,0.045,No Organisms Present,151.5,No Diseases Present,0.017,0.401,14.969999999999999,≥ 10cm,2026
+202603,0031,5383,123.9,M,0.029,No Organisms Present,128.5,No Diseases Present,0.01,0.23,12.39,≥ 10cm,2026
+202603,0031,5292,128.9,F,0.027,No Organisms Present,128.1,No Diseases Present,0.015,0.235,12.89,≥ 10cm,2026
+202603,0031,5381,114.6,M,0.017,No Organisms Present,113.2,No Diseases Present,0.007,0.154,11.459999999999999,≥ 10cm,2026
+202603,0020,4739,84.3,M,0.01,No Organisms Present,94.3,No Diseases Present,0.004,0.098,8.43,7.5cm - 8.9cm,2026
+202603,0003,114,100,F,0.012,No Organisms Present,112.3,No Diseases Present,0.002,0.09,10,8.9cm - 10cm,2026
+202603,0003,174,95.2,M,0.008,No Organisms Present,427.6,No Diseases Present,0.002,0.085,9.52,8.9cm - 10cm,2026
+202603,0114,16329,132.7,F,0.05,No Organisms Present,142.6,Shell Boring Organisms,0.015,0.38,13.27,≥ 10cm,2026
+202603,0114,16347,105.8,M,0.024,Pea Crab,109,Shell Boring Organisms,0.005,0.156,10.58,≥ 10cm,2026
+202603,0119,16671,153.1,M,0.051,No Organisms Present,156,Shell Boring Organisms,0.015,0.548,15.309999999999999,≥ 10cm,2026
+202603,0082,12636,108,M,0.022,No Organisms Present,116.1,No Diseases Present,0.009,0.129,10.8,≥ 10cm,2026
+202603,0082,12657,133.1,M,0.028,No Organisms Present,126.3,No Diseases Present,0.019,0.289,13.309999999999999,≥ 10cm,2026
+202603,0121,16766,137.4,F,0.054,No Organisms Present,144,No Diseases Present,0.01,0.459,13.74,≥ 10cm,2026
+202603,0152,24765,133.6,F,0.032,Liparid,134.7,Shell Boring Organisms,0.009,0.34,13.36,≥ 10cm,2026
+202603,0158,26969,103.8,M,0.016,No Organisms Present,105.3,Shell Boring Organisms,0.01,0.118,10.379999999999999,≥ 10cm,2026
+202603,0154,25931,121.3,M,0.031,No Organisms Present,122.9,No Diseases Present,0.016,0.305,12.129999999999999,≥ 10cm,2026
+202603,0158,26745,104.3,F,0.023,No Organisms Present,108.4,Shell Boring Organisms,0.007,0.143,10.43,≥ 10cm,2026
+202603,0158,27053,101.9,M,0.018,No Organisms Present,102.7,Shell Boring Organisms,0.009,0.126,10.190000000000001,≥ 10cm,2026
+202603,0159,27133,106.6,M,0.024,No Organisms Present,108.1,No Diseases Present,0.006,0.15,10.66,≥ 10cm,2026
+202603,0159,27193,104.7,F,0.017,No Organisms Present,105.7,Shell Boring Organisms,0.006,0.153,10.47,≥ 10cm,2026
+202603,0137,19403,108.5,F,0.023,No Organisms Present,108.2,No Diseases Present,0.006,0.215,10.85,≥ 10cm,2026
+202603,0137,19443,106.6,M,0.022,No Organisms Present,103.6,Shell Boring Organisms,0.007,0.283,10.66,≥ 10cm,2026
+202603,0137,19452,106.6,M,0.024,Liparid,113.1,No Diseases Present,0.012,0.209,10.66,≥ 10cm,2026
+202603,0133,18455,108.4,F,0.02,No Organisms Present,114.3,Shell Boring Organisms,0.012,0.196,10.84,≥ 10cm,2026
+202603,0133,18534,131.1,M,0.027,No Organisms Present,131.3,Shell Boring Organisms,0.009,0.305,13.11,≥ 10cm,2026
+202603,0133,18616,104.5,F,0.017,No Organisms Present,104.1,Shell Boring Organisms,0.006,0.134,10.45,≥ 10cm,2026
+202603,0133,18697,108.4,M,0.022,No Organisms Present,109.9,Shell Boring Organisms,0.012,0.181,10.84,≥ 10cm,2026
+202603,0121,16840,113.2,F,0.022,No Organisms Present,117.8,No Diseases Present,0.006,0.247,11.32,≥ 10cm,2026
+202603,0088,12901,110.7,M,0.022,Liparid,110,No Diseases Present,0.009,0.154,11.07,≥ 10cm,2026
+202603,0088,12923,108.2,F,0.02,Liparid,107.8,No Diseases Present,0.01,0.133,10.82,≥ 10cm,2026
+202603,0115,16425,128.2,F,0.048,Liparid,136.8,Shell Boring Organisms,0.012,0.337,12.819999999999999,≥ 10cm,2026
+202603,0089,12979,105,M,0.02,Liparid,110.9,No Diseases Present,0.01,0.153,10.5,≥ 10cm,2026
+202603,0089,12953,108.9,M,0.022,No Organisms Present,111.9,No Diseases Present,0.011,0.158,10.89,≥ 10cm,2026
+202603,0089,12968,98,F,0.016,No Organisms Present,100.4,No Diseases Present,0.009,0.113,9.8,8.9cm - 10cm,2026
+202603,0112,16273,119.3,F,0.039,No Organisms Present,121.4,No Diseases Present,0.008,0.249,11.93,≥ 10cm,2026
+202603,0112,16267,116.8,F,0.043,Liparid,122.6,No Diseases Present,0.008,0.244,11.68,≥ 10cm,2026
+202603,0119,16714,149.7,F,0.056,No Organisms Present,160.5,Shell Boring Organisms,0.013,0.635,14.969999999999999,≥ 10cm,2026
+202603,0119,16738,156,M,0.042,No Organisms Present,157.9,Shell Boring Organisms,0.012,0.61,15.6,≥ 10cm,2026
+202603,0119,16751,142.5,F,0.034,No Organisms Present,154.3,Shell Boring Organisms,0.012,0.414,14.25,≥ 10cm,2026
+202603,0119,16756,132.1,F,0.042,No Organisms Present,139,Shell Boring Organisms,0.012,0.385,13.209999999999999,≥ 10cm,2026
+202603,0083,12666,97.3,M,0.014,No Organisms Present,97.7,No Diseases Present,0.007,0.099,9.73,8.9cm - 10cm,2026
+202603,0083,12688,105.7,M,0.019,No Organisms Present,107.8,Shell Boring Organisms,0.013,0.141,10.57,≥ 10cm,2026
+202603,0152,24790,99.4,F,0.017,No Organisms Present,100.3,No Diseases Present,0.004,0.12,9.940000000000001,8.9cm - 10cm,2026
+202603,0152,24677,88.6,F,0.012,No Organisms Present,85.8,Shell Boring Organisms,0.003,0.071,8.86,7.5cm - 8.9cm,2026
+202603,0152,24639,117.3,M,0.022,No Organisms Present,114.9,Shell Boring Organisms,0.01,0.197,11.73,≥ 10cm,2026
+202603,0154,25970,93.6,F,0.019,No Organisms Present,94.6,Shell Boring Organisms,0.003,0.123,9.36,8.9cm - 10cm,2026
+202603,0154,25980,93.1,M,0.014,Liparid,91.9,No Diseases Present,0.007,0.118,9.309999999999999,8.9cm - 10cm,2026
+202603,0158,26903,111.3,F,0.022,Liparid,104.4,Shell Boring Organisms,0.007,0.136,11.129999999999999,≥ 10cm,2026
+202603,0158,26822,99.4,M,0.019,No Organisms Present,102,Shell Boring Organisms,0.007,0.125,9.940000000000001,8.9cm - 10cm,2026
+202603,0158,26834,99.8,M,0.018,Liparid,102.1,Shell Boring Organisms,0.006,0.121,9.98,8.9cm - 10cm,2026
+202603,0131,17993,117,F,0.033,No Organisms Present,119.7,No Diseases Present,0.017,0.257,11.7,≥ 10cm,2026
+202603,0026,4949,98.3,M,0.018,No Organisms Present,98,No Diseases Present,0.008,0.123,9.83,8.9cm - 10cm,2026
+202603,0026,4922,114.4,F,0.027,No Organisms Present,105.2,No Diseases Present,0.01,0.189,11.440000000000001,≥ 10cm,2026
+202603,0001,8,118.7,M,0.028,No Organisms Present,109.2,No Diseases Present,0.008,0.179,11.870000000000001,≥ 10cm,2026
+202603,0001,27,114.2,M,0.032,No Organisms Present,130.4,No Diseases Present,0.011,0.201,11.42,≥ 10cm,2026
+202603,0029,5134,106,M,0.013,No Organisms Present,93.3,No Diseases Present,0.005,0.114,10.6,≥ 10cm,2026
+202603,0029,5145,137.3,F,0.036,No Organisms Present,144.8,Shell Boring Organisms,0.018,0.354,13.73,≥ 10cm,2026
+202603,0121,16780,125.9,F,0.036,No Organisms Present,131.9,No Diseases Present,0.007,0.358,12.59,≥ 10cm,2026
+202603,0105,15805,131.1,F,0.036,No Organisms Present,135,No Diseases Present,0.016,0.308,13.11,≥ 10cm,2026
+202603,0105,15806,95,F,0.018,No Organisms Present,93,No Diseases Present,0.006,0.134,9.5,8.9cm - 10cm,2026
+202603,0115,16441,119.4,M,0.032,No Organisms Present,119.9,No Diseases Present,0.01,0.236,11.940000000000001,≥ 10cm,2026
+202603,0088,12856,135.5,F,0.03,No Organisms Present,126.1,Shell Boring Organisms,0.012,0.205,13.55,≥ 10cm,2026
+202603,0088,12922,109,F,0.02,No Organisms Present,110,No Diseases Present,0.007,0.145,10.9,≥ 10cm,2026
+202603,0117,16600,137.2,M,0.033,Pea Crab,146.1,Shell Boring Organisms,0.014,0.47,13.719999999999999,≥ 10cm,2026
+202603,0117,16589,150.5,F,0.069,No Organisms Present,157.2,Shell Boring Organisms,0.021,0.629,15.05,≥ 10cm,2026
+202603,0080,12567,143.9,M,0.045,No Organisms Present,148.3,No Diseases Present,0.022,0.408,14.39,≥ 10cm,2026
+202603,0090,13048,109,M,0.019,No Organisms Present,106,No Diseases Present,0.014,0.164,10.9,≥ 10cm,2026
+202603,0090,13010,120.5,M,0.028,Liparid,121,Shell Boring Organisms,0.012,0.214,12.05,≥ 10cm,2026
+202603,0090,13041,99,F,0.014,No Organisms Present,96,Shell Boring Organisms,0.009,0.103,9.9,8.9cm - 10cm,2026
+202603,0131,17793,113.6,F,0.024,No Organisms Present,115,No Diseases Present,0.006,0.184,11.36,≥ 10cm,2026
+202603,0131,17955,120.3,M,0.029,No Organisms Present,120.7,Shell Boring Organisms,0.008,0.2,12.03,≥ 10cm,2026
+202603,0131,17816,116.8,F,0.029,No Organisms Present,121,No Diseases Present,0.006,0.22,11.68,≥ 10cm,2026
+202603,0133,18671,100,F,0.017,No Organisms Present,103.4,Shell Boring Organisms,0.007,0.118,10,8.9cm - 10cm,2026
+202603,0133,18694,103.7,F,0.016,No Organisms Present,106.5,Shell Boring Organisms,0.006,0.135,10.370000000000001,≥ 10cm,2026
+202603,0134,19069,112.4,F,0.02,Liparid,113.9,Shell Boring Organisms,0.009,0.17,11.24,≥ 10cm,2026
+202603,0134,19019,123,M,0.022,No Organisms Present,121.3,Shell Boring Organisms,0.014,0.279,12.3,≥ 10cm,2026
+202603,0134,19072,107.6,F,0.022,No Organisms Present,111.7,Shell Boring Organisms,0.007,0.154,10.76,≥ 10cm,2026
+202603,0030,5230,96.9,M,0.016,No Organisms Present,98.1,No Diseases Present,0.009,0.105,9.690000000000001,8.9cm - 10cm,2026
+202603,0030,5247,139,M,0.032,No Organisms Present,141.2,No Diseases Present,0.018,0.25,13.9,≥ 10cm,2026
+202603,0113,16282,93.5,F,0.017,No Organisms Present,91.7,No Diseases Present,0.003,0.128,9.35,8.9cm - 10cm,2026
+202603,0113,16301,84.6,M,0.012,Liparid,78.2,No Diseases Present,0.003,0.084,8.459999999999999,7.5cm - 8.9cm,2026
+202603,0122,16908,127.6,F,0.033,Liparid,123.2,No Diseases Present,0.015,0.334,12.76,≥ 10cm,2026
+202603,0117,16606,140.3,F,0.047,Liparid,155.6,Shell Boring Organisms,0.026,0.58,14.030000000000001,≥ 10cm,2026
+202603,0080,12593,108.1,M,0.025,No Organisms Present,112.8,No Diseases Present,0.011,0.174,10.809999999999999,≥ 10cm,2026
+202603,0080,12592,125.1,M,0.035,No Organisms Present,131.7,No Diseases Present,0.018,0.278,12.51,≥ 10cm,2026
+202603,0081,12606,125.7,F,0.021,No Organisms Present,125,No Diseases Present,0.008,0.151,12.57,≥ 10cm,2026
+202603,0090,13049,112,M,0.026,No Organisms Present,118,No Diseases Present,0.017,0.193,11.2,≥ 10cm,2026
+202603,0085,12722,122.3,M,0.016,No Organisms Present,120.6,No Diseases Present,0.011,0.145,12.23,≥ 10cm,2026
+202603,0151,23387,126.1,M,0.02,No Organisms Present,126.5,Shell Boring Organisms,0.012,0.244,12.61,≥ 10cm,2026
+202603,0151,23261,144.3,M,0.03,No Organisms Present,151.8,Shell Boring Organisms,0.017,0.393,14.430000000000001,≥ 10cm,2026
+202603,0151,23300,124.3,F,0.026,Urophycis chuss (Red Hake),135.8,Shell Boring Organisms,0.011,0.254,12.43,≥ 10cm,2026
+202603,0155,26191,107.6,F,0.021,No Organisms Present,109.8,Shell Boring Organisms,0.009,0.154,10.76,≥ 10cm,2026
+202603,0131,17862,115.8,F,0.027,Liparid,119,No Diseases Present,0.012,0.209,11.58,≥ 10cm,2026
+202603,0131,17903,126,M,0.035,No Organisms Present,130.5,No Diseases Present,0.021,0.296,12.6,≥ 10cm,2026
+202603,0134,19068,118.1,F,0.02,No Organisms Present,124.3,Shell Boring Organisms,0.012,0.243,11.809999999999999,≥ 10cm,2026
+202603,0135,19126,121.8,M,0.027,No Organisms Present,122.6,Shell Boring Organisms,0.009,0.239,12.18,≥ 10cm,2026
+202603,0004,2327,85.8,M,0.01,No Organisms Present,88.7,No Diseases Present,0.002,0.076,8.58,7.5cm - 8.9cm,2026
+202603,0004,2190,90.5,M,0.01,No Organisms Present,95.3,No Diseases Present,0.001,0.086,9.05,8.9cm - 10cm,2026
+202603,0030,5238,101.7,F,0.016,No Organisms Present,94.9,No Diseases Present,0.005,0.099,10.17,≥ 10cm,2026
+202603,0030,5246,129.6,F,0.045,No Organisms Present,138.7,No Diseases Present,0.013,0.289,12.959999999999999,≥ 10cm,2026
+202603,0003,219,90.3,U,0.011,No Organisms Present,90.2,No Diseases Present,0.001,0.069,9.03,8.9cm - 10cm,2026
+202603,0003,255,95.9,F,0.01,No Organisms Present,98.8,No Diseases Present,0.001,0.102,9.59,8.9cm - 10cm,2026
+202603,0003,321,92.4,M,0.009,No Organisms Present,91,No Diseases Present,0.001,0.07,9.24,8.9cm - 10cm,2026
+202603,0081,12596,122.6,F,0.034,No Organisms Present,137,No Diseases Present,0.013,0.282,12.26,≥ 10cm,2026
+202603,0085,12764,147.6,F,0.042,Liparid,155.7,No Diseases Present,0.014,0.296,14.76,≥ 10cm,2026
+202603,0085,12718,123.2,M,0.025,No Organisms Present,128.9,No Diseases Present,0.01,0.185,12.32,≥ 10cm,2026
+202603,0152,24724,100.3,F,0.018,No Organisms Present,99.8,Shell Boring Organisms,0.003,0.152,10.03,≥ 10cm,2026
+202603,0152,24607,136.7,F,0.032,No Organisms Present,141.7,Shell Boring Organisms,0.013,0.417,13.669999999999998,≥ 10cm,2026
+202603,0151,23344,131,M,0.026,No Organisms Present,139.1,Shell Boring Organisms,0.017,0.323,13.1,≥ 10cm,2026
+202603,0151,23425,116.1,M,0.019,No Organisms Present,122.1,Shell Boring Organisms,0.009,0.193,11.61,≥ 10cm,2026
+202603,0151,23469,115.6,M,0.02,No Organisms Present,116.5,Shell Boring Organisms,0.011,0.225,11.559999999999999,≥ 10cm,2026
+202603,0175,30088,74.7,F,0.006,No Organisms Present,69.9,No Diseases Present,0.001,0.064,7.470000000000001,3.5cm - 7.5cm,2026
+202603,0175,30131,112.6,M,0.027,No Organisms Present,108.8,Shell Boring Organisms,0.014,0.241,11.26,≥ 10cm,2026
+202603,0175,30003,137.2,M,0.041,No Organisms Present,137.8,Shell Boring Organisms,0.015,0.437,13.719999999999999,≥ 10cm,2026
+202603,0175,30002,154.8,M,0.059,No Organisms Present,157.1,No Diseases Present,0.038,0.753,15.48,≥ 10cm,2026
+202603,0175,30063,83.3,M,0.009,No Organisms Present,80,Shell Boring Organisms,0.003,0.095,8.33,7.5cm - 8.9cm,2026
+202603,0153,25764,136,F,0.037,No Organisms Present,144.8,Shell Boring Organisms,0.016,0.387,13.6,≥ 10cm,2026
+202603,0153,25866,113.5,F,0.028,No Organisms Present,114.1,Shell Boring Organisms,0.005,0.203,11.35,≥ 10cm,2026
+202603,0156,26555,140.2,M,0.048,No Organisms Present,140.9,Shell Boring Organisms,0.025,0.399,14.02,≥ 10cm,2026
+202603,0156,26599,119.2,F,0.026,No Organisms Present,116,Shell Boring Organisms,0.013,0.223,11.92,≥ 10cm,2026
+202603,0135,19167,100,M,0.017,Liparid,96.8,No Diseases Present,0.009,0.107,10,8.9cm - 10cm,2026
+202603,0132,18052,87.2,M,0.011,Liparid,87.1,No Diseases Present,0.004,0.094,8.72,7.5cm - 8.9cm,2026
+202603,0132,18119,110.3,M,0.019,Liparid,110.5,No Diseases Present,0.006,0.166,11.03,≥ 10cm,2026

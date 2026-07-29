@@ -1,0 +1,113 @@
+
+/* background colors and styles */
+
+body {
+  background: linear-gradient(180deg, #C6E6F0 20%, #5EB6D9 100%) fixed;
+  font-family: "Arial", Sans-Serif !important;
+  font-size: 18px;
+  color: #001743;
+  margin: 0;
+  padding: 0;
+
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  background-color: transparent !important;
+  padding: 20px 30px; 
+  width: 100%;
+
+}
+
+.app-logo {
+  max-height: 80px; 
+  width: auto;  
+  margin-right: 20px; 
+}
+
+.app-title-group {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+.app-title {
+  font-size: 36px;
+  font-family: "Arial Narrow", Sans-Serif;
+  font-weight: 700;
+  color: #003087; 
+  margin: 0; 
+}
+.app-subtitle {
+  font-size: 26px;
+  font-family: "Arial Narrow", Sans-Serif;
+  font-weight: 600;
+  color: #003087; 
+  margin: 0; 
+}
+
+.navbar {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: transparent !important; 
+  font-size: 20px !important;
+  font-family: "Arial", Sans-Serif !important;
+
+  --bs-navbar-brand-color: #001743;
+  --bs-navbar-active-color: #003087;
+  --bs-navbar-disabled-color: #001743;
+}
+
+
+.navbar .nav-link {
+  font-weight: 500 !important;
+  color: #001743 !important; 
+  padding-left: 15px !important; 
+  padding-right: 15px !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  transition: color 0.15s ease-in-out;
+  font-size: 16px;
+  font-family: "Arial", Sans-Serif;
+}
+
+.navbar .nav-link:hover {
+  color: #003087 !important; 
+  background-color: transparent; 
+}
+
+.navbar .nav-link.active {
+  color: #003087 !important;
+  font-weight: 700 !important;
+  border-bottom: 3px solid #003087; 
+}
+
+.nav-underline {
+  --bs-nav-underline-link-active-color: #003087;
+}
+
+.card-header, .bslib-card-header {
+  font-size: 18px !important;
+  font-weight: 600;
+  color: #001743;
+  align-items: center;
+}
+
+.card, .bslib-card, .well {
+  background-color: #FFFFFF;
+  border: 0.5px solid rgba(0, 23, 67, 0.5);
+  border-radius: 12px;
+  margin-bottom: 24px;
+  padding: 20px;
+  font-family: "Arial", Sans-Serif;
+  color: #001743;
+  font-size: 16px;
+  background-clip: padding-box;
+}
+
+
+

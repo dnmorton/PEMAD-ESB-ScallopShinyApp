@@ -1,0 +1,11 @@
+CRUISE_ID,STATION,ORGANISM_ID,Shell_Length,Sex,Meat_Weight,Organisms,Shell_Width,Disease,Gonad_Weight,Whole_Weight,LENGTH_CM,Size_Cat,EST_YEAR
+202303,0029,629,123.5,F,0.032,Organisms Not Present,128.9,Disease Not Present,0.011,0.244,12.35,≥ 10cm,2023
+202303,0029,393,133.7,F,0.044,Organisms Not Present,137,Disease Not Present,0.014,0.31,13.37,≥ 10cm,2023
+202303,0029,535,132.4,M,0.041,Organisms Not Present,143.1,Disease Not Present,0.011,0.355,13.24,≥ 10cm,2023
+202303,0029,326,126.2,M,0.042,Organisms Not Present,124.8,Disease Not Present,0.016,0.289,12.620000000000001,≥ 10cm,2023
+202303,0029,554,141.9,M,0.045,Organisms Not Present,146.3,Disease Not Present,0.021,0.339,14.190000000000001,≥ 10cm,2023
+202303,0029,571,139.3,M,0.04,Organisms Not Present,143.6,Disease Not Present,0.019,0.331,13.930000000000001,≥ 10cm,2023
+202303,0029,576,125,M,0.031,Organisms Not Present,123.8,Disease Not Present,0.009,0.18,12.5,≥ 10cm,2023
+202303,0029,590,122.1,F,0.034,Organisms Not Present,125.7,Disease Not Present,0.013,0.219,12.209999999999999,≥ 10cm,2023
+202303,0029,603,121.1,M,0.023,Organisms Not Present,122.8,Disease Not Present,0.015,0.237,12.11,≥ 10cm,2023
+202303,0029,628,121.7,F,0.034,Organisms Not Present,121.8,Disease Not Present,0.015,0.261,12.17,≥ 10cm,2023

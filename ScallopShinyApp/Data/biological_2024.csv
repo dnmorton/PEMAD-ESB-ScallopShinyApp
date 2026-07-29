@@ -1,0 +1,447 @@
+CRUISE_ID,STATION,ORGANISM_ID,Shell_Length,Sex,Meat_Weight,Organisms,Shell_Width,Disease,Gonad_Weight,Whole_Weight,LENGTH_CM,Size_Cat,EST_YEAR
+202403,0210,27254,125,M,0.032,No Organisms Present,126.3,No Diseases Present,0.014,0.364,12.5,≥ 10cm,2024
+202403,0210,27226,130.2,F,0.041,No Organisms Present,132.3,Shell Blisters,0.01,0.339,13.02,≥ 10cm,2024
+202403,0210,27257,93,F,0.009,No Organisms Present,92.8,No Diseases Present,0.005,0.124,9.3,8.9cm - 10cm,2024
+202403,0054,6325,129.4,M,0.035,No Organisms Present,134,No Diseases Present,0.017,0.359,12.940000000000001,≥ 10cm,2024
+202403,0054,6118,114.2,M,0.029,No Organisms Present,119.2,No Diseases Present,0.018,0.305,11.42,≥ 10cm,2024
+202403,0054,6191,118.8,M,0.027,No Organisms Present,131.1,Shell Blisters,0.005,0.254,11.879999999999999,≥ 10cm,2024
+202403,0057,6918,116.7,M,0.028,No Organisms Present,121.5,No Diseases Present,0.019,0.282,11.67,≥ 10cm,2024
+202403,0027,1322,141.9,F,0.03,No Organisms Present,152.3,No Diseases Present,0.009,0.454,14.190000000000001,≥ 10cm,2024
+202403,0027,1285,124.2,M,0.022,No Organisms Present,119.8,No Diseases Present,0.005,0.297,12.42,≥ 10cm,2024
+202403,0030,1885,120.3,M,0.018,No Organisms Present,116.4,No Diseases Present,0.005,0.257,12.03,≥ 10cm,2024
+202403,0030,1924,139.9,F,0.034,No Organisms Present,140.6,No Diseases Present,0.01,0.327,13.99,≥ 10cm,2024
+202403,0102,9803,125.6,F,0.024,No Organisms Present,132,No Diseases Present,0.007,0.267,12.559999999999999,≥ 10cm,2024
+202403,0102,9692,122.2,F,0.026,No Organisms Present,128.5,No Diseases Present,0.008,0.271,12.22,≥ 10cm,2024
+202403,0046,3863,133.7,F,0.051,No Organisms Present,137.9,No Diseases Present,0.015,0.339,13.37,≥ 10cm,2024
+202403,0045,3860,103.9,F,0.013,No Organisms Present,106,No Diseases Present,0.004,0.149,10.39,≥ 10cm,2024
+202403,0169,20671,132.1,F,0.038,No Organisms Present,142.1,No Diseases Present,0.013,0.375,13.209999999999999,≥ 10cm,2024
+202403,0169,20673,114.3,F,0.025,No Organisms Present,110.3,No Diseases Present,0.005,0.257,11.43,≥ 10cm,2024
+202403,0169,20662,146.3,F,0.048,No Organisms Present,157.9,No Diseases Present,0.022,0.565,14.63,≥ 10cm,2024
+202403,0161,19188,140.5,M,0.039,No Organisms Present,147.4,No Diseases Present,0.018,0.415,14.05,≥ 10cm,2024
+202403,0162,19242,139.1,F,0.026,No Organisms Present,146.6,No Diseases Present,0.009,0.346,13.91,≥ 10cm,2024
+202403,0162,19295,137.3,F,0.026,No Organisms Present,142.4,No Diseases Present,0.012,0.333,13.73,≥ 10cm,2024
+202403,0162,19327,136.4,M,0.033,No Organisms Present,137.4,No Diseases Present,0.01,0.267,13.64,≥ 10cm,2024
+202403,0162,19353,135.2,F,0.037,No Organisms Present,144.8,No Diseases Present,0.012,0.333,13.52,≥ 10cm,2024
+202403,0162,19374,142.8,M,0.04,No Organisms Present,150.1,No Diseases Present,0.012,0.396,14.280000000000001,≥ 10cm,2024
+202403,0180,23736,120.6,F,0.026,No Organisms Present,128.8,No Diseases Present,0.008,0.255,12.059999999999999,≥ 10cm,2024
+202403,0180,23738,103.7,M,0.014,No Organisms Present,100,No Diseases Present,0.004,0.141,10.370000000000001,≥ 10cm,2024
+202403,0180,23743,136.8,M,0.031,No Organisms Present,131.2,No Diseases Present,0.011,0.342,13.680000000000001,≥ 10cm,2024
+202403,0183,24656,112.6,M,0.017,No Organisms Present,116,No Diseases Present,0.008,0.159,11.26,≥ 10cm,2024
+202403,0183,24598,129.6,M,0.022,No Organisms Present,132.1,No Diseases Present,0.01,0.309,12.959999999999999,≥ 10cm,2024
+202403,0065,7813,120.1,M,0.036,No Organisms Present,126.4,No Diseases Present,0.011,0.272,12.01,≥ 10cm,2024
+202403,0065,7825,131.3,M,0.034,No Organisms Present,133,No Diseases Present,0.022,0.321,13.13,≥ 10cm,2024
+202403,0050,5195,144.6,M,0.044,No Organisms Present,162.7,No Diseases Present,0.02,0.476,14.459999999999999,≥ 10cm,2024
+202403,0050,5344,135.1,F,0.036,No Organisms Present,146.7,No Diseases Present,0.014,0.413,13.51,≥ 10cm,2024
+202403,0050,5305,152.3,M,0.045,No Organisms Present,165.1,No Diseases Present,0.024,0.482,15.23,≥ 10cm,2024
+202403,0069,8089,122.3,M,0.032,No Organisms Present,128.1,No Diseases Present,0.01,0.334,12.23,≥ 10cm,2024
+202403,0069,8134,135.7,F,0.047,No Organisms Present,136.7,No Diseases Present,0.022,0.338,13.569999999999999,≥ 10cm,2024
+202403,0190,25660,137.4,F,0.046,No Organisms Present,146.8,No Diseases Present,0.016,0.466,13.74,≥ 10cm,2024
+202403,0192,25809,133.8,F,0.04,No Organisms Present,132.1,No Diseases Present,0.008,0.386,13.38,≥ 10cm,2024
+202403,0192,25814,101.2,F,0.014,No Organisms Present,95.2,No Diseases Present,0.002,0.137,10.120000000000001,≥ 10cm,2024
+202403,0192,25813,92.5,F,0.011,No Organisms Present,89.4,No Diseases Present,0.005,0.131,9.25,8.9cm - 10cm,2024
+202403,0153,17407,106.4,M,0.019,No Organisms Present,103.7,No Diseases Present,0.007,0.202,10.64,≥ 10cm,2024
+202403,0200,26170,127.5,F,0.031,No Organisms Present,131.2,No Diseases Present,0.01,0.258,12.75,≥ 10cm,2024
+202403,0200,26183,113.6,M,0.021,No Organisms Present,115,No Diseases Present,0.011,0.195,11.36,≥ 10cm,2024
+202403,0200,26212,87.6,M,0.011,No Organisms Present,87.6,No Diseases Present,0.002,0.091,8.76,7.5cm - 8.9cm,2024
+202403,0054,6269,111.7,F,0.018,No Organisms Present,115.8,No Diseases Present,0.015,0.241,11.17,≥ 10cm,2024
+202403,0054,6474,143.8,M,0.038,No Organisms Present,145.6,No Diseases Present,0.017,0.477,14.38,≥ 10cm,2024
+202403,0054,6452,111.5,F,0.014,No Organisms Present,115.9,No Diseases Present,0.008,0.206,11.15,≥ 10cm,2024
+202403,0057,6925,92.7,M,0.013,No Organisms Present,90.3,No Diseases Present,0.003,0.132,9.27,8.9cm - 10cm,2024
+202403,0057,6931,115,M,0.024,No Organisms Present,123.5,Shell Blisters,0.014,0.299,11.5,≥ 10cm,2024
+202403,0057,6932,116,F,0.029,No Organisms Present,120.1,No Diseases Present,0.014,0.252,11.6,≥ 10cm,2024
+202403,0027,1318,120.1,F,0.027,No Organisms Present,123.6,No Diseases Present,0.012,0.301,12.01,≥ 10cm,2024
+202403,0046,3895,130.8,F,0.037,No Organisms Present,134.3,No Diseases Present,0.018,0.323,13.080000000000002,≥ 10cm,2024
+202403,0046,3926,134.8,F,0.029,No Organisms Present,135.5,No Diseases Present,0.014,0.343,13.48,≥ 10cm,2024
+202403,0046,4006,115.3,F,0.026,No Organisms Present,119.2,No Diseases Present,0.006,0.24,11.53,≥ 10cm,2024
+202403,0167,20530,133.4,F,0.037,No Organisms Present,139.7,No Diseases Present,0.015,0.418,13.34,≥ 10cm,2024
+202403,0180,23749,99.3,M,0.013,No Organisms Present,96.2,No Diseases Present,0.001,0.136,9.93,8.9cm - 10cm,2024
+202403,0183,24523,138.2,M,0.03,No Organisms Present,139.8,No Diseases Present,0.007,0.321,13.819999999999999,≥ 10cm,2024
+202403,0183,24631,133.7,F,0.024,No Organisms Present,134.1,No Diseases Present,0.01,0.301,13.37,≥ 10cm,2024
+202403,0183,24696,105.2,M,0.012,No Organisms Present,105.2,No Diseases Present,0.005,0.147,10.52,≥ 10cm,2024
+202403,0156,17783,105.4,F,0.02,No Organisms Present,102,No Diseases Present,0.014,0.182,10.540000000000001,≥ 10cm,2024
+202403,0159,18037,116.2,M,0.017,No Organisms Present,116.3,No Diseases Present,0.005,0.211,11.620000000000001,≥ 10cm,2024
+202403,0159,17892,138.8,F,0.028,No Organisms Present,145.8,No Diseases Present,0.012,0.37,13.88,≥ 10cm,2024
+202403,0159,17911,113.2,M,0.015,No Organisms Present,112.3,No Diseases Present,0.003,0.146,11.32,≥ 10cm,2024
+202403,0159,17996,104.9,U,0.014,No Organisms Present,105.3,No Diseases Present,0.003,0.131,10.49,≥ 10cm,2024
+202403,0159,18062,125.8,F,0.022,No Organisms Present,124.3,No Diseases Present,0.006,0.201,12.58,≥ 10cm,2024
+202403,0052,5642,152,M,0.027,No Organisms Present,157.1,No Diseases Present,0.017,0.402,15.2,≥ 10cm,2024
+202403,0175,21412,124.6,F,0.026,No Organisms Present,128.6,No Diseases Present,0.006,0.233,12.459999999999999,≥ 10cm,2024
+202403,0188,25579,85.1,M,0.007,No Organisms Present,82.6,No Diseases Present,0.001,0.08,8.51,7.5cm - 8.9cm,2024
+202403,0188,25524,134.7,F,0.025,No Organisms Present,138,No Diseases Present,0.012,0.36,13.469999999999999,≥ 10cm,2024
+202403,0195,26053,113.3,F,0.028,No Organisms Present,117.2,No Diseases Present,0.012,0.26,11.33,≥ 10cm,2024
+202403,0195,26059,107.4,F,0.021,No Organisms Present,105.2,No Diseases Present,0.007,0.183,10.74,≥ 10cm,2024
+202403,0195,26037,94.2,F,0.015,No Organisms Present,91.3,No Diseases Present,0.009,0.142,9.42,8.9cm - 10cm,2024
+202403,0153,17388,118.1,M,0.034,No Organisms Present,117.1,No Diseases Present,0.014,0.277,11.809999999999999,≥ 10cm,2024
+202403,0153,17389,120,M,0.021,No Organisms Present,122.7,No Diseases Present,0.018,0.339,12,≥ 10cm,2024
+202403,0203,26415,159,M,0.073,No Organisms Present,173.4,No Diseases Present,0.025,0.789,15.9,≥ 10cm,2024
+202403,0203,26416,149.9,M,0.05,No Organisms Present,158,No Diseases Present,0.029,0.621,14.99,≥ 10cm,2024
+202403,0207,26528,144.9,F,0.037,No Organisms Present,150.8,No Diseases Present,0.011,0.556,14.49,≥ 10cm,2024
+202403,0028,1467,135.4,M,0.026,No Organisms Present,135.9,No Diseases Present,0.01,0.301,13.540000000000001,≥ 10cm,2024
+202403,0028,1351,138.1,M,0.037,No Organisms Present,140.6,No Diseases Present,0.015,0.337,13.809999999999999,≥ 10cm,2024
+202403,0028,1337,131.2,M,0.032,No Organisms Present,137.1,No Diseases Present,0.008,0.265,13.12,≥ 10cm,2024
+202403,0028,1384,125.2,F,0.024,No Organisms Present,127.2,No Diseases Present,0.007,0.231,12.52,≥ 10cm,2024
+202403,0053,6086,129.3,M,0.029,No Organisms Present,133.5,No Diseases Present,0.022,0.389,12.930000000000001,≥ 10cm,2024
+202403,0053,6064,138.7,F,0.031,No Organisms Present,142.5,No Diseases Present,0.021,0.435,13.87,≥ 10cm,2024
+202403,0053,6098,135.1,F,0.051,No Organisms Present,143,No Diseases Present,0.01,0.445,13.51,≥ 10cm,2024
+202403,0103,9806,124.9,F,0.032,No Organisms Present,131.9,No Diseases Present,0.01,0.28,12.49,≥ 10cm,2024
+202403,0103,9817,112.1,M,0.016,No Organisms Present,111.9,No Diseases Present,0.006,0.166,11.209999999999999,≥ 10cm,2024
+202403,0103,9836,103.9,M,0.018,No Organisms Present,104.5,No Diseases Present,0.006,0.148,10.39,≥ 10cm,2024
+202403,0064,7164,117.7,M,0.029,No Organisms Present,121.1,No Diseases Present,0.01,0.287,11.77,≥ 10cm,2024
+202403,0064,7254,88.2,F,0.01,No Organisms Present,92.1,No Diseases Present,0.006,0.108,8.82,7.5cm - 8.9cm,2024
+202403,0043,3434,101.2,M,0.012,No Organisms Present,103.8,No Diseases Present,0.007,0.139,10.120000000000001,≥ 10cm,2024
+202403,0044,3741,110.2,F,0.013,No Organisms Present,109.3,No Diseases Present,0.003,0.152,11.02,≥ 10cm,2024
+202403,0039,3024,116,F,0.023,No Organisms Present,115.6,No Diseases Present,0.004,0.206,11.6,≥ 10cm,2024
+202403,0039,3109,84.5,M,0.006,No Organisms Present,87.3,No Diseases Present,0.002,0.071,8.45,7.5cm - 8.9cm,2024
+202403,0039,3135,102.1,F,0.015,No Organisms Present,102.9,No Diseases Present,0.003,0.154,10.209999999999999,≥ 10cm,2024
+202403,0166,20322,138.6,F,0.045,No Organisms Present,143.2,No Diseases Present,0.017,0.381,13.86,≥ 10cm,2024
+202403,0166,20323,159.5,F,0.06,No Organisms Present,171.6,No Diseases Present,0.035,0.597,15.95,≥ 10cm,2024
+202403,0166,20324,162.9,M,0.055,No Organisms Present,168.3,No Diseases Present,0.022,0.607,16.29,≥ 10cm,2024
+202403,0167,20405,141.2,F,0.039,No Organisms Present,137.7,No Diseases Present,0.024,0.396,14.12,≥ 10cm,2024
+202403,0167,20492,138.8,M,0.039,No Organisms Present,141.8,No Diseases Present,0.02,0.445,13.88,≥ 10cm,2024
+202403,0167,20469,141.4,F,0.046,No Organisms Present,144.6,No Diseases Present,0.016,0.431,14.14,≥ 10cm,2024
+202403,0171,20851,101,F,0.015,No Organisms Present,98.7,No Diseases Present,0.01,0.21,10.1,≥ 10cm,2024
+202403,0173,20932,167.5,F,0.051,No Organisms Present,176.9,No Diseases Present,0.016,0.627,16.75,≥ 10cm,2024
+202403,0173,20948,124.8,M,0.028,No Organisms Present,126,No Diseases Present,0.01,0.255,12.48,≥ 10cm,2024
+202403,0179,23106,92.6,M,0.008,No Organisms Present,90.1,No Diseases Present,0.002,0.08,9.26,8.9cm - 10cm,2024
+202403,0052,5677,158.6,M,0.014,No Organisms Present,160,Shell Blisters,0.005,0.535,15.86,≥ 10cm,2024
+202403,0190,25713,135,F,0.061,No Organisms Present,145.8,No Diseases Present,0.018,0.532,13.5,≥ 10cm,2024
+202403,0190,25721,120.8,M,0.018,No Organisms Present,121.3,No Diseases Present,0.007,0.248,12.08,≥ 10cm,2024
+202403,0190,25722,103.2,M,0.013,No Organisms Present,103,No Diseases Present,0.005,0.199,10.32,≥ 10cm,2024
+202403,0192,25812,113.8,M,0.019,No Organisms Present,108.7,No Diseases Present,0.007,0.226,11.379999999999999,≥ 10cm,2024
+202403,0193,25857,133.2,M,0.044,No Organisms Present,135.1,No Diseases Present,0.019,0.342,13.319999999999999,≥ 10cm,2024
+202403,0146,16645,109.7,F,0.022,No Organisms Present,115.2,No Diseases Present,0.011,0.209,10.97,≥ 10cm,2024
+202403,0146,16674,113.4,M,0.025,No Organisms Present,116.6,No Diseases Present,0.011,0.237,11.34,≥ 10cm,2024
+202403,0146,16662,114.5,M,0.031,No Organisms Present,119.3,No Diseases Present,0.019,0.275,11.45,≥ 10cm,2024
+202403,0146,16549,139.3,F,0.033,No Organisms Present,146.9,No Diseases Present,0.015,0.361,13.930000000000001,≥ 10cm,2024
+202403,0146,16593,119.5,M,0.03,No Organisms Present,124.3,No Diseases Present,0.014,0.33,11.95,≥ 10cm,2024
+202403,0151,17336,100.9,M,0.017,No Organisms Present,99.3,No Diseases Present,0.005,0.156,10.09,≥ 10cm,2024
+202403,0028,1424,146.9,F,0.044,No Organisms Present,155,No Diseases Present,0.022,0.44,14.690000000000001,≥ 10cm,2024
+202403,0164,19848,153.1,M,0.05,No Organisms Present,163.1,No Diseases Present,0.028,0.565,15.309999999999999,≥ 10cm,2024
+202403,0166,20325,138.8,M,0.036,No Organisms Present,144.4,No Diseases Present,0.02,0.382,13.88,≥ 10cm,2024
+202403,0170,20737,127.1,M,0.034,No Organisms Present,129,No Diseases Present,0.021,0.369,12.709999999999999,≥ 10cm,2024
+202403,0170,20761,95.4,F,0.011,No Organisms Present,97.9,No Diseases Present,0.006,0.155,9.540000000000001,8.9cm - 10cm,2024
+202403,0179,23168,90.1,M,0.008,No Organisms Present,95.7,No Diseases Present,0.001,0.071,9.01,8.9cm - 10cm,2024
+202403,0181,24159,157.4,M,0.054,No Organisms Present,158.3,No Diseases Present,0.013,0.565,15.74,≥ 10cm,2024
+202403,0113,10849,111.4,M,0.031,No Organisms Present,113.9,No Diseases Present,0.012,0.185,11.14,≥ 10cm,2024
+202403,0198,26108,94.2,F,0.013,No Organisms Present,95.1,No Diseases Present,0.005,0.117,9.42,8.9cm - 10cm,2024
+202403,0198,26109,105.8,M,0.019,No Organisms Present,104.6,No Diseases Present,0.005,0.172,10.58,≥ 10cm,2024
+202403,0185,25412,104.3,F,0.012,No Organisms Present,103.5,No Diseases Present,0.007,0.17,10.43,≥ 10cm,2024
+202403,0212,27317,160.6,F,0.063,No Organisms Present,159.5,No Diseases Present,0.019,0.567,16.06,≥ 10cm,2024
+202403,0082,8610,97.1,F,0.014,No Organisms Present,99,No Diseases Present,0.005,0.122,9.709999999999999,8.9cm - 10cm,2024
+202403,0082,8616,87,F,0.014,No Organisms Present,85.2,No Diseases Present,0.003,0.09,8.7,7.5cm - 8.9cm,2024
+202403,0083,8669,121.3,M,0.033,No Organisms Present,126,No Diseases Present,0.01,0.267,12.129999999999999,≥ 10cm,2024
+202403,0087,8752,149.4,F,0.055,No Organisms Present,155.9,No Diseases Present,0.022,0.438,14.940000000000001,≥ 10cm,2024
+202403,0087,8781,132.2,F,0.056,No Organisms Present,139.9,No Diseases Present,0.021,0.399,13.219999999999999,≥ 10cm,2024
+202403,0087,8787,116.6,F,0.026,No Organisms Present,120.1,No Diseases Present,0.016,0.226,11.66,≥ 10cm,2024
+202403,0041,3330,109.4,F,0.013,No Organisms Present,103.6,Shell Blisters,0.003,0.17,10.940000000000001,≥ 10cm,2024
+202403,0046,4082,126.3,M,0.031,No Organisms Present,133.6,No Diseases Present,0.011,0.306,12.629999999999999,≥ 10cm,2024
+202403,0038,2969,120.7,M,0.04,No Organisms Present,125.8,No Diseases Present,0.007,0.255,12.07,≥ 10cm,2024
+202403,0162,19334,147.2,F,0.034,No Organisms Present,151.4,No Diseases Present,0.016,0.389,14.719999999999999,≥ 10cm,2024
+202403,0180,23760,105.3,M,0.013,No Organisms Present,106.7,No Diseases Present,0.005,0.154,10.53,≥ 10cm,2024
+202403,0155,17619,120.7,F,0.031,No Organisms Present,122.4,No Diseases Present,0.019,0.301,12.07,≥ 10cm,2024
+202403,0049,4969,164.2,F,0.062,No Organisms Present,170.7,No Diseases Present,0.021,0.542,16.419999999999998,≥ 10cm,2024
+202403,0049,5070,157.3,M,0.032,No Organisms Present,160.9,No Diseases Present,0.012,0.507,15.73,≥ 10cm,2024
+202403,0050,5377,160.3,F,0.041,No Organisms Present,168.1,No Diseases Present,0.008,0.582,16.03,≥ 10cm,2024
+202403,0050,5168,158.2,F,0.039,No Organisms Present,162.4,Shell Blisters,0.019,0.51,15.819999999999999,≥ 10cm,2024
+202403,0050,5426,150.8,F,0.028,No Organisms Present,153.1,Shell Blisters,0.008,0.395,15.080000000000002,≥ 10cm,2024
+202403,0051,5498,154.3,F,0.044,No Organisms Present,157.7,No Diseases Present,0.015,0.54,15.430000000000001,≥ 10cm,2024
+202403,0051,5499,143.7,F,0.036,No Organisms Present,151.8,No Diseases Present,0.013,0.452,14.37,≥ 10cm,2024
+202403,0198,26110,109.1,M,0.02,No Organisms Present,104.2,No Diseases Present,0.007,0.177,10.91,≥ 10cm,2024
+202403,0193,25827,147.1,F,0.045,No Organisms Present,151,No Diseases Present,0.037,0.617,14.709999999999999,≥ 10cm,2024
+202403,0193,25858,127.6,F,0.039,No Organisms Present,127.3,No Diseases Present,0.012,0.335,12.76,≥ 10cm,2024
+202403,0193,25848,127.2,F,0.035,No Organisms Present,125.5,No Diseases Present,0.01,0.344,12.72,≥ 10cm,2024
+202403,0153,17429,104.8,F,0.02,No Organisms Present,101.5,No Diseases Present,0.006,0.231,10.48,≥ 10cm,2024
+202403,0153,17358,124.5,M,0.034,No Organisms Present,130.5,No Diseases Present,0.017,0.358,12.45,≥ 10cm,2024
+202403,0147,17118,131.3,F,0.04,No Organisms Present,140.5,No Diseases Present,0.011,0.341,13.13,≥ 10cm,2024
+202403,0201,26235,116.3,F,0.021,No Organisms Present,115.3,No Diseases Present,0.007,0.257,11.629999999999999,≥ 10cm,2024
+202403,0212,27333,135.9,F,0.031,No Organisms Present,135.7,No Diseases Present,0.02,0.354,13.59,≥ 10cm,2024
+202403,0055,6581,118.7,M,0.026,No Organisms Present,120.9,No Diseases Present,0.019,0.3,11.870000000000001,≥ 10cm,2024
+202403,0055,6529,117.3,M,0.032,No Organisms Present,124.8,No Diseases Present,0.016,0.295,11.73,≥ 10cm,2024
+202403,0055,6554,107,M,0.02,No Organisms Present,112.5,No Diseases Present,0.011,0.199,10.7,≥ 10cm,2024
+202403,0083,8674,80.8,M,0.007,No Organisms Present,76,No Diseases Present,0.002,0.073,8.08,7.5cm - 8.9cm,2024
+202403,0083,8653,115.1,M,0.024,No Organisms Present,116.9,No Diseases Present,0.009,0.255,11.51,≥ 10cm,2024
+202403,0098,9218,126.8,M,0.033,No Organisms Present,131.8,No Diseases Present,0.009,0.253,12.68,≥ 10cm,2024
+202403,0087,8788,96.8,F,0.011,No Organisms Present,98.7,No Diseases Present,0.005,0.121,9.68,8.9cm - 10cm,2024
+202403,0064,7186,105.3,F,0.021,No Organisms Present,108.7,No Diseases Present,0.012,0.199,10.53,≥ 10cm,2024
+202403,0043,3466,116.1,M,0.018,No Organisms Present,115.5,No Diseases Present,0.005,0.178,11.61,≥ 10cm,2024
+202403,0044,3742,117.2,F,0.017,No Organisms Present,112.4,No Diseases Present,0.003,0.173,11.72,≥ 10cm,2024
+202403,0044,3743,107.2,M,0.015,No Organisms Present,106,No Diseases Present,0.002,0.133,10.72,≥ 10cm,2024
+202403,0044,3744,106.1,F,0.015,No Organisms Present,105.5,No Diseases Present,0.005,0.144,10.61,≥ 10cm,2024
+202403,0167,20478,138.5,M,0.04,No Organisms Present,144.7,No Diseases Present,0.022,0.452,13.85,≥ 10cm,2024
+202403,0173,20949,91.1,M,0.009,No Organisms Present,91.7,No Diseases Present,0.002,0.101,9.11,8.9cm - 10cm,2024
+202403,0157,17863,110.9,M,0.016,No Organisms Present,109.1,No Diseases Present,0.006,0.18,11.09,≥ 10cm,2024
+202403,0159,18110,111.8,M,0.016,No Organisms Present,115.8,No Diseases Present,0.004,0.152,11.18,≥ 10cm,2024
+202403,0159,18144,121.4,F,0.021,No Organisms Present,121.7,No Diseases Present,0.005,0.214,12.14,≥ 10cm,2024
+202403,0110,10672,107.9,F,0.025,No Organisms Present,123.8,No Diseases Present,0.008,0.174,10.790000000000001,≥ 10cm,2024
+202403,0110,10706,102.8,F,0.022,No Organisms Present,106.7,No Diseases Present,0.009,0.156,10.28,≥ 10cm,2024
+202403,0111,10798,117.5,M,0.033,No Organisms Present,121.9,No Diseases Present,0.009,0.217,11.75,≥ 10cm,2024
+202403,0111,10808,79.1,M,0.009,No Organisms Present,75.7,No Diseases Present,0.004,0.054,7.909999999999999,7.5cm - 8.9cm,2024
+202403,0052,5828,139,M,0.025,No Organisms Present,148.8,No Diseases Present,0.015,0.333,13.9,≥ 10cm,2024
+202403,0052,5900,160.1,F,0.025,No Organisms Present,166.4,Shell Blisters,0.019,0.566,16.009999999999998,≥ 10cm,2024
+202403,0175,21423,90.6,M,0.008,No Organisms Present,85.3,No Diseases Present,0.002,0.059,9.059999999999999,8.9cm - 10cm,2024
+202403,0175,21451,83.5,U,0.006,No Organisms Present,83.5,No Diseases Present,0.001,0.054,8.35,7.5cm - 8.9cm,2024
+202403,0175,21528,83.3,U,0.008,No Organisms Present,85,No Diseases Present,0.002,0.06,8.33,7.5cm - 8.9cm,2024
+202403,0198,26079,104.4,F,0.019,No Organisms Present,106,No Diseases Present,0.008,0.161,10.440000000000001,≥ 10cm,2024
+202403,0185,25420,126.4,F,0.027,No Organisms Present,124.8,No Diseases Present,0.006,0.271,12.64,≥ 10cm,2024
+202403,0186,25462,140.6,F,0.032,No Organisms Present,141.4,No Diseases Present,0.01,0.342,14.059999999999999,≥ 10cm,2024
+202403,0193,25859,95.6,AB,0.017,No Organisms Present,93.4,No Diseases Present,0.008,0.15,9.559999999999999,8.9cm - 10cm,2024
+202403,0208,26617,125.3,F,0.033,No Organisms Present,133,No Diseases Present,0.008,0.352,12.53,≥ 10cm,2024
+202403,0208,26686,154.4,M,0.064,No Organisms Present,159,No Diseases Present,0.021,0.663,15.440000000000001,≥ 10cm,2024
+202403,0184,25125,133.4,M,0.033,No Organisms Present,139.6,No Diseases Present,0.016,0.327,13.34,≥ 10cm,2024
+202403,0184,25295,103.2,M,0.014,No Organisms Present,103.9,No Diseases Present,0.003,0.112,10.32,≥ 10cm,2024
+202403,0184,24993,149.9,M,0.044,Urophycis chuss (Red Hake),153.1,No Diseases Present,0.018,0.481,14.99,≥ 10cm,2024
+202403,0055,6575,116.5,M,0.031,No Organisms Present,123.6,No Diseases Present,0.019,0.277,11.65,≥ 10cm,2024
+202403,0055,6587,123.3,F,0.032,No Organisms Present,132,No Diseases Present,0.019,0.316,12.33,≥ 10cm,2024
+202403,0098,9167,138.6,M,0.044,No Organisms Present,142.8,No Diseases Present,0.008,0.309,13.86,≥ 10cm,2024
+202403,0064,7217,117.6,M,0.031,No Organisms Present,119.1,No Diseases Present,0.021,0.246,11.76,≥ 10cm,2024
+202403,0079,8512,124.9,M,0.034,No Organisms Present,125.7,No Diseases Present,0.013,0.289,12.49,≥ 10cm,2024
+202403,0043,3484,105.1,M,0.018,No Organisms Present,104.8,No Diseases Present,0.003,0.141,10.51,≥ 10cm,2024
+202403,0043,3520,143.1,M,0.033,No Organisms Present,146.1,No Diseases Present,0.008,0.418,14.309999999999999,≥ 10cm,2024
+202403,0043,3405,111.1,F,0.016,No Organisms Present,107.5,No Diseases Present,0.003,0.194,11.11,≥ 10cm,2024
+202403,0044,3745,106.9,M,0.013,No Organisms Present,106.4,No Diseases Present,0.003,0.165,10.690000000000001,≥ 10cm,2024
+202403,0039,3270,84,U,0.006,No Organisms Present,79.7,No Diseases Present,0.001,0.058,8.4,7.5cm - 8.9cm,2024
+202403,0039,3051,136.6,M,0.039,Urophycis chuss (Red Hake),138.6,Shell Blisters,0.008,0.338,13.66,≥ 10cm,2024
+202403,0164,19915,124.6,F,0.029,No Organisms Present,128.1,No Diseases Present,0.016,0.266,12.459999999999999,≥ 10cm,2024
+202403,0170,20754,104.4,M,0.017,No Organisms Present,102.8,No Diseases Present,0.005,0.18,10.440000000000001,≥ 10cm,2024
+202403,0170,20689,155.3,M,0.037,No Organisms Present,168.3,No Diseases Present,0.021,0.659,15.530000000000001,≥ 10cm,2024
+202403,0171,20850,113.4,F,0.017,No Organisms Present,114.2,No Diseases Present,0.015,0.244,11.34,≥ 10cm,2024
+202403,0171,20842,144.5,F,0.045,No Organisms Present,146.8,No Diseases Present,0.016,0.593,14.45,≥ 10cm,2024
+202403,0173,20963,121.8,M,0.028,No Organisms Present,122.3,No Diseases Present,0.006,0.298,12.18,≥ 10cm,2024
+202403,0173,20955,103.8,M,0.017,No Organisms Present,108.4,No Diseases Present,0.004,0.194,10.379999999999999,≥ 10cm,2024
+202403,0179,23241,87.1,M,0.006,No Organisms Present,87.3,No Diseases Present,0.001,0.057,8.709999999999999,7.5cm - 8.9cm,2024
+202403,0179,23333,98.5,F,0.007,No Organisms Present,93.7,No Diseases Present,0.001,0.076,9.85,8.9cm - 10cm,2024
+202403,0179,23290,87.3,F,0.006,No Organisms Present,84.7,No Diseases Present,0.002,0.059,8.73,7.5cm - 8.9cm,2024
+202403,0179,23488,89.4,F,0.007,No Organisms Present,87.1,No Diseases Present,0.001,0.072,8.940000000000001,8.9cm - 10cm,2024
+202403,0157,17842,142,F,0.04,No Organisms Present,144.2,No Diseases Present,0.01,0.415,14.2,≥ 10cm,2024
+202403,0110,10734,103.7,M,0.023,No Organisms Present,107.9,No Diseases Present,0.006,0.151,10.370000000000001,≥ 10cm,2024
+202403,0111,10823,104.4,M,0.021,No Organisms Present,104,No Diseases Present,0.007,0.136,10.440000000000001,≥ 10cm,2024
+202403,0052,5999,153.3,M,0.024,No Organisms Present,159.2,Shell Blisters,0.007,0.396,15.330000000000002,≥ 10cm,2024
+202403,0036,2196,125.8,F,0.034,No Organisms Present,134.2,No Diseases Present,0.006,0.286,12.58,≥ 10cm,2024
+202403,0186,25501,102.2,M,0.011,No Organisms Present,98.8,No Diseases Present,0.004,0.167,10.22,≥ 10cm,2024
+202403,0206,26478,140.7,F,0.03,No Organisms Present,143,No Diseases Present,0.008,0.431,14.069999999999999,≥ 10cm,2024
+202403,0210,27157,151.3,F,0.056,No Organisms Present,162.7,No Diseases Present,0.015,0.616,15.13,≥ 10cm,2024
+202403,0146,16609,110.5,F,0.025,No Organisms Present,113.3,No Diseases Present,0.006,0.246,11.05,≥ 10cm,2024
+202403,0151,17335,112.4,F,0.032,No Organisms Present,114.5,No Diseases Present,0.008,0.267,11.24,≥ 10cm,2024
+202403,0151,17307,153.6,F,0.059,Urophycis chuss (Red Hake),168.5,No Diseases Present,0.018,0.56,15.36,≥ 10cm,2024
+202403,0151,17304,134.8,M,0.04,No Organisms Present,143.8,No Diseases Present,0.013,0.468,13.48,≥ 10cm,2024
+202403,0184,25183,116.2,F,0.021,No Organisms Present,116.1,No Diseases Present,0.007,0.183,11.620000000000001,≥ 10cm,2024
+202403,0184,25217,115.4,F,0.018,No Organisms Present,114.2,No Diseases Present,0.007,0.166,11.540000000000001,≥ 10cm,2024
+202403,0184,24861,142.2,F,0.033,No Organisms Present,146.5,No Diseases Present,0.006,0.406,14.219999999999999,≥ 10cm,2024
+202403,0023,95,139,F,0.034,No Organisms Present,147,No Diseases Present,0.008,0.379,13.9,≥ 10cm,2024
+202403,0023,141,142,M,0.027,No Organisms Present,145,No Diseases Present,0.008,0.39,14.2,≥ 10cm,2024
+202403,0023,220,85,U,0.008,No Organisms Present,85,No Diseases Present,0.001,0.071,8.5,7.5cm - 8.9cm,2024
+202403,0108,10576,79.5,F,0.01,No Organisms Present,79.9,No Diseases Present,0.004,0.071,7.95,7.5cm - 8.9cm,2024
+202403,0108,10548,85,M,0.01,No Organisms Present,85.5,No Diseases Present,0.003,0.075,8.5,7.5cm - 8.9cm,2024
+202403,0108,10586,96.4,F,0.011,No Organisms Present,94.7,No Diseases Present,0.003,0.099,9.64,8.9cm - 10cm,2024
+202403,0104,9980,123,M,0.028,No Organisms Present,125.7,No Diseases Present,0.007,0.241,12.3,≥ 10cm,2024
+202403,0078,8448,116.2,F,0.017,No Organisms Present,117.7,No Diseases Present,0.01,0.228,11.620000000000001,≥ 10cm,2024
+202403,0067,7930,105.3,M,0.016,No Organisms Present,109.9,No Diseases Present,0.01,0.169,10.53,≥ 10cm,2024
+202403,0037,2561,68.9,U,0.004,No Organisms Present,65.8,No Diseases Present,0.001,0.039,6.890000000000001,3.5cm - 7.5cm,2024
+202403,0037,2543,83.3,M,0.007,No Organisms Present,82.3,No Diseases Present,0.001,0.062,8.33,7.5cm - 8.9cm,2024
+202403,0041,3317,142.4,F,0.038,No Organisms Present,142.7,No Diseases Present,0.009,0.426,14.24,≥ 10cm,2024
+202403,0033,2076,123.3,M,0.027,No Organisms Present,123.9,No Diseases Present,0.013,0.247,12.33,≥ 10cm,2024
+202403,0038,2982,46.7,U,0.001,No Organisms Present,43.4,No Diseases Present,0.001,0.012,4.67,3.5cm - 7.5cm,2024
+202403,0038,2974,81.4,M,0.007,No Organisms Present,77.3,No Diseases Present,0.003,0.069,8.14,7.5cm - 8.9cm,2024
+202403,0164,19962,122.3,M,0.022,No Organisms Present,119.6,No Diseases Present,0.009,0.269,12.23,≥ 10cm,2024
+202403,0164,19995,126.3,M,0.025,No Organisms Present,129.9,No Diseases Present,0.016,0.282,12.629999999999999,≥ 10cm,2024
+202403,0164,20083,107.1,M,0.013,No Organisms Present,105.5,No Diseases Present,0.004,0.131,10.709999999999999,≥ 10cm,2024
+202403,0181,24277,129.1,F,0.029,No Organisms Present,128.2,No Diseases Present,0.01,0.29,12.91,≥ 10cm,2024
+202403,0181,24405,103.8,M,0.014,No Organisms Present,105.8,No Diseases Present,0.005,0.139,10.379999999999999,≥ 10cm,2024
+202403,0181,24361,100.8,F,0.014,No Organisms Present,100.6,No Diseases Present,0.003,0.142,10.08,≥ 10cm,2024
+202403,0181,24325,130.1,M,0.029,No Organisms Present,129.5,No Diseases Present,0.006,0.303,13.01,≥ 10cm,2024
+202403,0113,10856,107.6,F,0.027,No Organisms Present,112.9,No Diseases Present,0.007,0.181,10.76,≥ 10cm,2024
+202403,0113,10923,101.9,M,0.018,No Organisms Present,102.3,No Diseases Present,0.004,0.128,10.190000000000001,≥ 10cm,2024
+202403,0113,10897,100.8,M,0.022,No Organisms Present,111,No Diseases Present,0.02,0.168,10.08,≥ 10cm,2024
+202403,0047,4620,173.2,M,0.05,No Organisms Present,182.7,No Diseases Present,0.02,0.559,17.32,≥ 10cm,2024
+202403,0088,8792,107,F,0.02,No Organisms Present,108.8,No Diseases Present,0.014,0.179,10.7,≥ 10cm,2024
+202403,0047,4664,169,M,0.06,No Organisms Present,175.7,No Diseases Present,0.04,0.7,16.9,≥ 10cm,2024
+202403,0051,5475,151.4,F,0.038,No Organisms Present,149.3,No Diseases Present,0.019,0.523,15.14,≥ 10cm,2024
+202403,0199,26149,115.2,M,0.015,No Organisms Present,113.9,No Diseases Present,0.01,0.23,11.52,≥ 10cm,2024
+202403,0199,26151,97.6,M,0.012,No Organisms Present,94.4,No Diseases Present,0.003,0.112,9.76,8.9cm - 10cm,2024
+202403,0199,26120,142.7,F,0.052,No Organisms Present,154.6,No Diseases Present,0.018,0.548,14.27,≥ 10cm,2024
+202403,0186,25496,116.9,F,0.016,No Organisms Present,114.6,No Diseases Present,0.007,0.239,11.690000000000001,≥ 10cm,2024
+202403,0194,25964,110.7,F,0.022,No Organisms Present,110.2,No Diseases Present,0.005,0.213,11.07,≥ 10cm,2024
+202403,0147,17099,134.4,M,0.046,No Organisms Present,136.3,No Diseases Present,0.017,0.356,13.440000000000001,≥ 10cm,2024
+202403,0147,17036,152.3,M,0.045,No Organisms Present,164.9,No Diseases Present,0.033,0.553,15.23,≥ 10cm,2024
+202403,0150,17229,135.9,F,0.02,No Organisms Present,143,No Diseases Present,0.008,0.313,13.59,≥ 10cm,2024
+202403,0150,17277,161.4,F,0.067,No Organisms Present,167.4,No Diseases Present,0.016,0.542,16.14,≥ 10cm,2024
+202403,0150,17278,141.3,F,0.067,No Organisms Present,151.3,No Diseases Present,0.016,0.488,14.13,≥ 10cm,2024
+202403,0203,26400,173.6,M,0.077,No Organisms Present,180.4,Shell Blisters,0.028,0.871,17.36,≥ 10cm,2024
+202403,0145,16085,108,M,0.02,No Organisms Present,107.3,No Diseases Present,0.013,0.169,10.8,≥ 10cm,2024
+202403,0056,6671,131.3,M,0.032,No Organisms Present,132.8,No Diseases Present,0.01,0.371,13.13,≥ 10cm,2024
+202403,0023,173,98,M,0.009,No Organisms Present,95,No Diseases Present,0.001,0.088,9.8,8.9cm - 10cm,2024
+202403,0023,61,155,F,0.035,No Organisms Present,161,No Diseases Present,0.01,0.448,15.5,≥ 10cm,2024
+202403,0083,8634,147.6,M,0.038,No Organisms Present,152.1,No Diseases Present,0.022,0.444,14.76,≥ 10cm,2024
+202403,0087,8789,120.9,F,0.038,No Organisms Present,121.3,No Diseases Present,0.005,0.277,12.09,≥ 10cm,2024
+202403,0067,7966,129.2,M,0.036,No Organisms Present,137.4,No Diseases Present,0.026,0.305,12.919999999999998,≥ 10cm,2024
+202403,0041,3319,122.1,F,0.024,No Organisms Present,123.8,No Diseases Present,0.005,0.269,12.209999999999999,≥ 10cm,2024
+202403,0045,3842,119,F,0.022,No Organisms Present,120.5,No Diseases Present,0.006,0.255,11.9,≥ 10cm,2024
+202403,0033,2093,101.1,F,0.015,No Organisms Present,102.3,No Diseases Present,0.005,0.126,10.11,≥ 10cm,2024
+202403,0176,22546,87.5,M,0.008,No Organisms Present,89.9,No Diseases Present,0.003,0.078,8.75,7.5cm - 8.9cm,2024
+202403,0047,4670,169,F,0.064,No Organisms Present,175.7,No Diseases Present,0.021,0.507,16.9,≥ 10cm,2024
+202403,0175,21539,86.4,U,0.006,No Organisms Present,83.8,No Diseases Present,0.002,0.061,8.64,7.5cm - 8.9cm,2024
+202403,0194,25995,148.5,F,0.04,Urophycis chuss (Red Hake),151.1,No Diseases Present,0.027,0.61,14.85,≥ 10cm,2024
+202403,0194,25879,159.5,M,0.066,No Organisms Present,162.3,No Diseases Present,0.018,0.733,15.95,≥ 10cm,2024
+202403,0147,17151,127.1,F,0.042,No Organisms Present,132,No Diseases Present,0.017,0.373,12.709999999999999,≥ 10cm,2024
+202403,0201,26242,140.4,M,0.044,No Organisms Present,140.1,No Diseases Present,0.019,0.487,14.040000000000001,≥ 10cm,2024
+202403,0201,26247,116.8,M,0.027,No Organisms Present,119.3,No Diseases Present,0.009,0.27,11.68,≥ 10cm,2024
+202403,0201,26257,105.3,M,0.016,No Organisms Present,108.2,No Diseases Present,0.011,0.208,10.53,≥ 10cm,2024
+202403,0209,26969,123,F,0.027,No Organisms Present,121.7,No Diseases Present,0.008,0.325,12.3,≥ 10cm,2024
+202403,0145,16060,104.6,F,0.02,No Organisms Present,103.1,No Diseases Present,0.007,0.184,10.459999999999999,≥ 10cm,2024
+202403,0145,15971,102.9,M,0.021,No Organisms Present,101.8,No Diseases Present,0.005,0.165,10.290000000000001,≥ 10cm,2024
+202403,0145,16123,118.5,F,0.024,No Organisms Present,121.1,No Diseases Present,0.017,0.225,11.85,≥ 10cm,2024
+202403,0145,16150,102.5,F,0.018,No Organisms Present,100.8,No Diseases Present,0.005,0.134,10.25,≥ 10cm,2024
+202403,0056,6709,114.5,F,0.029,No Organisms Present,118.7,No Diseases Present,0.019,0.231,11.45,≥ 10cm,2024
+202403,0056,6778,140.1,F,0.05,No Organisms Present,149.9,Brown Meats,0.019,0.519,14.01,≥ 10cm,2024
+202403,0056,6872,127,F,0.021,No Organisms Present,130.5,No Diseases Present,0.015,0.362,12.7,≥ 10cm,2024
+202403,0101,9423,108.7,F,0.018,No Organisms Present,110.1,No Diseases Present,0.008,0.163,10.870000000000001,≥ 10cm,2024
+202403,0101,9391,103.5,M,0.016,No Organisms Present,105.2,No Diseases Present,0.006,0.119,10.35,≥ 10cm,2024
+202403,0101,9466,82.8,M,0.012,No Organisms Present,86.1,No Diseases Present,0.006,0.076,8.28,7.5cm - 8.9cm,2024
+202403,0101,9329,116.2,AB,0.024,No Organisms Present,120,No Diseases Present,0.008,0.186,11.620000000000001,≥ 10cm,2024
+202403,0163,19799,119,M,0.024,No Organisms Present,123,No Diseases Present,0.008,0.22,11.9,≥ 10cm,2024
+202403,0163,19798,132.9,F,0.027,No Organisms Present,142.6,No Diseases Present,0.01,0.273,13.290000000000001,≥ 10cm,2024
+202403,0174,21139,106.6,M,0.016,No Organisms Present,103.7,No Diseases Present,0.005,0.152,10.66,≥ 10cm,2024
+202403,0174,21128,119.2,M,0.019,No Organisms Present,121.5,No Diseases Present,0.012,0.215,11.92,≥ 10cm,2024
+202403,0157,17864,147.7,F,0.047,No Organisms Present,153,No Diseases Present,0.022,0.445,14.77,≥ 10cm,2024
+202403,0110,10653,129.8,M,0.028,No Organisms Present,129.3,No Diseases Present,0.004,0.277,12.98,≥ 10cm,2024
+202403,0052,5747,155.7,M,0.032,No Organisms Present,165.3,No Diseases Present,0.024,0.441,15.569999999999999,≥ 10cm,2024
+202403,0036,2232,91.9,M,0.013,No Organisms Present,91.6,No Diseases Present,0.002,0.093,9.190000000000001,8.9cm - 10cm,2024
+202403,0036,2252,97.7,M,0.015,No Organisms Present,94,No Diseases Present,0.002,0.104,9.77,8.9cm - 10cm,2024
+202403,0175,21554,84.5,U,0.005,No Organisms Present,82.4,No Diseases Present,0.001,0.064,8.45,7.5cm - 8.9cm,2024
+202403,0175,21501,74.1,U,0.004,No Organisms Present,70.7,No Diseases Present,0.001,0.029,7.409999999999999,3.5cm - 7.5cm,2024
+202403,0175,21592,87.2,U,0.006,No Organisms Present,87,No Diseases Present,0.002,0.063,8.72,7.5cm - 8.9cm,2024
+202403,0191,25784,97.3,F,0.008,No Organisms Present,92,No Diseases Present,0.002,0.128,9.73,8.9cm - 10cm,2024
+202403,0191,25786,108.8,F,0.02,No Organisms Present,111.6,No Diseases Present,0.003,0.213,10.879999999999999,≥ 10cm,2024
+202403,0199,26150,111.3,F,0.014,No Organisms Present,108.2,No Diseases Present,0.006,0.188,11.129999999999999,≥ 10cm,2024
+202403,0194,25932,106.1,M,0.017,No Organisms Present,106.6,No Diseases Present,0.007,0.219,10.61,≥ 10cm,2024
+202403,0194,26027,96,F,0.015,No Organisms Present,94.7,No Diseases Present,0.003,0.162,9.6,8.9cm - 10cm,2024
+202403,0206,26510,100.7,F,0.014,No Organisms Present,101.2,No Diseases Present,0.005,0.128,10.07,≥ 10cm,2024
+202403,0208,26784,120.1,F,0.028,No Organisms Present,119.2,No Diseases Present,0.008,0.269,12.01,≥ 10cm,2024
+202403,0145,16030,112.2,F,0.025,No Organisms Present,117.9,No Diseases Present,0.009,0.211,11.22,≥ 10cm,2024
+202403,0056,6888,138.4,F,0.035,No Organisms Present,152.4,No Diseases Present,0.024,0.434,13.84,≥ 10cm,2024
+202403,0029,1839,136.6,M,0.04,No Organisms Present,145.1,No Diseases Present,0.006,0.348,13.66,≥ 10cm,2024
+202403,0029,1769,140,F,0.041,No Organisms Present,149.7,No Diseases Present,0.006,0.325,14,≥ 10cm,2024
+202403,0029,1802,133.8,F,0.028,No Organisms Present,144.2,No Diseases Present,0.007,0.29,13.38,≥ 10cm,2024
+202403,0078,8453,114.2,F,0.026,No Organisms Present,111.6,No Diseases Present,0.012,0.221,11.42,≥ 10cm,2024
+202403,0078,8458,106.1,M,0.015,No Organisms Present,101.2,No Diseases Present,0.008,0.166,10.61,≥ 10cm,2024
+202403,0081,8568,159.5,M,0.052,No Organisms Present,164.4,No Diseases Present,0.025,0.577,15.95,≥ 10cm,2024
+202403,0037,2470,114.7,F,0.021,No Organisms Present,113,No Diseases Present,0.006,0.239,11.47,≥ 10cm,2024
+202403,0164,20043,122,M,0.023,No Organisms Present,121.2,No Diseases Present,0.009,0.259,12.2,≥ 10cm,2024
+202403,0163,19800,115.8,M,0.021,No Organisms Present,113.2,No Diseases Present,0.005,0.127,11.58,≥ 10cm,2024
+202403,0172,20922,96.7,F,0.01,No Organisms Present,96,No Diseases Present,0.005,0.147,9.67,8.9cm - 10cm,2024
+202403,0172,20923,142,F,0.04,Urophycis chuss (Red Hake),147.7,No Diseases Present,0.02,0.404,14.2,≥ 10cm,2024
+202403,0172,20858,148.5,F,0.044,No Organisms Present,149.3,No Diseases Present,0.016,0.501,14.85,≥ 10cm,2024
+202403,0155,17630,110.2,M,0.025,No Organisms Present,119,No Diseases Present,0.012,0.255,11.02,≥ 10cm,2024
+202403,0155,17646,95.2,F,0.012,No Organisms Present,92,No Diseases Present,0.005,0.12,9.52,8.9cm - 10cm,2024
+202403,0155,17612,96.7,M,0.012,No Organisms Present,95.3,No Diseases Present,0.005,0.127,9.67,8.9cm - 10cm,2024
+202403,0155,17598,156,F,0.056,No Organisms Present,159.7,No Diseases Present,0.017,0.615,15.6,≥ 10cm,2024
+202403,0156,17756,105.9,F,0.017,No Organisms Present,103.8,No Diseases Present,0.006,0.166,10.59,≥ 10cm,2024
+202403,0156,17747,106.7,F,0.019,No Organisms Present,106.6,No Diseases Present,0.01,0.173,10.67,≥ 10cm,2024
+202403,0160,18925,132.6,F,0.031,No Organisms Present,134.8,No Diseases Present,0.007,0.255,13.26,≥ 10cm,2024
+202403,0160,18924,133.1,F,0.031,No Organisms Present,133.4,No Diseases Present,0.012,0.313,13.309999999999999,≥ 10cm,2024
+202403,0160,18926,153.1,M,0.041,No Organisms Present,161.2,No Diseases Present,0.018,0.434,15.309999999999999,≥ 10cm,2024
+202403,0113,10869,108.7,M,0.026,No Organisms Present,111.7,No Diseases Present,0.007,0.16,10.870000000000001,≥ 10cm,2024
+202403,0088,8814,113.1,NE,0.023,No Organisms Present,112.6,No Diseases Present,0.007,0.202,11.309999999999999,≥ 10cm,2024
+202403,0036,2284,89,M,0.011,No Organisms Present,87.4,No Diseases Present,0.002,0.087,8.9,7.5cm - 8.9cm,2024
+202403,0049,4870,142,M,0.037,No Organisms Present,146.9,No Diseases Present,0.017,0.431,14.2,≥ 10cm,2024
+202403,0199,26152,147.8,M,0.063,No Organisms Present,159,No Diseases Present,0.019,0.628,14.780000000000001,≥ 10cm,2024
+202403,0209,27088,148.4,F,0.049,No Organisms Present,151.7,No Diseases Present,0.012,0.652,14.84,≥ 10cm,2024
+202403,0029,1721,137.4,M,0.029,No Organisms Present,146.3,No Diseases Present,0.009,0.364,13.74,≥ 10cm,2024
+202403,0029,1855,147.9,F,0.043,No Organisms Present,157.6,No Diseases Present,0.011,0.409,14.790000000000001,≥ 10cm,2024
+202403,0074,8312,129.4,M,0.035,No Organisms Present,130.3,No Diseases Present,0.012,0.291,12.940000000000001,≥ 10cm,2024
+202403,0074,8345,130,F,0.033,No Organisms Present,129,No Diseases Present,0.012,0.309,13,≥ 10cm,2024
+202403,0078,8464,141.1,F,0.019,No Organisms Present,143.4,Brown Meats,0.006,0.416,14.11,≥ 10cm,2024
+202403,0067,7994,136,M,0.038,No Organisms Present,148.2,No Diseases Present,0.044,0.359,13.6,≥ 10cm,2024
+202403,0037,2495,97.9,M,0.012,No Organisms Present,97.9,No Diseases Present,0.002,0.13,9.790000000000001,8.9cm - 10cm,2024
+202403,0037,2522,87.6,M,0.007,No Organisms Present,82,No Diseases Present,0.002,0.075,8.76,7.5cm - 8.9cm,2024
+202403,0045,3858,142.5,M,0.036,No Organisms Present,141.5,No Diseases Present,0.005,0.418,14.25,≥ 10cm,2024
+202403,0042,3389,110.3,M,0.019,No Organisms Present,108.6,Shell Blisters,0.004,0.187,11.03,≥ 10cm,2024
+202403,0042,3362,115.4,F,0.02,No Organisms Present,111.8,No Diseases Present,0.005,0.192,11.540000000000001,≥ 10cm,2024
+202403,0176,22524,90.5,M,0.006,No Organisms Present,91.4,No Diseases Present,0.002,0.072,9.05,8.9cm - 10cm,2024
+202403,0174,21177,80.5,M,0.006,No Organisms Present,79.4,No Diseases Present,0.001,0.068,8.05,7.5cm - 8.9cm,2024
+202403,0113,10922,100,F,0.014,No Organisms Present,99.2,No Diseases Present,0.004,0.127,10,8.9cm - 10cm,2024
+202403,0047,4666,166.1,M,0.047,No Organisms Present,174.8,No Diseases Present,0.015,0.541,16.61,≥ 10cm,2024
+202403,0049,4919,153.3,M,0.035,No Organisms Present,159.6,No Diseases Present,0.015,0.427,15.330000000000002,≥ 10cm,2024
+202403,0051,5497,174.1,F,0.024,No Organisms Present,175.2,Gray Meats,0.01,0.912,17.41,≥ 10cm,2024
+202403,0191,25787,90.5,M,0.009,No Organisms Present,88.6,No Diseases Present,0.002,0.11,9.05,8.9cm - 10cm,2024
+202403,0209,27069,135.3,F,0.043,No Organisms Present,139.3,No Diseases Present,0.017,0.504,13.530000000000001,≥ 10cm,2024
+202403,0209,27025,119.2,M,0.03,No Organisms Present,117.7,No Diseases Present,0.006,0.276,11.92,≥ 10cm,2024
+202403,0150,17279,150.3,M,0.05,No Organisms Present,155.4,No Diseases Present,0.022,0.482,15.030000000000001,≥ 10cm,2024
+202403,0150,17280,148.2,F,0.053,No Organisms Present,158.5,No Diseases Present,0.025,0.506,14.819999999999999,≥ 10cm,2024
+202403,0150,17281,133.9,M,0.041,No Organisms Present,143.1,No Diseases Present,0.018,0.406,13.39,≥ 10cm,2024
+202403,0201,26278,134.6,F,0.054,No Organisms Present,140.3,No Diseases Present,0.016,0.498,13.459999999999999,≥ 10cm,2024
+202403,0024,531,133.1,F,0.034,No Organisms Present,140,No Diseases Present,0.008,0.404,13.309999999999999,≥ 10cm,2024
+202403,0024,600,136.6,M,0.028,No Organisms Present,141.1,No Diseases Present,0.018,0.334,13.66,≥ 10cm,2024
+202403,0024,651,131,M,0.025,No Organisms Present,130,No Diseases Present,0.009,0.306,13.1,≥ 10cm,2024
+202403,0024,738,131.6,M,0.028,No Organisms Present,137,No Diseases Present,0.013,0.304,13.16,≥ 10cm,2024
+202403,0025,1161,144,M,0.039,No Organisms Present,155.1,No Diseases Present,0.017,0.454,14.4,≥ 10cm,2024
+202403,0025,1164,141.8,M,0.045,No Organisms Present,150.3,No Diseases Present,0.023,0.473,14.180000000000001,≥ 10cm,2024
+202403,0102,9778,97.2,M,0.014,No Organisms Present,97.6,No Diseases Present,0.003,0.108,9.72,8.9cm - 10cm,2024
+202403,0102,9802,109.2,F,0.014,No Organisms Present,110,No Diseases Present,0.005,0.161,10.92,≥ 10cm,2024
+202403,0045,3857,145.5,M,0.035,No Organisms Present,156.1,No Diseases Present,0.01,0.42,14.55,≥ 10cm,2024
+202403,0045,3856,146.6,F,0.035,No Organisms Present,148.4,Shell Blisters,0.005,0.473,14.66,≥ 10cm,2024
+202403,0031,1956,120,M,0.032,No Organisms Present,119.1,No Diseases Present,0.009,0.24,12,≥ 10cm,2024
+202403,0031,1958,145.2,M,0.047,No Organisms Present,147.3,No Diseases Present,0.014,0.377,14.52,≥ 10cm,2024
+202403,0042,3373,133.7,M,0.027,No Organisms Present,138.1,Shell Blisters,0.02,0.343,13.37,≥ 10cm,2024
+202403,0169,20596,162.1,F,0.055,No Organisms Present,175.9,No Diseases Present,0.021,0.678,16.21,≥ 10cm,2024
+202403,0176,22502,100.4,M,0.009,No Organisms Present,95.9,No Diseases Present,0.002,0.095,10.040000000000001,≥ 10cm,2024
+202403,0176,22506,88.7,M,0.006,No Organisms Present,82.5,No Diseases Present,0.001,0.057,8.870000000000001,7.5cm - 8.9cm,2024
+202403,0161,19118,153.2,F,0.041,No Organisms Present,160.5,No Diseases Present,0.01,0.501,15.319999999999999,≥ 10cm,2024
+202403,0161,19183,150.5,M,0.047,No Organisms Present,156.3,No Diseases Present,0.01,0.431,15.05,≥ 10cm,2024
+202403,0174,21227,66.2,U,0.002,No Organisms Present,61.5,No Diseases Present,0.001,0.027,6.62,3.5cm - 7.5cm,2024
+202403,0174,21150,101,M,0.011,No Organisms Present,93.2,No Diseases Present,0.003,0.084,10.1,≥ 10cm,2024
+202403,0179,23530,87.2,F,0.007,No Organisms Present,89.5,No Diseases Present,0.001,0.067,8.72,7.5cm - 8.9cm,2024
+202403,0047,4659,162.6,F,0.033,No Organisms Present,166.7,No Diseases Present,0.015,0.439,16.259999999999998,≥ 10cm,2024
+202403,0047,4665,164.4,M,0.04,No Organisms Present,170.8,No Diseases Present,0.013,0.479,16.44,≥ 10cm,2024
+202403,0175,21618,75.7,U,0.003,No Organisms Present,71.8,No Diseases Present,0.001,0.031,7.57,7.5cm - 8.9cm,2024
+202403,0175,21416,83.1,M,0.005,No Organisms Present,80.6,No Diseases Present,0.001,0.051,8.309999999999999,7.5cm - 8.9cm,2024
+202403,0191,25780,151.2,F,0.045,Urophycis chuss (Red Hake),155.2,No Diseases Present,0.014,0.546,15.12,≥ 10cm,2024
+202403,0191,25778,144.1,M,0.042,No Organisms Present,145,No Diseases Present,0.013,0.49,14.41,≥ 10cm,2024
+202403,0200,26175,143.1,F,0.034,No Organisms Present,139.7,No Diseases Present,0.018,0.398,14.309999999999999,≥ 10cm,2024
+202403,0200,26162,142.1,M,0.033,No Organisms Present,140.9,No Diseases Present,0.019,0.367,14.209999999999999,≥ 10cm,2024
+202403,0024,695,132.7,M,0.028,No Organisms Present,141.9,No Diseases Present,0.01,0.289,13.27,≥ 10cm,2024
+202403,0024,737,128.7,F,0.022,No Organisms Present,138.3,No Diseases Present,0.005,0.286,12.87,≥ 10cm,2024
+202403,0025,1170,124.8,M,0.031,No Organisms Present,126.7,No Diseases Present,0.009,0.253,12.48,≥ 10cm,2024
+202403,0105,10248,95.3,F,0.016,No Organisms Present,94.1,No Diseases Present,0.007,0.124,9.53,8.9cm - 10cm,2024
+202403,0099,9221,111.6,F,0.017,No Organisms Present,113.9,No Diseases Present,0.006,0.155,11.16,≥ 10cm,2024
+202403,0099,9264,104.8,M,0.015,No Organisms Present,105,No Diseases Present,0.002,0.13,10.48,≥ 10cm,2024
+202403,0101,9364,125.3,M,0.032,No Organisms Present,128.9,No Diseases Present,0.006,0.244,12.53,≥ 10cm,2024
+202403,0161,19169,141.7,M,0.034,No Organisms Present,150.8,No Diseases Present,0.012,0.423,14.169999999999998,≥ 10cm,2024
+202403,0163,19784,134.7,M,0.028,No Organisms Present,139.3,No Diseases Present,0.016,0.36,13.469999999999999,≥ 10cm,2024
+202403,0179,23388,93,F,0.006,No Organisms Present,92.7,No Diseases Present,0.002,0.078,9.3,8.9cm - 10cm,2024
+202403,0179,23442,93.8,F,0.008,No Organisms Present,93,No Diseases Present,0.002,0.076,9.379999999999999,8.9cm - 10cm,2024
+202403,0183,24563,118.8,F,0.02,No Organisms Present,123.9,No Diseases Present,0.004,0.187,11.879999999999999,≥ 10cm,2024
+202403,0172,20888,113.9,M,0.02,No Organisms Present,112.1,No Diseases Present,0.008,0.261,11.39,≥ 10cm,2024
+202403,0156,17751,99.1,F,0.018,No Organisms Present,102,No Diseases Present,0.006,0.154,9.91,8.9cm - 10cm,2024
+202403,0159,17942,117,F,0.027,No Organisms Present,126.4,No Diseases Present,0.006,0.274,11.7,≥ 10cm,2024
+202403,0159,17971,113.9,F,0.012,No Organisms Present,111.2,No Diseases Present,0.002,0.151,11.39,≥ 10cm,2024
+202403,0159,18019,119.7,M,0.021,No Organisms Present,125,No Diseases Present,0.008,0.19,11.97,≥ 10cm,2024
+202403,0109,10607,115.2,M,0.031,No Organisms Present,115.5,No Diseases Present,0.009,0.182,11.52,≥ 10cm,2024
+202403,0065,7678,121.5,M,0.022,No Organisms Present,128.7,No Diseases Present,0.011,0.231,12.15,≥ 10cm,2024
+202403,0065,7747,133.4,M,0.04,No Organisms Present,137.5,No Diseases Present,0.016,0.345,13.34,≥ 10cm,2024
+202403,0036,2321,80.4,F,0.007,No Organisms Present,78.2,No Diseases Present,0.002,0.085,8.040000000000001,7.5cm - 8.9cm,2024
+202403,0047,4667,167.3,F,0.034,No Organisms Present,169.6,No Diseases Present,0.019,0.514,16.73,≥ 10cm,2024
+202403,0203,26412,172,F,0.064,No Organisms Present,175,No Diseases Present,0.019,0.671,17.2,≥ 10cm,2024
+202403,0207,26535,116,M,0.017,No Organisms Present,115.9,No Diseases Present,0.005,0.205,11.6,≥ 10cm,2024
+202403,0026,1217,140.5,F,0.043,No Organisms Present,149.7,No Diseases Present,0.018,0.377,14.05,≥ 10cm,2024
+202403,0105,10327,89.4,F,0.009,No Organisms Present,88.3,No Diseases Present,0.002,0.078,8.940000000000001,8.9cm - 10cm,2024
+202403,0105,10217,138.4,F,0.055,Urophycis chuss (Red Hake),148.7,No Diseases Present,0.013,0.384,13.84,≥ 10cm,2024
+202403,0105,10278,138.4,F,0.043,No Organisms Present,147.2,No Diseases Present,0.012,0.314,13.84,≥ 10cm,2024
+202403,0082,8617,124,F,0.039,No Organisms Present,127.5,No Diseases Present,0.02,0.301,12.4,≥ 10cm,2024
+202403,0097,9142,143.4,F,0.038,No Organisms Present,151.8,No Diseases Present,0.012,0.464,14.34,≥ 10cm,2024
+202403,0046,4051,129.6,F,0.044,No Organisms Present,143.6,No Diseases Present,0.021,0.345,12.959999999999999,≥ 10cm,2024
+202403,0166,20291,166,F,0.056,No Organisms Present,179.9,No Diseases Present,0.035,0.725,16.6,≥ 10cm,2024
+202403,0156,17763,141.5,F,0.039,No Organisms Present,144.8,No Diseases Present,0.027,0.471,14.15,≥ 10cm,2024
+202403,0160,18927,132.1,M,0.026,No Organisms Present,135.5,No Diseases Present,0.013,0.351,13.209999999999999,≥ 10cm,2024
+202403,0160,18934,132,M,0.033,No Organisms Present,127.3,No Diseases Present,0.011,0.277,13.2,≥ 10cm,2024
+202403,0160,18937,138.6,M,0.042,No Organisms Present,147.1,No Diseases Present,0.016,0.448,13.86,≥ 10cm,2024
+202403,0109,10597,102,F,0.019,No Organisms Present,100.3,No Diseases Present,0.003,0.126,10.2,≥ 10cm,2024
+202403,0109,10619,94.7,F,0.017,No Organisms Present,99.1,No Diseases Present,0.004,0.125,9.47,8.9cm - 10cm,2024
+202403,0049,4814,159.1,F,0.057,No Organisms Present,175.4,No Diseases Present,0.014,0.543,15.91,≥ 10cm,2024
+202403,0049,5008,154.4,F,0.047,No Organisms Present,167.3,Shell Blisters,0.015,0.544,15.440000000000001,≥ 10cm,2024
+202403,0026,1236,140.8,M,0.035,No Organisms Present,152.6,No Diseases Present,0.015,0.417,14.080000000000002,≥ 10cm,2024
+202403,0026,1241,144.9,F,0.04,No Organisms Present,148.1,No Diseases Present,0.015,0.393,14.49,≥ 10cm,2024
+202403,0097,9158,143,F,0.029,No Organisms Present,152,No Diseases Present,0.013,0.363,14.3,≥ 10cm,2024
+202403,0045,3859,109.2,F,0.012,No Organisms Present,109,No Diseases Present,0.004,0.134,10.92,≥ 10cm,2024
+202403,0166,20326,135,F,0.051,No Organisms Present,140.6,No Diseases Present,0.014,0.38,13.5,≥ 10cm,2024
+202403,0176,22557,78.5,U,0.004,No Organisms Present,74.9,No Diseases Present,0.001,0.045,7.85,7.5cm - 8.9cm,2024
