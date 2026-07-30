@@ -2,6 +2,7 @@
 ################################### SETUP ######################################
 ################################################################################
 
+# Read in required packages
 if (!require("shiny"))
   install.packages("shiny")
 if (!require("bslib"))
@@ -25,13 +26,24 @@ if (!require("ggridges"))
 if (!require("patchwork"))
   install.packages("patchwork")
 
+# General setup
 `%ni%` <- Negate(`%in%`)
 options(scipen = 999)
 order <- c("≥ 10cm", "8.9cm - 10cm", "7.5cm - 8.9cm", "3.5cm - 7.5cm", "≤ 3.5cm")
+
+# Read in shapefiles and make sure they have consistent projections 
 coastline <- st_read(here("ScallopShinyApp/Shapefiles/coastline.shp"))
 GB_strata <- st_read(here("ScallopShinyApp/Shapefiles/GB_Estimation_Areas_2024_UTM19_PDT.shp"))
 MAB_strata <- st_read(here("ScallopShinyApp/Shapefiles/MAB_Estimation_Areas_2024_UTM18_PDT.shp"))
-old_strata <- st_read(here("ScallopShinyApp/Shapefiles/Shellfish_Strata_UTM19.shp"))
+nefsc_shellfish <- st_read(here("ScallopShinyApp/Shapefiles/Shellfish_Strata_UTM19.shp"))
+GB_strata <- GB_strata %>% st_transform(crs = 4326)
+MAB_strata <- MAB_strata %>% st_transform(crs = 4326)
+nefsc_shellfish <- nefsc_shellfish %>% st_transform(crs = 4326)
+coastline <- coastline %>% st_transform(crs = 4326)
+
+SAMS <- rbind(GB_strata, MAB_strata)
+
+# Read in data files
 
 files <- list.files(path = "ScallopShinyApp/Data", pattern = "\\.csv$", full.names = TRUE)
 
@@ -43,22 +55,18 @@ iwalk(file_groups, function(file_paths, obj_name) {
   assign(obj_name, combined_df, envir = .GlobalEnv)
 })
 
-GB_strata <- GB_strata %>% st_transform(crs = 4326)
-MAB_strata <- MAB_strata %>% st_transform(crs = 4326)
-old_strata <- old_strata %>% st_transform(crs = 4326)
-coastline <- coastline %>% st_transform(crs = 4326)
-
-new_strata <- rbind(GB_strata, MAB_strata)
-
+# Filter out records from 2023 because the survey was cancelled
 catch <- catch %>% filter(EST_YEAR %ni% 2023)
 length <- length %>% filter(EST_YEAR %ni% 2023)
 
+# Make spatial versions of length and catch tables for maps
+# also joins the data to the SAMS shapefiles for future filtering
 catch_sf <- catch %>%
   st_as_sf(coords = c("DECDEG_BEGLON", "DECDEG_BEGLAT"),
            crs = 4326) %>%
   arrange(desc(EXPCATCHNUM)) %>%
-  st_join(new_strata, join = st_nearest_feature) %>%
-  st_join(old_strata, join = st_nearest_feature) %>% 
+  st_join(SAMS, join = st_nearest_feature) %>%
+  st_join(nefsc_shellfish, join = st_nearest_feature) %>% 
   mutate(NewSAMS = if_else(is.na(NewSAMS), "Beyond SAMS Boundary", NewSAMS)) %>% 
   filter(lengths(st_intersects(., coastline)) == 0) %>% 
   distinct()
@@ -67,8 +75,8 @@ catch_sf <- catch %>%
 length_sf <- length %>%
   st_as_sf(coords = c("DECDEG_BEGLON", "DECDEG_BEGLAT"),
            crs = 4326) %>%
-  st_join(new_strata, join = st_nearest_feature) %>%
-  st_join(old_strata, join = st_nearest_feature) %>% 
+  st_join(SAMS, join = st_nearest_feature) %>%
+  st_join(nefsc_shellfish, join = st_nearest_feature) %>% 
   mutate(NewSAMS = if_else(is.na(NewSAMS), "Beyond SAMS Boundary", NewSAMS)) %>% 
   filter(lengths(st_intersects(., coastline)) == 0) %>% 
   distinct()
@@ -79,23 +87,29 @@ station_sf <- station %>%
   filter(lengths(st_intersects(., coastline)) == 0) %>% 
   distinct()
 
+# Sets a color palette for vessel names to make sure the color stays consistent
+# and that each vessel has a unique color. This should also support the addition of
+# multiple new vessels
 get_vessel_colors <- function(dataset, vessel_col = "VESSEL_NAME") {
   all_vessels <- sort(unique(dataset[[vessel_col]]))
   
   colors <- c(
     "o33white" = "#54ADDB",
+    "lightpurple" = "#7171FF",
+    "warmred" = "#FF4438",
+    "S33white" = "#A2D269",
+    "U50black" = "#28225C",
+    "CO50black" = "#681617",
+    "CR33white" = "#FFAC54",
     "w33white" = "#6DDBE1",
     "w30black" = "#005761",
     "w50black" = "#003A40",
     "S66white" = "#CEE8B1",
     "S33white" = "#A2D269",
     "S30black" = "#234515",
-    "U50black" = "#28225C",
     "U33white" = "#A2A2FF",
     "U30black" = "#3D348A",
-    "CR33white" = "#FFAC54",
     "CR30black" = "#9F4700",
-    "CO50black" = "#681617",
     "CO33white" = "#FF827A",
     "CO30black" = "#9C2122",
     "lightteal" = "#1ECAD3",
@@ -106,9 +120,8 @@ get_vessel_colors <- function(dataset, vessel_col = "VESSEL_NAME") {
   setNames(colors, all_vessels)
 }
 
-################################################################################
-#################################### UI ########################################
-################################################################################
+# App text is pulled from an R markdown file. This function calls the markdown in
+# and isolates the text based on the appropriate header.
 app_text <- function(rmd_path) {
   lines <- readLines(rmd_path, warn = FALSE)
   
@@ -144,10 +157,13 @@ app_text <- function(rmd_path) {
 
 text <- app_text(here("ScallopShinyApp/AppText.Rmd"))
 
-# Define UI for application that includes charts, tables, and maps
-
+################################################################################
+#################################### UI ########################################
+################################################################################
+# UI defines the visuals, buttons, text, etc. ALl changes to the app structure 
+# will happen in this section
 ui <- fluidPage(
-  includeCSS(here("ScallopShinyApp/www/style.css")),
+  includeCSS(here("ScallopShinyApp/www/style.css")), # calls in the css file for styling
   div(
     class = "app-header",
     tags$img(src = "NMFS_logo.png", class = "app-logo"),
@@ -289,8 +305,8 @@ ui <- fluidPage(
             selectizeInput(
               "plot_4_strata_selectbox",
               "Select Strata Map:",
-              choices = c("SAMS" = "new_strata", "NEFSC Shellfish" = "old_strata"),
-              selected = "new_strata"
+              choices = c("SAMS" = "SAMS", "NEFSC Shellfish" = "nefsc_shellfish"),
+              selected = "SAMS"
             ),
             downloadButton("download_plot4", "Download Figure", class = "btn-primary btn-sm")
           ),
@@ -337,8 +353,8 @@ ui <- fluidPage(
             selectizeInput(
               "plot_6_strata_selectbox",
               "Select Strata Map:",
-              choices = c("SAMS" = "new_strata", "NEFSC Shellfish" = "old_strata"),
-              selected = "new_strata"
+              choices = c("SAMS" = "SAMS", "NEFSC Shellfish" = "nefsc_shellfish"),
+              selected = "SAMS"
             ),
             downloadButton("download_plot6", "Download Figure", class = "btn-primary btn-sm")
           ),
@@ -439,9 +455,9 @@ ui <- fluidPage(
         card_header("Survey Background and Methods"),
         card_body(text$Methods_Background)
       ),
+      #Plot 5
       card(
         card_header("Success Metrics"),
-        #Plot 5
         card_body(
           plotOutput("plot_5"),
           card_body(fill = FALSE, gap = 0, text$plot_5_caption)
@@ -452,9 +468,6 @@ ui <- fluidPage(
 )
 
 
-# shinyApp(ui, server)
-
-
 ################################################################################
 ################################### SERVER #####################################
 ################################################################################
@@ -462,9 +475,9 @@ ui <- fluidPage(
 # Define server logic required to draw plots - essentially controls the visuals
 server <- function(input, output, session) {
   plot_1 <- reactive({
-    
+    # make all years available in the slider
     all_years <- seq(input$plot_1_date_slider[1], input$plot_1_date_slider[2])
-    
+    # filter data to match user selections
     plot_1_data <- catch %>%
       filter(
         EST_YEAR >= input$plot_1_date_slider[1] &
@@ -493,7 +506,7 @@ server <- function(input, output, session) {
       need(
         nrow(plot_1_data) > 0, 
         "No data available for the current selections."))
-    
+    # set a standard theme because this uses two stacked plots
     theme_shared <- theme_minimal() +
       theme(
         text = element_text(family = "sans", size = 16),
@@ -546,7 +559,7 @@ server <- function(input, output, session) {
       ) +
       theme_shared
     
-    
+    # stack the plots
     cowplot::plot_grid(p_catch, p_weight, ncol = 1, align = "v")
     
   })
@@ -799,7 +812,6 @@ server <- function(input, output, session) {
     }
     
     
-    
     plot4 <- ggplot() +
       geom_sf(
         data = coastline,
@@ -808,10 +820,10 @@ server <- function(input, output, session) {
         linewidth = 0.5
       )
     
-    if ("new_strata" %in% input$plot_4_strata_selectbox) {
+    if ("SAMS" %in% input$plot_4_strata_selectbox) {
       plot4 <- plot4 +
         geom_sf(
-          data = new_strata,
+          data = SAMS,
           fill = NA,
           color = "gray20",
           linewidth = 0.5
@@ -819,9 +831,9 @@ server <- function(input, output, session) {
       
     }
     
-    if ("old_strata" %in% input$plot_4_strata_selectbox) {
+    if ("nefsc_shellfish" %in% input$plot_4_strata_selectbox) {
       plot4 <- plot4 + geom_sf(
-        data = old_strata,
+        data = nefsc_shellfish,
         fill = NA,
         color = "gray20",
         linewidth = 0.5
@@ -959,18 +971,18 @@ server <- function(input, output, session) {
         linewidth = 0.5
       )
     
-    if ("new_strata" %in% input$plot_6_strata_selectbox) {
+    if ("SAMS" %in% input$plot_6_strata_selectbox) {
       plot6 <- plot6 + geom_sf(
-        data = new_strata,
+        data = SAMS,
         fill = NA,
         color = "gray20",
         linewidth = 0.5
       )
     }
     
-    if ("old_strata" %in% input$plot_6_strata_selectbox) {
+    if ("nefsc_shellfish" %in% input$plot_6_strata_selectbox) {
       plot6 <- plot6 + geom_sf(
-        data = old_strata,
+        data = nefsc_shellfish,
         fill = NA,
         color = "gray20",
         linewidth = 0.5
