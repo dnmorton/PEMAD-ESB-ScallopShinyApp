@@ -23,8 +23,8 @@ if (!require("tidyverse"))
   install.packages("tidyverse")
 if (!require("ggridges"))
   install.packages("ggridges")
-if (!require("patchwork"))
-  install.packages("patchwork")
+if (!require("cowplot"))
+  install.packages("cowplot")
 
 # General setup
 `%ni%` <- Negate(`%in%`)
