@@ -47,18 +47,25 @@ GB_strata <- GB_strata %>% st_transform(crs = 4326)
 MAB_strata <- MAB_strata %>% st_transform(crs = 4326)
 nefsc_shellfish <- nefsc_shellfish %>% st_transform(crs = 4326)
 coastline <- coastline %>% st_transform(crs = 4326)
-#make a single SAMS shapefile that includes the Mid-Atlantic and Georges Bank
+# make a single SAMS shapefile that includes the Mid-Atlantic and Georges Bank
 SAMS <- rbind(GB_strata, MAB_strata)
 
 # Read in data files
 
-files <- list.files(path = "ScallopShinyApp/Data", pattern = "\\.csv$", full.names = TRUE)
+data_dir <- if (dir.exists("ScallopShinyApp/Data")) {
+  "ScallopShinyApp/Data"
+} else if (dir.exists("Data")) {
+  "Data"
+} else {
+  here::here("Data")
+}
+
+files <- list.files(path = data_dir, pattern = "\\.csv$", full.names = TRUE)
 
 file_groups <- split(files, sub("_.*", "", basename(files)))
 
 iwalk(file_groups, function(file_paths, obj_name) {
   combined_df <- map_dfr(file_paths, read_csv, show_col_types = FALSE)
-  
   assign(obj_name, combined_df, envir = .GlobalEnv)
 })
 
@@ -244,7 +251,7 @@ ui <- fluidPage(
             sliderInput(
               "plot_1_date_slider",
               "Select Year Range:",
-              min = min(catch$EST_YEAR), ## autmoatically pulls the earliest year in the data
+              min = min(catch$EST_YEAR), ## automatically pulls the earliest year in the data
               max = max(catch$EST_YEAR), ## automatically pulls the most recent year of data
               value = c(min(catch$EST_YEAR), max(catch$EST_YEAR)), ## sets the start and end pf the slider to match years in the data
               sep = "",
