@@ -27,20 +27,27 @@ if (!require("cowplot"))
   install.packages("cowplot")
 
 # General setup
-`%ni%` <- Negate(`%in%`)
-options(scipen = 999)
-order <- c("≥ 10cm", "8.9cm - 10cm", "7.5cm - 8.9cm", "3.5cm - 7.5cm", "≤ 3.5cm")
+`%ni%` <- Negate(`%in%`) # creates "not in" function
+options(scipen = 999) # removes scientific notation
+# defines drawing order of the size categories
+order <- c("≥ 10cm", "8.9cm - 10cm", "7.5cm - 8.9cm", "3.5cm - 7.5cm", "≤ 3.5cm") 
+
 
 # Read in shapefiles and make sure they have consistent projections 
+## coastline of the U.S.
 coastline <- st_read(here("ScallopShinyApp/Shapefiles/coastline.shp"))
+## Georges Bank SAMS 
 GB_strata <- st_read(here("ScallopShinyApp/Shapefiles/GB_Estimation_Areas_2024_UTM19_PDT.shp"))
+## Mid-Atlantic SAMS
 MAB_strata <- st_read(here("ScallopShinyApp/Shapefiles/MAB_Estimation_Areas_2024_UTM18_PDT.shp"))
+## previously used NEFSC shellfish strata
 nefsc_shellfish <- st_read(here("ScallopShinyApp/Shapefiles/Shellfish_Strata_UTM19.shp"))
+# make sure all layers are in the same projection
 GB_strata <- GB_strata %>% st_transform(crs = 4326)
 MAB_strata <- MAB_strata %>% st_transform(crs = 4326)
 nefsc_shellfish <- nefsc_shellfish %>% st_transform(crs = 4326)
 coastline <- coastline %>% st_transform(crs = 4326)
-
+#make a single SAMS shapefile that includes the Mid-Atlantic and Georges Bank
 SAMS <- rbind(GB_strata, MAB_strata)
 
 # Read in data files
@@ -63,11 +70,15 @@ length <- length %>% filter(EST_YEAR %ni% 2023)
 # also joins the data to the SAMS shapefiles for future filtering
 catch_sf <- catch %>%
   st_as_sf(coords = c("DECDEG_BEGLON", "DECDEG_BEGLAT"),
-           crs = 4326) %>%
+           crs = 4326) %>% 
+  ## arrange so that larger catches draw on top
   arrange(desc(EXPCATCHNUM)) %>%
+  ## joins the shapefiles and uses nearest feature to ensure each point is only linked to a single SAMS/strata
   st_join(SAMS, join = st_nearest_feature) %>%
   st_join(nefsc_shellfish, join = st_nearest_feature) %>% 
+  ## for any point outside of the SAMS, flag that it is beyond the boundary
   mutate(NewSAMS = if_else(is.na(NewSAMS), "Beyond SAMS Boundary", NewSAMS)) %>% 
+  ## remove any points that intersect with the coastline
   filter(lengths(st_intersects(., coastline)) == 0) %>% 
   distinct()
 
@@ -75,21 +86,24 @@ catch_sf <- catch %>%
 length_sf <- length %>%
   st_as_sf(coords = c("DECDEG_BEGLON", "DECDEG_BEGLAT"),
            crs = 4326) %>%
+  ## joins the shapefiles and uses nearest feature to ensure each point is only linked to a single SAMS/strata
   st_join(SAMS, join = st_nearest_feature) %>%
   st_join(nefsc_shellfish, join = st_nearest_feature) %>% 
+  ## for any point outside of the SAMS, flag that it is beyond the boundary
   mutate(NewSAMS = if_else(is.na(NewSAMS), "Beyond SAMS Boundary", NewSAMS)) %>% 
+  ## remove any points that intersect with the coastline
   filter(lengths(st_intersects(., coastline)) == 0) %>% 
   distinct()
 
 station_sf <- station %>%
   st_as_sf(coords = c("DECDEG_BEGLON", "DECDEG_BEGLAT"),
            crs = 4326) %>% 
+  ## remove any points that intersect with the coastline
   filter(lengths(st_intersects(., coastline)) == 0) %>% 
   distinct()
 
-# Sets a color palette for vessel names to make sure the color stays consistent
-# and that each vessel has a unique color. This should also support the addition of
-# multiple new vessels
+# Sets a color palette for vessel names to make sure the color stays consistent and that each vessel has a unique color. 
+# This should also support the addition of multiple new vessels
 get_vessel_colors <- function(dataset, vessel_col = "VESSEL_NAME") {
   all_vessels <- sort(unique(dataset[[vessel_col]]))
   
@@ -130,7 +144,8 @@ app_text <- function(rmd_path) {
   current_block <- c()
   
   for (line in lines) {
-    if (startsWith(line, "##")) {
+    ## collects each line starting with "##" in the markdown as the section header
+    if (startsWith(line, "##")) { 
       if (!is.null(current_header)) {
         text_list[[current_header]] <- HTML(markdownToHTML(
           text = paste(current_block, collapse = "\n"),
@@ -157,14 +172,38 @@ app_text <- function(rmd_path) {
 
 text <- app_text(here("ScallopShinyApp/AppText.Rmd"))
 
+
+# a function to build a caption that will render displaying the plot selections
+cap_input <- function(val) {
+  if (is.null(val) || length(val) == 0 || all(val == "")) return("All")
+  paste(val, collapse = ", ")
+}
+
+build_download_caption <- function(inputs_list) {
+  details <- sapply(names(inputs_list), function(name) {
+    paste0(name, ": ", cap_input(inputs_list[[name]]))
+  })
+  paste0("Filters Applied | ", paste(details, collapse = " | "), "\nExported on: ", Sys.Date())
+}
+
+caption_theme <- theme(
+  plot.caption = element_text(
+    family = "sans",
+    size = 10,
+    face = "italic",
+    hjust = 0,
+    color = "grey20",
+    margin = margin(t = 10)
+  )
+)
+
 ################################################################################
 #################################### UI ########################################
 ################################################################################
-# UI defines the visuals, buttons, text, etc. ALl changes to the app structure 
-# will happen in this section
+# UI defines the visuals, buttons, text, etc. ALl changes to the app structure will happen in this section
 ui <- fluidPage(
   includeCSS(here("ScallopShinyApp/www/style.css")), # calls in the css file for styling
-  div(
+  div( # defines the header using code in the CSS file, the logo is called here.
     class = "app-header",
     tags$img(src = "NMFS_logo.png", class = "app-logo"),
     div(class = "app-title-group",
@@ -175,9 +214,9 @@ ui <- fluidPage(
     ## Intro and Methods Tab ##
     nav_panel(title = "Introduction", card(
       card_header("Welcome to the NEFSC Scallop Survey Data Dashboard!"),
-      text$Welcome_Intro
+      text$Welcome_Intro # calls the text from the text markdown file
     )),
-    nav_spacer(),
+    nav_spacer(), # adds a space between the panel headers
     
     ## Catch/Landings Data ##
     nav_panel(
@@ -187,38 +226,44 @@ ui <- fluidPage(
         card_header("Average Number and Weight of Scallops Caught per Tow"),
         card_body(layout_sidebar(
           sidebar = sidebar(
-            selectizeInput(
-              "plot_1_region_selectbox",
-              "Select Sampling Region:",
-              choices = c("Mid-Atlantic", "New England"),
-              selected = "New England"
+            # creates a dropdown selector for the regions
+            selectizeInput( 
+              "plot_1_region_selectbox", ## name of the dropdown which is used for filtering in the server section
+              "Select Sampling Region:", ## label of the dropdown that will appear in the app
+              choices = c("Mid-Atlantic", "New England"), ## dropdown options
+              selected = "New England" ## default selection
             ),
+            # creates a dropdown selector for the station types
             selectizeInput(
               "plot_1_selectbox",
               "Select Station Type:",
-              choices = c("All Stations", unique(catch$Station_Type)),
+              choices = c("All Stations", unique(catch$Station_Type)), ## uses all the station types in the data and an option for all stations
               selected = "Random Stations"
             ),
+            # creates a slider for the year range 
             sliderInput(
               "plot_1_date_slider",
               "Select Year Range:",
-              min = min(catch$EST_YEAR),
-              max = max(catch$EST_YEAR),
-              value = c(min(catch$EST_YEAR), max(catch$EST_YEAR)),
+              min = min(catch$EST_YEAR), ## autmoatically pulls the earliest year in the data
+              max = max(catch$EST_YEAR), ## automatically pulls the most recent year of data
+              value = c(min(catch$EST_YEAR), max(catch$EST_YEAR)), ## sets the start and end pf the slider to match years in the data
               sep = "",
-              step = 1
+              step = 1 ## 1 year increments
             ),
             downloadButton("download_plot1", "Download Figure", class = "btn-primary btn-sm")
           ),
-          plotOutput("plot_1", height = "500px")
+          plotOutput("plot_1", height = "500px") ## defines the plot to render and the desired size
         )),
+        # secondary body beneath the plot to call on the plot caption in the text markdown file
         card_body(fill = FALSE, gap = 0, text$plot_1_caption),
+        # allows the user to make the card full screen
         full_screen = TRUE
       ),
       #Plots 2a and 2b were made dynamic so that users can toggle between the two
       #this also increases the amount of space available to each plot
       card(
         card_header(
+          # the conditional panels change the plot, caption, etc. based on the select plot (count vs. weight)
           conditionalPanel(
             condition = "input.plot_2_ab_toggle == 'plot_2a'",
             "Average Number of Scallops Caught per Tow in SAMS Areas"
@@ -229,6 +274,8 @@ ui <- fluidPage(
           ),
         ),
         card_body(
+          # allows the user to choose which plot they are interested in.
+          # the app will automatically swap between headers, plots, etc. when the selection is changed
           radioButtons(
             inputId = "plot_2_ab_toggle",
             label = "Select Plot:",
@@ -239,13 +286,16 @@ ui <- fluidPage(
         #Plot 2
         card_body(
           layout_sidebar(
+            # both plots use the same sidebar/selection options so they will automatically show the same data
             sidebar = sidebar(
+              # creates a dropdown selector for the SAMS areas
               selectizeInput(
                 "plot_2_selectbox",
                 "Select Management Area:",
                 choices = unique(catch_sf$NewSAMS),
                 selected = "GSC"
               ),
+              # creates a slider bar for the year range
               sliderInput(
                 "plot_2_date_slider",
                 "Select Year Range:",
@@ -255,6 +305,7 @@ ui <- fluidPage(
                 sep = "",
                 step = 1
               ),
+              # ensures that the download button is associated with the active plot
               conditionalPanel(
                 condition = "input.plot_2_ab_toggle == 'plot_2a'",
                 downloadButton("download_plot2a", "Download Figure", class = "btn-primary btn-sm w-100")
@@ -264,6 +315,7 @@ ui <- fluidPage(
                 downloadButton("download_plot2b", "Download Figure", class = "btn-primary btn-sm w-100")
               )
             ),
+            # picks which plot to render based on above selections
             conditionalPanel(condition = "input.plot_2_ab_toggle == 'plot_2a'", plotOutput("plot_2a")),
             conditionalPanel(condition = "input.plot_2_ab_toggle == 'plot_2b'", plotOutput("plot_2b"))
           )
@@ -284,28 +336,35 @@ ui <- fluidPage(
         card_header("Abundance of Scallops per Station"),
         card_body(layout_sidebar(
           sidebar = sidebar(
+            # creates a checkbox to select regions of interest
             checkboxGroupInput(
               "plot_4_checkbox",
               "Select Sampling Region:",
               choices = sort(unique(catch_sf$REGION), decreasing = TRUE),
               selected = unique(catch_sf$REGION)
             ),
+            # creates a dropdown selector for the station types
             selectizeInput(
               "plot_4_station_selectbox",
               "Select Station Type:",
               choices = c("All Stations", unique(catch$Station_Type)),
               selected = "Random Stations"
             ),
+            # creates a dropdown selector for year, this only allows one year of data to be shown at a time
             selectizeInput(
               "plot_4_date_selectbox",
               "Select Year:",
+              ## makes sure that every year between the min and max is in the dropdown, and is in the correct order
               choices = sort(seq(min(catch_sf$EST_YEAR), max(catch_sf$EST_YEAR)), decreasing = TRUE),
+              ## defaults to the most recent year of data
               selected = max(catch_sf$EST_YEAR)
             ),
+            # creates a dropdown selector to change between the strata maps
             selectizeInput(
               "plot_4_strata_selectbox",
               "Select Strata Map:",
               choices = c("SAMS" = "SAMS", "NEFSC Shellfish" = "nefsc_shellfish"),
+              ## defaults to the SAMS areas
               selected = "SAMS"
             ),
             downloadButton("download_plot4", "Download Figure", class = "btn-primary btn-sm")
@@ -326,30 +385,35 @@ ui <- fluidPage(
         card_header("Abundance of Different Size Ranges of Scallops per Station"),
         card_body(layout_sidebar(
           sidebar = sidebar(
+            # creates a checkbox selector for the sampling regions
             checkboxGroupInput(
               "plot_6_checkbox",
               "Select Sampling Region:",
               choices = sort(unique(length_sf$REGION), decreasing = TRUE),
               selected = unique(length_sf$REGION)
             ),
+            # creates a dropdown selector for the station types
             selectizeInput(
               "plot_6_station_selectbox",
               "Select Station Type:",
               choices = c("All Stations", unique(catch$Station_Type)),
               selected = "Random Stations"
             ),
+            # creates a dropdown selector for the different size categories 
             selectizeInput(
               "plot_6_size_selectbox",
               "Select Size Range (cm):",
               choices = intersect(order, unique(length_sf$Size_Cat)),
               selected = "< 3.5cm"
             ),
+            # creates a dropdown selector for the year
             selectizeInput(
               "plot_6_date_selectbox",
               "Select Year:",
               choices = sort(seq(min(length_sf$EST_YEAR), max(length_sf$EST_YEAR)), decreasing = TRUE),
               selected = max(length_sf$EST_YEAR)
             ),
+            # creates a dropdown selector for the strata
             selectizeInput(
               "plot_6_strata_selectbox",
               "Select Strata Map:",
@@ -369,18 +433,21 @@ ui <- fluidPage(
         card_header("Median Number of Scallops Caught per Size Range, per Tow"),
         card_body(layout_sidebar(
           sidebar = sidebar(
+            # creates a dropdown selector for the sampling regions
             selectizeInput(
               "plot_7_region_selectbox",
               "Select Sampling Region:",
               choices = c("Mid-Atlantic", "New England"),
               selected = "New England"
             ),
+            # creates a dropdown selector for the station types
             selectizeInput(
               "plot_7_station_selectbox",
               "Select Station Type:",
               choices = c("All Stations", unique(catch$Station_Type)),
               selected = "Random Stations"
             ),
+            # creates a slider for selecting a year range
             sliderInput(
               "plot_7_date_slider",
               "Select Year Range:",
@@ -403,23 +470,27 @@ ui <- fluidPage(
         card_header("Size of Scallops Caught in the Dredge Survey per Year"),
         layout_sidebar(
           sidebar = sidebar(
+            # creates a dropdown selector for sampling region
             selectizeInput(
               "plot_8_region_selectbox",
               "Select Sampling Region:",
               choices = c("Mid-Atlantic", "New England"),
               selected = "New England"
             ),
+            # creates a dropdown selector for SAMS area, this automatically updates depending on the selected sampling region
             selectizeInput(
               "plot_8_SAMS_selectbox",
               "Select Management Area:",
               choices = NULL
             ),
+            # creates a dropdown selector for station type
             selectizeInput(
               "plot_8_station_selectbox",
               "Select Station Type:",
               choices = c("All Stations", unique(catch$Station_Type)),
               selected = "Random Stations"
             ),
+            # creates a slider to select date ranges
             sliderInput(
               "plot_8_date_slider",
               "Select Year Range:",
@@ -480,14 +551,14 @@ server <- function(input, output, session) {
     # filter data to match user selections
     plot_1_data <- catch %>%
       filter(
-        EST_YEAR >= input$plot_1_date_slider[1] &
+        ## these input names match to the ID listed in the UI definition 
+        EST_YEAR >= input$plot_1_date_slider[1] & 
           EST_YEAR <= input$plot_1_date_slider[2],
         REGION %in% input$plot_1_region_selectbox,
-        (
-          input$plot_1_selectbox == "All Stations" |
-            Station_Type == input$plot_1_selectbox
-        )
+        (input$plot_1_selectbox == "All Stations" |
+            Station_Type == input$plot_1_selectbox)
       ) %>%
+      # summarize the data to find a mean and standard error catch/weight for each year
       group_by(EST_YEAR) %>%
       summarize(
         mean_catch = mean(EXPCATCHNUM),
@@ -496,16 +567,20 @@ server <- function(input, output, session) {
         se_weight   = sd(EXPCATCHWT, na.rm = TRUE) / sqrt(n())
       ) %>%
       ungroup() %>%
+      ## set all weight values collected before 2001 to NA since weight was not consistently recorded pre-FSCS 
       mutate(
         mean_weight = if_else(EST_YEAR >= 2001, mean_weight, NA),
         se_weight   = if_else(EST_YEAR >= 2001, se_weight, NA)
       ) %>% 
+      ## ensures all years exist in a given year range, even if there is no data
+      ## this preserves gaps in the plot for years that don't exist in the data (2020 and 2023)
       complete(EST_YEAR = all_years)
     
     shiny::validate(
       need(
         nrow(plot_1_data) > 0, 
-        "No data available for the current selections."))
+        "No data available for the current selections.")) ## adds a popup if no data matches the selections
+    
     # set a standard theme because this uses two stacked plots
     theme_shared <- theme_minimal() +
       theme(
@@ -516,47 +591,39 @@ server <- function(input, output, session) {
         plot.title = element_text(family = "sans", size = 16, hjust = 0.5)
       )
     
-    p_catch <- ggplot(
+    p_catch <- ggplot( ## creates a plot for the catch data
       plot_1_data, 
-      aes(x = factor(EST_YEAR, levels = all_years), y = mean_catch)
-    ) +
+      aes(x = factor(EST_YEAR, levels = all_years), y = mean_catch)) +
       geom_text(
         aes(y = 0, label = if_else(is.na(mean_catch), "ND", "")),
-        vjust = -0.5, color = "grey40", fontface = "bold", size = 4
-      ) +
+        vjust = -0.5, color = "grey40", fontface = "bold", size = 4) +
       geom_col(fill = "#FF8400", alpha = 0.9) +
       geom_errorbar(
         aes(ymin = mean_catch - se_catch, ymax = mean_catch + se_catch),
-        width = 0.3, color = "black", linewidth = 0.6
-      ) +
+        width = 0.3, color = "black", linewidth = 0.6) +
       scale_x_discrete(drop = FALSE) +
       labs(
         title = "Mean Catch per Tow",
         x = NULL,                           
-        y = "Mean Number per Tow ± SE"   
-      ) +
+        y = "Mean Number per Tow ± SE") +
       theme_shared
     
     
-    p_weight <- ggplot(
+    p_weight <- ggplot( ## creates a plot for weight data
       plot_1_data, 
-      aes(x = factor(EST_YEAR, levels = all_years), y = mean_weight)
-    ) +
+      aes(x = factor(EST_YEAR, levels = all_years), y = mean_weight)) +
       geom_text(
         aes(y = 0, label = if_else(is.na(mean_weight), "ND", "")),
-        vjust = -0.5, color = "grey40", fontface = "bold", size = 4
-      ) +
+        vjust = -0.5, color = "grey40", fontface = "bold", size = 4) +
       geom_col(fill = "#737BE6", alpha = 0.9) +
       geom_errorbar(
         aes(ymin = mean_weight - se_weight, ymax = mean_weight + se_weight),
-        width = 0.3, color = "black", linewidth = 0.6
-      ) +
+        width = 0.3, color = "black", linewidth = 0.6) +
       scale_x_discrete(drop = FALSE) +
       labs(
         title = "Mean Basket Weight per Tow",
         x = "Year",                        
-        y = "Mean Basket Weight (kg) per Tow ± SE"
-      ) +
+        y = "Mean Basket Weight (kg) per Tow ± SE") +
       theme_shared
     
     # stack the plots
@@ -565,28 +632,28 @@ server <- function(input, output, session) {
   })
   
   output$plot_1 <- renderPlot({
-    plot_1()
+    plot_1() # renders the plot so it will appear when called upon by the UI
   })
   
   output$download_plot1 <- downloadHandler(
     filename = function() {
-      paste0("Mean_Number_Scallops_Caught_per_Tow_",
-             Sys.Date(),
-             ".png")
+      paste0("Mean_Number_Scallops_Caught_per_Tow_", Sys.Date(), ".png")
     },
     content = function(file) {
-      ggsave(
-        file,
-        plot = plot_1(),
-        width = 14,
-        height = 8,
-        dpi = 300
-      )
+      cap <- build_download_caption(list(
+        "Region" = input$plot_1_region_selectbox,
+        "Station Type" = input$plot_1_selectbox,
+        "Years" = paste(input$plot_1_date_slider, collapse = "-")
+      ))
+      
+      plot_export <- plot_1() + labs(caption = cap) + caption_theme
+      
+      ggsave(file, plot = plot_export, width = 14, height = 8, dpi = 300)
     }
   )
   
   plot_2a <- reactive({
-    
+    # make all years available in the slider
     all_years <- seq(input$plot_2_date_slider[1], input$plot_2_date_slider[2])
     
     plot_2a_data <- catch_sf %>%
@@ -655,18 +722,17 @@ server <- function(input, output, session) {
   
   output$download_plot2a <- downloadHandler(
     filename = function() {
-      paste0("Mean_Number_Scallops_Caught_per_Tow_by_SAMS_",
-             Sys.Date(),
-             ".png")
+      paste0("Mean_Number_Scallops_Caught_per_Tow_by_SAMS_", Sys.Date(), ".png")
     },
     content = function(file) {
-      ggsave(
-        file,
-        plot = plot_2(),
-        width = 14,
-        height = 8,
-        dpi = 300
-      )
+      cap <- build_download_caption(list(
+        "Management Area" = input$plot_2_selectbox,
+        "Years" = paste(input$plot_2_date_slider, collapse = "-")
+      ))
+      
+      plot_export <- plot_2a() + labs(caption = cap) + caption_theme
+      
+      ggsave(file, plot = plot_export, width = 14, height = 8, dpi = 300)
     }
   )
   
@@ -746,33 +812,33 @@ server <- function(input, output, session) {
   
   output$download_plot2b <- downloadHandler(
     filename = function() {
-      paste0("Mean_Weight_Scallops_Caught_per_Tow_by_SAMS_",
-             Sys.Date(),
-             ".png")
+      paste0("Mean_Weight_Scallops_Caught_per_Tow_by_SAMS_", Sys.Date(), ".png")
     },
     content = function(file) {
-      ggsave(
-        file,
-        plot = plot_3(),
-        width = 14,
-        height = 8,
-        dpi = 300
-      )
+      cap <- build_download_caption(list(
+        "Management Area" = input$plot_2_selectbox,
+        "Years" = paste(input$plot_2_date_slider, collapse = "-")
+      ))
+      
+      plot_export <- plot_2b() + labs(caption = cap) + caption_theme
+      
+      ggsave(file, plot = plot_export, width = 14, height = 8, dpi = 300)
     }
   )
   
   plot_4 <- reactive({
     shiny::validate(
-      need(
+      need( # ensure that a region is checked in order to view the plot
         input$plot_4_checkbox != "",
         "No region selected. Please choose a region to view the map."
       )
     )
     
-    vessel_colors <- get_vessel_colors(catch_sf, "VESSEL_NAME")
+    vessel_colors <- get_vessel_colors(catch_sf, "VESSEL_NAME") # calls on the vessel color function to define colors for each vessel
     
     plot_4_data <- catch_sf %>%
       filter(
+        # filter data to match button selections
         EST_YEAR == input$plot_4_date_selectbox,
         REGION %in% input$plot_4_checkbox,
         (
@@ -788,6 +854,7 @@ server <- function(input, output, session) {
         filter(REGION %in% input$plot_4_checkbox)
     }
     
+    # creates a layer of stations that had no recorded scallop catch
     zero_catch <- station_sf %>%
       filter(EST_YEAR == input$plot_4_date_selectbox,
              ID %ni% catch_sf$ID) %>% 
@@ -800,6 +867,7 @@ server <- function(input, output, session) {
       )
     )
     
+    # sets bounding boxes for the three different region views
     if (all(c("Mid-Atlantic", "New England") %in% input$plot_4_checkbox)) {
       x_lims <- c(-76.5, -65.8)
       y_lims <- c(35.4, 42.25)
@@ -811,7 +879,7 @@ server <- function(input, output, session) {
       y_lims <- c(40.1, 42.25)
     }
     
-    
+    # creates the basemap
     plot4 <- ggplot() +
       geom_sf(
         data = coastline,
@@ -820,6 +888,7 @@ server <- function(input, output, session) {
         linewidth = 0.5
       )
     
+    # draws SAMS depending on the strata selection
     if ("SAMS" %in% input$plot_4_strata_selectbox) {
       plot4 <- plot4 +
         geom_sf(
@@ -830,7 +899,7 @@ server <- function(input, output, session) {
         )
       
     }
-    
+    # draws strata map depending on strata selection
     if ("nefsc_shellfish" %in% input$plot_4_strata_selectbox) {
       plot4 <- plot4 + geom_sf(
         data = nefsc_shellfish,
@@ -849,7 +918,7 @@ server <- function(input, output, session) {
         alpha = 0.6
       ) +
       scale_fill_manual(values =  vessel_colors) +
-      scale_size_continuous(
+      scale_size_continuous( ## sets the scale for the bubbles
         range = c(3, 15),
         breaks = c(0, 10, 100, 1000, 10000, 20000),
         limits = c(min(catch_sf$EXPCATCHNUM), max(catch_sf$EXPCATCHNUM))
@@ -857,8 +926,8 @@ server <- function(input, output, session) {
       geom_sf(data = zero_catch, aes(shape = factor(catch_number)), size = 2) +
       scale_shape_manual(name = NULL, values = c("No Scallops Caught" = 4)) +
       guides(
-        size = guide_legend(order = 1),  # Forces Size Legend to sit on TOP
-        shape = guide_legend(order = 2)  # Forces Shape Legend ("Zero Catch") to sit UNDERNEATH
+        size = guide_legend(order = 1), # requires the bubbles to sit on top of the legend
+        shape = guide_legend(order = 2) 
       ) +
       labs(x = "Longitude", y = "Latitude", size = "Number of Scallops", fill = "Vessel Name") +
       coord_sf(xlim = x_lims,
@@ -875,12 +944,12 @@ server <- function(input, output, session) {
         axis.text.y = element_text(family = "sans"),
         axis.title = element_text(family = "sans"),
         panel.grid.major = element_blank(),
-        legend.box = "vertical",          # Stacks size and shape legends top-to-bottom
-        legend.box.just = "left",        # Aligns the left edges of both legends
+        legend.box = "vertical",          
+        legend.box.just = "left",        
         legend.key = element_blank()
       )
     
-    plot4
+    plot4 # IMPORTANT - this is needed to make sure the plot actually draws
     
   })
   
@@ -890,18 +959,19 @@ server <- function(input, output, session) {
   
   output$download_plot4 <- downloadHandler(
     filename = function() {
-      paste0("Number_Scallops_Caught_per_Station_",
-             Sys.Date(),
-             ".png")
+      paste0("Number_Scallops_Caught_per_Station_", Sys.Date(), ".png")
     },
     content = function(file) {
-      ggsave(
-        file,
-        plot = plot_4(),
-        width = 14,
-        height = 8,
-        dpi = 300
-      )
+      cap <- build_download_caption(list(
+        "Region" = input$plot_4_checkbox,
+        "Station Type" = input$plot_4_station_selectbox,
+        "Year" = input$plot_4_date_selectbox,
+        "Strata Map" = input$plot_4_strata_selectbox
+      ))
+      
+      plot_export <- plot_4() + labs(caption = cap) + caption_theme
+      
+      ggsave(file, plot = plot_export, width = 14, height = 8, dpi = 300)
     }
   )
   
@@ -925,13 +995,14 @@ server <- function(input, output, session) {
   })
   
   plot_6 <- reactive({
-    shiny::validate(need(
+    shiny::validate(need( # ensure that a region is checked in order to view the plot
       !is.null(input$plot_6_checkbox) && any(input$plot_6_checkbox != ""),
       "No region selected. Please choose a region to view the map."
     ))
     
     plot_6_data <- length_sf %>%
       filter(
+        # filter to data based on the button selections
         REGION %in% input$plot_6_checkbox,
         EST_YEAR == input$plot_6_date_selectbox,
         Size_Cat == input$plot_6_size_selectbox,
@@ -940,7 +1011,7 @@ server <- function(input, output, session) {
             Station_Type == input$plot_6_station_selectbox
         )
       ) %>%
-      arrange(desc(EXPNUMLEN)) %>%
+      arrange(desc(EXPNUMLEN)) %>% # this helps make the larger values draw on top
       group_by(CRUISE6, STATION, Size_Cat) %>%
       summarize(sum_expnumlen = sum(EXPNUMLEN)) %>%
       ungroup()
@@ -952,6 +1023,7 @@ server <- function(input, output, session) {
       )
     )
     
+    # set the bounding boxes for the regional views
     if (all(c("Mid-Atlantic", "New England") %in% input$plot_6_checkbox)) {
       x_lims <- c(-76.5, -65.8)
       y_lims <- c(35.4, 42.25)
@@ -963,6 +1035,7 @@ server <- function(input, output, session) {
       y_lims <- c(40.1, 42.25)
     }
     
+    # create the basemap
     plot6 <- ggplot() +
       geom_sf(
         data = coastline,
@@ -971,6 +1044,7 @@ server <- function(input, output, session) {
         linewidth = 0.5
       )
     
+    # draw SAMS strata based on strata selection
     if ("SAMS" %in% input$plot_6_strata_selectbox) {
       plot6 <- plot6 + geom_sf(
         data = SAMS,
@@ -980,6 +1054,7 @@ server <- function(input, output, session) {
       )
     }
     
+    # draw strata based on strata selection
     if ("nefsc_shellfish" %in% input$plot_6_strata_selectbox) {
       plot6 <- plot6 + geom_sf(
         data = nefsc_shellfish,
@@ -1029,22 +1104,25 @@ server <- function(input, output, session) {
   
   output$download_plot6 <- downloadHandler(
     filename = function() {
-      paste0("Number_Scallops_by_Size_per_Station_",
-             Sys.Date(),
-             ".png")
+      paste0("Number_Scallops_by_Size_per_Station_", Sys.Date(), ".png")
     },
     content = function(file) {
-      ggsave(
-        file,
-        plot = plot_6(),
-        width = 14,
-        height = 8,
-        dpi = 300
-      )
+      cap <- build_download_caption(list(
+        "Region" = input$plot_6_checkbox,
+        "Station Type" = input$plot_6_station_selectbox,
+        "Size Range" = input$plot_6_size_selectbox,
+        "Year" = input$plot_6_date_selectbox,
+        "Strata Map" = input$plot_6_strata_selectbox
+      ))
+      
+      plot_export <- plot_6() + labs(caption = cap) + caption_theme
+      
+      ggsave(file, plot = plot_export, width = 14, height = 8, dpi = 300)
     }
   )
   
   plot_7 <- reactive({
+   #filters data based on button selections
     plot_7_data <- length %>%
       filter(
         EST_YEAR >= input$plot_7_date_slider[1] &
@@ -1067,8 +1145,8 @@ server <- function(input, output, session) {
            aes(
              x = EST_YEAR,
              y = EXPNUMLEN,
-             fill = factor(Size_Cat, levels = order),
-             group = factor(Size_Cat, levels = order)
+             fill = factor(Size_Cat, levels = order), 
+             group = factor(Size_Cat, levels = order) # calls on the pre-set order to make sure categories are stacked correctly
            )) +
       geom_area(position = "stack",
                 stat = "summary",
@@ -1097,20 +1175,23 @@ server <- function(input, output, session) {
       paste0("Scallop_Size_Category_", Sys.Date(), ".png")
     },
     content = function(file) {
-      ggsave(
-        file,
-        plot = plot_7(),
-        width = 14,
-        height = 8,
-        dpi = 300
-      )
+      cap <- build_download_caption(list(
+        "Region" = input$plot_7_region_selectbox,
+        "Station Type" = input$plot_7_station_selectbox,
+        "Years" = paste(input$plot_7_date_slider, collapse = "-")
+      ))
+      
+      plot_export <- plot_7() + labs(caption = cap) + caption_theme
+      
+      ggsave(file, plot = plot_export, width = 14, height = 8, dpi = 300)
     }
   )
   
-  
+  # defines which SAMS are associated with each region (New England vs. Mid-Atlantic)
   NE_SAMS  <- c("All Areas", unique(GB_strata$NewSAMS),"Beyond SAMS Boundary")
   MAB_SAMS <- c("All Areas", unique(MAB_strata$NewSAMS),"Beyond SAMS Boundary")
   
+  # allows the SAMS selectbox to update based on which region is selected
   observeEvent(input$plot_8_region_selectbox, {
     req(input$plot_8_region_selectbox)
     
@@ -1134,6 +1215,7 @@ server <- function(input, output, session) {
   }, ignoreNULL = FALSE)
   
   plot_8 <- reactive({
+    # requires the region and SAMS selectboxes to be rendered
     req(input$plot_8_region_selectbox, input$plot_8_SAMS_selectbox)
     
     plot_8_data <- length_sf %>%
@@ -1142,6 +1224,7 @@ server <- function(input, output, session) {
           EST_YEAR <= input$plot_8_date_slider[2],
         REGION %in% input$plot_8_region_selectbox,
         
+        # if "All Areas" is chose, it will not filter by SAMS
         if (input$plot_8_SAMS_selectbox == "All Areas") TRUE else NewSAMS %in% input$plot_8_SAMS_selectbox,
         
         (
@@ -1157,6 +1240,7 @@ server <- function(input, output, session) {
       )
     )
     
+    # finds the years, the midpoint, and splits the years selected in order to split the plot into two columns
     unique_years <- sort(unique(plot_8_data$EST_YEAR))
     mid_index <- ceiling(length(unique_years) / 2)
     split_year <- unique_years[mid_index]
@@ -1167,10 +1251,10 @@ server <- function(input, output, session) {
         paste0(min(unique_years), " - ", split_year),
         paste0(split_year + 1, " - ", max(unique_years))
       ))
-    
+    # defines the two columns and labels them according to the years available
     col1 <- paste0(split_year + 1, " - ", max(unique_years))
     col2 <- paste0(min(unique_years), " - ", split_year)
-    
+    # defines an "era" based on the split between years
     plot_8_data$Era <- factor(plot_8_data$Era, levels = c(col1, col2))
     
     ggplot(data = plot_8_data, aes(y = factor(EST_YEAR), x = LENGTH)) +
@@ -1181,7 +1265,7 @@ server <- function(input, output, session) {
         linewidth = 0.3,
         fill = "#002364"
       ) +
-      facet_wrap( ~ Era, ncol = 2, scales = "free_y") +
+      facet_wrap( ~ Era, ncol = 2, scales = "free_y") + ## facet wrap based on the "Era"
       labs(x = "Length (cm)", y = "Year") +
       theme_minimal() +
       theme(
@@ -1206,13 +1290,16 @@ server <- function(input, output, session) {
       paste0("Distribution_Scallop_Size_", Sys.Date(), ".png")
     },
     content = function(file) {
-      ggsave(
-        file,
-        plot = plot_8(),
-        width = 14,
-        height = 8,
-        dpi = 300
-      )
+      cap <- build_download_caption(list(
+        "Region" = input$plot_8_region_selectbox,
+        "Management Area" = input$plot_8_SAMS_selectbox,
+        "Station Type" = input$plot_8_station_selectbox,
+        "Years" = paste(input$plot_8_date_slider, collapse = "-")
+      ))
+      
+      plot_export <- plot_8() + labs(caption = cap) + caption_theme
+      
+      ggsave(file, plot = plot_export, width = 14, height = 8, dpi = 300)
     }
   )
   
