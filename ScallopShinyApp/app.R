@@ -190,7 +190,11 @@ build_download_caption <- function(inputs_list) {
   details <- sapply(names(inputs_list), function(name) {
     paste0(name, ": ", cap_input(inputs_list[[name]]))
   })
-  paste0("Filters Applied | ", paste(details, collapse = " | "), "\nExported on: ", Sys.Date())
+  paste0("Northeast Fisheries Science Center, 2026: Sea Scallop Survey, https://www.fisheries.noaa.gov/inport/item/22564.", 
+         "\nFilters Applied - ", paste(details, collapse = ", "), "\nExported on: ", Sys.Date(),
+         "\nUse Constraints:",
+         "\nUser must read and fully comprehend the metadata prior to use. Applications or inferences derived from the data should be carefully considered for accuracy. 
+Acknowledgement of NOAA/NMFS/NEFSC, as the source from which these data were obtained in any publications and/or other representations of these, data is suggested.")
 }
 
 caption_theme <- theme(
@@ -199,7 +203,7 @@ caption_theme <- theme(
     size = 10,
     face = "italic",
     hjust = 0,
-    color = "grey20",
+    color = "black",
     margin = margin(t = 10)
   )
 )
@@ -647,15 +651,29 @@ server <- function(input, output, session) {
       paste0("Mean_Number_Scallops_Caught_per_Tow_", Sys.Date(), ".png")
     },
     content = function(file) {
+
       cap <- build_download_caption(list(
-        "Region" = input$plot_1_region_selectbox,
+        "Region"       = input$plot_1_region_selectbox,
         "Station Type" = input$plot_1_selectbox,
-        "Years" = paste(input$plot_1_date_slider, collapse = "-")
+        "Years"        = paste(input$plot_1_date_slider, collapse = "-")
       ))
       
-      plot_export <- plot_1() + labs(caption = cap) + caption_theme
+      plot_export <- patchwork::wrap_elements(plot_1()) + 
+        patchwork::plot_annotation(
+          caption = cap,
+          theme = theme(
+            plot.caption = element_text(
+              family = "sans",
+              size = 11,
+              face = "italic",
+              color = "black",
+              hjust = 0,
+              margin = margin(t = 10)
+            )
+          )
+        )
       
-      ggsave(file, plot = plot_export, width = 14, height = 8, dpi = 300)
+      ggsave(file, plot = plot_export, width = 18, height = 12, dpi = 300)
     }
   )
   
