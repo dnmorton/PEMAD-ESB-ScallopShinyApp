@@ -234,7 +234,7 @@ ui <- fluidPage(
       title = "Catch Data",
       #Plot 1
       card(
-        card_header("Average Number and Weight of Scallops Caught per Tow"),
+        card_header("Average Count and Weight of Scallops Caught per Tow"),
         card_body(layout_sidebar(
           sidebar = sidebar(
             # creates a dropdown selector for the regions
@@ -277,7 +277,7 @@ ui <- fluidPage(
           # the conditional panels change the plot, caption, etc. based on the select plot (count vs. weight)
           conditionalPanel(
             condition = "input.plot_2_ab_toggle == 'plot_2a'",
-            "Average Number of Scallops Caught per Tow in SAMS Areas"
+            "Average Count of Scallops Caught per Tow in SAMS Areas"
           ),
           conditionalPanel(
             condition = "input.plot_2_ab_toggle == 'plot_2b'",
@@ -344,7 +344,7 @@ ui <- fluidPage(
       
       #Plot 4
       card(
-        card_header("Abundance of Scallops per Station"),
+        card_header("Count of Scallops per Station"),
         card_body(layout_sidebar(
           sidebar = sidebar(
             # creates a checkbox to select regions of interest
@@ -393,7 +393,7 @@ ui <- fluidPage(
       title = "Size Data",
       #Plot 6
       card(
-        card_header("Abundance of Different Size Ranges of Scallops per Station"),
+        card_header("Count of Different Size Ranges of Scallops per Station"),
         card_body(layout_sidebar(
           sidebar = sidebar(
             # creates a checkbox selector for the sampling regions
@@ -1240,18 +1240,17 @@ server <- function(input, output, session) {
   }, ignoreNULL = FALSE)
   
   plot_8 <- reactive({
-    # requires the region and SAMS selectboxes to be rendered
     req(input$plot_8_region_selectbox, input$plot_8_SAMS_selectbox)
+    
+    # 1. Define full expected sequence of years in the selected slider range
+    all_years <- seq(input$plot_8_date_slider[1], input$plot_8_date_slider[2])
     
     plot_8_data <- length_sf %>%
       filter(
         EST_YEAR >= input$plot_8_date_slider[1] &
           EST_YEAR <= input$plot_8_date_slider[2],
         REGION %in% input$plot_8_region_selectbox,
-        
-        # if "All Areas" is chose, it will not filter by SAMS
         if (input$plot_8_SAMS_selectbox == "All Areas") TRUE else NewSAMS %in% input$plot_8_SAMS_selectbox,
-        
         (
           input$plot_8_station_selectbox == "All Stations" |
             Station_Type == input$plot_8_station_selectbox
@@ -1265,41 +1264,50 @@ server <- function(input, output, session) {
       )
     )
     
-    # finds the years, the midpoint, and splits the years selected in order to split the plot into two columns
-    unique_years <- sort(unique(plot_8_data$EST_YEAR))
-    mid_index <- ceiling(length(unique_years) / 2)
-    split_year <- unique_years[mid_index]
+    # 2. Determine split year across the selected range
+    mid_index <- ceiling(length(all_years) / 2)
+    split_year <- all_years[mid_index]
     
+    col1_label <- paste0(split_year + 1, " - ", max(all_years))
+    col2_label <- paste0(min(all_years), " - ", split_year)
+    
+    # Build a lookup table mapping every single year to its appropriate Era column
+    year_era_map <- tibble(EST_YEAR = all_years) %>%
+      mutate(Era = if_else(EST_YEAR <= split_year, col2_label, col1_label))
+    
+    # Assign Era to the observed dataset
     plot_8_data <- plot_8_data %>%
-      mutate(Era = if_else(
-        EST_YEAR <= split_year,
-        paste0(min(unique_years), " - ", split_year),
-        paste0(split_year + 1, " - ", max(unique_years))
-      ))
-    # defines the two columns and labels them according to the years available
-    col1 <- paste0(split_year + 1, " - ", max(unique_years))
-    col2 <- paste0(min(unique_years), " - ", split_year)
-    # defines an "era" based on the split between years
-    plot_8_data$Era <- factor(plot_8_data$Era, levels = c(col1, col2))
+      mutate(Era = if_else(EST_YEAR <= split_year, col2_label, col1_label))
     
-    ggplot(data = plot_8_data, aes(y = factor(EST_YEAR), x = LENGTH)) +
+    # 3. Create placeholder rows for missing years so every year exists within its assigned Era
+    plot_8_data <- plot_8_data %>%
+      bind_rows(
+        year_era_map %>% 
+          filter(EST_YEAR %ni% unique(plot_8_data$EST_YEAR)) %>% 
+          mutate(LENGTH = NA_real_) # NA length ensures no ridge peak is drawn
+      ) %>%
+      mutate(
+        Era = factor(Era, levels = c(col1_label, col2_label)),
+        # Order years within each panel
+        EST_YEAR_FACTOR = factor(EST_YEAR, levels = all_years)
+      )
+    
+    ggplot(data = plot_8_data, aes(y = EST_YEAR_FACTOR, x = LENGTH)) +
       ggridges::geom_density_ridges_gradient(
         scale = 0.8,
         rel_min_height = 0.01,
         color = "white",
         linewidth = 0.3,
-        fill = "#002364"
+        fill = "#002364",
+        na.rm = TRUE # Silently drop NA length rows while keeping the y-axis tick
       ) +
-      facet_wrap( ~ Era, ncol = 2, scales = "free_y") + ## facet wrap based on the "Era"
+      # Free y-scale allows each panel to drop years that belong to the OTHER panel
+      facet_wrap(~ Era, ncol = 2, scales = "free_y") + 
       labs(x = "Length (cm)", y = "Year") +
       theme_minimal() +
       theme(
         text = element_text(family = "sans", size = 16),
-        axis.text.x = element_text(
-          family = "sans",
-          angle = 45,
-          hjust = 1
-        ),
+        axis.text.x = element_text(family = "sans", angle = 45, hjust = 1),
         axis.text.y = element_text(family = "sans"),
         axis.title = element_text(family = "sans")
       ) +
