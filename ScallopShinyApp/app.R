@@ -35,7 +35,7 @@ order <- c("≥ 10cm", "8.9cm - 10cm", "7.5cm - 8.9cm", "3.5cm - 7.5cm", "≤ 3.
 
 # Read in shapefiles and make sure they have consistent projections 
 ## coastline of the U.S.
-coastline <- st_read(here("ScallopShinyApp/Shapefiles/coastline.shp"))
+coastline <- st_read(here("Shapefiles/coastline.shp"))
 ## Georges Bank SAMS 
 GB_strata <- st_read(here("ScallopShinyApp/Shapefiles/GB_Estimation_Areas_2024_UTM19_PDT.shp"))
 ## Mid-Atlantic SAMS
