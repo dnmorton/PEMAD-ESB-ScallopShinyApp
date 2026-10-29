@@ -37,11 +37,11 @@ order <- c("≥ 10cm", "8.9cm - 10cm", "7.5cm - 8.9cm", "3.5cm - 7.5cm", "≤ 3.
 ## coastline of the U.S.
 coastline <- st_read("Shapefiles/coastline.shp")
 ## Georges Bank SAMS 
-GB_strata <- st_read(here("ScallopShinyApp/Shapefiles/GB_Estimation_Areas_2024_UTM19_PDT.shp"))
+GB_strata <- st_read("Shapefiles/GB_Estimation_Areas_2024_UTM19_PDT.shp")
 ## Mid-Atlantic SAMS
-MAB_strata <- st_read(here("ScallopShinyApp/Shapefiles/MAB_Estimation_Areas_2024_UTM18_PDT.shp"))
+MAB_strata <- st_read("Shapefiles/MAB_Estimation_Areas_2024_UTM18_PDT.shp")
 ## previously used NEFSC shellfish strata
-nefsc_shellfish <- st_read(here("ScallopShinyApp/Shapefiles/Shellfish_Strata_UTM19.shp"))
+nefsc_shellfish <- st_read("Shapefiles/Shellfish_Strata_UTM19.shp")
 # make sure all layers are in the same projection
 GB_strata <- GB_strata %>% st_transform(crs = 4326)
 MAB_strata <- MAB_strata %>% st_transform(crs = 4326)
@@ -52,8 +52,8 @@ SAMS <- rbind(GB_strata, MAB_strata)
 
 # Read in data files
 
-data_dir <- if (dir.exists("ScallopShinyApp/Data")) {
-  "ScallopShinyApp/Data"
+data_dir <- if (dir.exists("Data")) {
+  "Data"
 } else if (dir.exists("Data")) {
   "Data"
 } else {
@@ -177,7 +177,7 @@ app_text <- function(rmd_path) {
   return(text_list)
 }
 
-text <- app_text(here("ScallopShinyApp/AppText.Rmd"))
+text <- app_text("AppText.Rmd")
 
 
 # a function to build a caption that will render displaying the plot selections
@@ -213,7 +213,7 @@ caption_theme <- theme(
 ################################################################################
 # UI defines the visuals, buttons, text, etc. ALl changes to the app structure will happen in this section
 ui <- fluidPage(
-  includeCSS(here("ScallopShinyApp/www/style.css")), # calls in the css file for styling
+  includeCSS("www/style.css"), # calls in the css file for styling
   div( # defines the header using code in the CSS file, the logo is called here.
     class = "app-header",
     tags$img(src = "NMFS_logo.png", class = "app-logo"),
