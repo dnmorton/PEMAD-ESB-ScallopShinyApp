@@ -3669,9 +3669,6 @@
     }
   },
   "files": {
-    ".github/workflows/secretScan.yml": {
-      "checksum": "e6d8fac68a81eb8b58711f802912e7c6"
-    },
     "app.R": {
       "checksum": "a2842463a1431899d2a8245f2ec0a541"
     },
@@ -4097,12 +4094,6 @@
     },
     "Data/station_2026.csv": {
       "checksum": "bba25fe198b0d8624a8fe425d70181dd"
-    },
-    "License.txt": {
-      "checksum": "808d6191f4843b383a5fd425348def8c"
-    },
-    "README.md": {
-      "checksum": "f527f05d722fff6fd6cd12164314f073"
     },
     "Shapefiles/coastline.cpg": {
       "checksum": "ae3b3df9970b49b6523e608759bc957d"
